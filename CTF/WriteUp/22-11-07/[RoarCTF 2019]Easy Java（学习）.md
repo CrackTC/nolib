@@ -26,9 +26,11 @@ filename=help.docx
 /abc
 ```
 ![[Pasted image 20221111204042.png]]
+
 服务器是`tomcat`
 
 这里有一篇介绍tomcat目录结构的文章
+
 https://www.jianshu.com/p/81ec9c51435e
 
 访问`WEB-INF/web.xml`
@@ -87,6 +89,7 @@ filename=WEB-INF/web.xml
 `<servlet>`有两个子元素：
 - `<servlet-name>`应该是用于在`web.xml`里面标识`servlet`
 - `<servlet-class>`应该是用于描述`servlet`对应的控制器类
+
 `<servlet-mapping>`有两个元素`servlet-name`和`url-pattern`，用于将特定的url路径绑定到`servlet-name`所指示的`servlet`的控制器
 
 这道题有四个`servlet`，分别绑定到
@@ -94,7 +97,9 @@ filename=WEB-INF/web.xml
 - Login
 - Download
 - Flag
+
 于是目的变为获得`com.wm.ctf.FlagController`类的内容
+
 按照java的文件命名规则，文件名应该是`com/wm/ctf/FlagController.class`，而`com`文件夹按照tomcat的目录结构应该在`WEB-INF/classes`里
 ```php
 filename=WEB-INF/classes/com/wm/ctf/FlagController.class
@@ -105,8 +110,13 @@ filename=WEB-INF/classes/com/wm/ctf/FlagController.java
 ```
 
 发现并不能下载.java后缀的文件，可能是想php那样直接被服务器执行了
+
 回过头来看`FlagController.class`
+
 ![[Pasted image 20221113151043.png]]
+
 这里有串base64编码的东西，猜测就是`flag`
+
 ![[Pasted image 20221113151157.png]]
+
 #Web #tomcat #Java

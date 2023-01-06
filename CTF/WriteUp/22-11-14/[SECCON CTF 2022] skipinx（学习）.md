@@ -2,6 +2,7 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221117144322.png]]
 
 `nginx`配置文件
@@ -38,7 +39,9 @@ app.listen({ port: PORT, host: "0.0.0.0" }, () => {
 
 ---
 今天看到油管上有佬放出了wp，发现属实是自己想复杂了
+
 可能是`nginx`对参数长度的限制，只要我们构造的`url`长度足够长，又不至于引发`414`错误，就能把`nginx`反代中附加的`proxy`参数顶掉
+
 所以`payload`为
 ```php
 /?proxy=a&proxy=a&proxy=a...&proxy=a
@@ -47,5 +50,7 @@ app.listen({ port: PORT, host: "0.0.0.0" }, () => {
 
 ---
 **Edited** 受到了大佬的指点，这题当时其实没走偏，具体原理是`express`调用的`qs`处理参数个数上限为1000个，所以就被顶掉了QwQ，看来要素察觉能力有待加强
+
 ![[Pasted image 20221118091053.png]]
+
 #Web #nodejs #express #qs #URL #URI #HTTP #nginx 

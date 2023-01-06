@@ -1,5 +1,7 @@
 参见[[[CISCN2019 华北赛区 Day1 Web1]Dropbox]]
+
 利用`phar`协议能够触发反序列化
+
 `phar`的生成方法如下
 ```php
 <?php

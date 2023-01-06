@@ -9,6 +9,8 @@
 </node_0>
 ```
 
-XXE还可以用来内网访问QwQ
+XXE还可以用来内网访问
+
+参考[[[NCTF2019]True XML cookbook]]
 
 #Web #XXE 

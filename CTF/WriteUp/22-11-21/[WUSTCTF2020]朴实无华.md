@@ -2,12 +2,17 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221121210920.png]]
+
 很怪，标题编码出了点问题，burp里面又能正确显示
+
 ![[Pasted image 20221121211528.png]]
+
 有报错，但没看懂.jpg
 
 用`dirsearch`扫扫看
+
 ![[Pasted image 20221121214141.png]]
 ```php
 /robots.txt
@@ -18,17 +23,22 @@
 /fAke_f1agggg.php
 ```
 ![[Pasted image 20221121212912.png]]
+
 是假的呜呜呜～
 
 但是翻响应头翻到了点东西
+
 ![[Pasted image 20221121212901.png]]
 
 ```php
 /fl4g.php
 ```
 ![[Pasted image 20221121213632.png]]
+
 hmmm，为啥又是烦人的编码问题啊啊啊
+
 搜了下，最后害得先进的浏览器收拾摊子
+
 ![[Pasted image 20221121213808.png]]
 
 ---
@@ -79,6 +89,7 @@ if (isset($_GET['get_flag'])){
 
 ---
 `level 1`的弱类型比较利用半天没过去，结果发现自己本地跑的`php`版本太高，已经修复了。
+
 大致就是利用`$num+1`时字符串隐式转换的规则和`intval`不同来绕过
 ```php
 /?num=1e5
@@ -86,6 +97,7 @@ if (isset($_GET['get_flag'])){
 
 ---
 `level 2`是md5弱类型比较绕过，`0e`打头的字符串弱类型比较时等价于`0`，网上有大佬写了代码枚举自身`0e`打头，`md5`值也为`0e`打头的字符串
+
 https://blog.csdn.net/SopRomeo/article/details/106237931
 ```python
 def run():

@@ -2,6 +2,7 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221224090929.png|400]]
 
 要我们输入一个`json`字符串，通过`cmd`查询传递，因而推测键名也为`cmd`
@@ -21,7 +22,9 @@ index.php
 > Hacking attempt detected
 
 多次尝试无果，寻求`wp`帮助QAQ
+
 然后发现原题离谱地提供了源码
+
 ![[Pasted image 20221224093015.png]]
 
 ```php
@@ -66,6 +69,7 @@ putenv('PATH=/home/rceservice/jail');
 ![[Pasted image 20221224094442.png|500]]
 
 emmm，这波是`PATH`被挟持了，问题不大，用绝对路径应该就行
+
 尝试查看`/home/rceservice/jail`下面的东西
 ```
 {%0a"cmd": "ls /home/rceservice/jail"%0a}

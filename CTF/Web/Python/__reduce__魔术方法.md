@@ -1,4 +1,5 @@
 参见 [[[CISCN2019 华北赛区 Day1 Web2]ikun]]
+
 可以通过为类定义`__reduce__`魔术方法来控制类的对象的序列化
 ```python
 class payload(object):

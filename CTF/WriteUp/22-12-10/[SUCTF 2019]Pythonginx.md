@@ -2,7 +2,9 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221218140730.png|700]]
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -48,11 +50,15 @@ def getUrl():
 </html>
 ```
 字符是好东西（喜
+
 上[数学字母数字符号](https://zh.wikipedia.org/zh-hans/%E6%95%B0%E5%AD%A6%E5%AD%97%E6%AF%8D%E6%95%B0%E5%AD%97%E7%AC%A6%E5%8F%B7)，更有多种变体任您选择
+
 ```python
 url='http://𝓼𝓾𝓬𝓽𝓯.𝓬𝓬'
 ```
+
 ![[Pasted image 20221218142130.png|700]]
+
 标题和注释明示我们和`nginx`有关，尝试访问`/usr/local/nginx/conf/nginx.conf`
 ```python
 url='file://𝓼𝓾𝓬𝓽𝓯.𝓬𝓬/usr/local/nginx/conf/nginx.conf'

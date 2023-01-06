@@ -2,17 +2,22 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221122163031.png]]
+
 炫酷.jpg
 
 既然想不到啥方法，那就扫目录看看八
+
 ![[Pasted image 20221122163231.png]]
 
 有`git`目录，有一个`flag.php`
+
 康康`git`泄漏
 
 ---
 `flag.php`（`lolcat`真好玩QwQ）
+
 ![[Pasted image 20221122164101.png]]
 
 ---

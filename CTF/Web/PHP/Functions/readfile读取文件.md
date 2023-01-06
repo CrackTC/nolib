@@ -2,4 +2,5 @@
 ```php
 readfile(<filename>);
 ```
+
 #Web #PHP #绕过 #函数

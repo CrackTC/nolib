@@ -2,6 +2,7 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221118110637.png]]
 
 自动跳转到了这个url
@@ -11,12 +12,16 @@
 
 ---
 `img`参数的值可能经过了`base64`编码
+
 ![[Pasted image 20221118112321.png]]
+
 ![[Pasted image 20221118112331.png]]
+
 似乎还是套娃编码
 
 ---
 首页提示`md5 is funny ~`，就这么被带偏了，以为最后这串是md5，结果想解密提示格式都不对，绕了好久才发现这原来是个简单的16进制编码
+
 ![[Pasted image 20221118112610.png]]
 
 ---
@@ -60,13 +65,16 @@ if (preg_match("/ls|bash|tac|nl|more|less|head|wget|tail|vi|cat|od|grep|sed|bzmo
 
 ---
 ctf3.jpeg（~~充满恶意~~嘲讽拉满）
+
 ![[Pasted image 20221118113435.png]]
 
 ---
 ![[Pasted image 20221118190742.png]]
+
 如上，由于对`POST`参数进行了向`string`类型的强制类型转换，而`php`默认行为并非对数组及其各个元素进行向字符串的转换，而是直接返回`'Array'`，因此第一个比较的结果便为假，削减了利用数组绕过`md5`的可行性
 
 这里的`md5`需要通过强碰撞绕过
+
 ~~在网上找现成的强碰撞`payload`找了半天呜呜呜~~
 
 ```php
@@ -82,4 +90,5 @@ a=%4d%c9%68%ff%0e%e3%5c%20%95%72%d4%77%7b%72%15%87%d3%6f%a7%b2%1b%dc%56%b7%4a%3d
 cmd=ca\t /flag
 ```
 原理大致就是，对于`preg_match`来说，`\t`被转义成了横向制表符，因而没有被过滤；而对于`sh`来说，`\t`被解析为`t`，因此`payload`依然被作为`cat /flag`执行
+
 #Web #md5 #PHP #绕过 #shell #编码 

