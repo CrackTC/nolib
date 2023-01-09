@@ -1,0 +1,1 @@
+[[academic/G1T1/calculus/1_prerequisite_knowledge/1.2_function/1.2.1_constant&variable/variable|变量]]的取值范围称为变量的**变域**

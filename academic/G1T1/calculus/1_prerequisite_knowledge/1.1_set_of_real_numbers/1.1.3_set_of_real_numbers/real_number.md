@@ -1,0 +1,1 @@
+[[set_of_rational_numbers|有理数]]和[[irrational_number|无理数]]的全体称为**实数**
