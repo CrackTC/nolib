@@ -2,4 +2,4 @@
 
 ![[Pasted image 20221031212522.png]]
 
-#Web #PHP #绕过 #函数 #伪协议
+#Web #PHP #bypass #function #伪协议

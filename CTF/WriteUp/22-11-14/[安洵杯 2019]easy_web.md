@@ -91,4 +91,4 @@ cmd=ca\t /flag
 ```
 原理大致就是，对于`preg_match`来说，`\t`被转义成了横向制表符，因而没有被过滤；而对于`sh`来说，`\t`被解析为`t`，因此`payload`依然被作为`cat /flag`执行
 
-#Web #md5 #PHP #绕过 #shell #编码 
+#Web #md5 #PHP #bypass #shell #encoding

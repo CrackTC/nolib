@@ -9,4 +9,4 @@ HANDLER <table_name> READ NEXT
 HANDLER <table_name> CLOSE
 ```
 
-#Web #SQL注入 #绕过 
+#Web #SQL注入 #bypass 

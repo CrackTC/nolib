@@ -3,4 +3,4 @@
 # cheatsheet
 参见 [维基百科：Unicode数字字符](https://en.wikipedia.org/wiki/Numerals_in_Unicode)
 
-#Web #python #函数 #绕过 #字符 #编码 #Vulnerabilities 
+#Web #python #function #bypass #字符 #encoding #Vulnerabilities 

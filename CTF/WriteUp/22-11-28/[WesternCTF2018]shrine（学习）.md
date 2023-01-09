@@ -52,4 +52,4 @@ return ''.join(['{{% set {}=None%}}'.format(c) for c in blacklist]) + s
 
 ![[Pasted image 20221129160733.png]]
 
-#Web #python #flask #SSTI #urlfor #globals #绕过 
+#Web #python #flask #SSTI #urlfor #globals #bypass 

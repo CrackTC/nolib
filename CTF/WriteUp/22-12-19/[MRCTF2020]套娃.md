@@ -117,4 +117,4 @@ echo "Flag is here~But how to get it?";
 ?>
 ```
 
-#Web #PHP #绕过 #HTTP #伪协议 #编码 #jsfuck #函数 #Header 
+#Web #PHP #bypass #HTTP #伪协议 #encoding #jsfuck #function #Header 

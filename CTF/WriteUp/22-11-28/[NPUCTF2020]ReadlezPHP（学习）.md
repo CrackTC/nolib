@@ -69,4 +69,4 @@ if(isset($_GET['source']))
 
 ![[Pasted image 20221201165815.png]]
 
-#Web #PHP #反序列化 #绕过 #assert #函数 #环境变量
+#Web #PHP #反序列化 #bypass #assert #function #环境变量

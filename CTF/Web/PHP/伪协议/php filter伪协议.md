@@ -7,4 +7,4 @@ php://filter/read=convert.base64-encode/write=<required_string>/resource=<filena
 ```
 参考[[[BSidesCF 2020]Had a bad day]]
 
-#Web #PHP #伪协议 #LFI #编码 
+#Web #PHP #伪协议 #LFI #encoding 

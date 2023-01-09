@@ -83,4 +83,4 @@ abs=system&cos=<command>
 ```
 ![[Pasted image 20221202220340.png]]
 
-#Web #PHP #RCE #函数 #数学 #可变变量 #绕过
+#Web #PHP #RCE #function #数学 #可变变量 #bypass

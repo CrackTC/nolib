@@ -3,4 +3,4 @@
 ? arg=value
 ```
 
-#Web #URI #URL #WAF #绕过 #Misc 
+#Web #URI #URL #WAF #bypass #Misc 

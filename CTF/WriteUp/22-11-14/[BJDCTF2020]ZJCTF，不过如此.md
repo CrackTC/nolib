@@ -74,4 +74,4 @@ function getFlag(){
 ```
 > flag{a1a7ed7e-d4a8-403c-8d74-d1da5f631dd2} system('cat /flag');
 
-#Web #PHP #函数 #伪协议 #RCE #正则表达式 #可变变量
+#Web #PHP #function #伪协议 #RCE #正则表达式 #可变变量

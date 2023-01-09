@@ -151,4 +151,4 @@ public function process()
 
 ![[Pasted image 20221104093055.png]]
 
-#Web #反序列化 #PHP #绕过 #LFI
+#Web #反序列化 #PHP #bypass #LFI

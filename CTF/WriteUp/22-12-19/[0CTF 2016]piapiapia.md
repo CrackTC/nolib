@@ -126,4 +126,4 @@ nickname[]=wherewherewherewherewherewherewherewherewherewherewherewherewherewher
 
 ![[Pasted image 20221219185118.png|700]]
 
-#Web #PHP #目录爆破 #代码审计 #反序列化 #字符串逃逸 #HTTP #编码 
+#Web #PHP #目录爆破 #代码审计 #反序列化 #字符串逃逸 #HTTP #encoding

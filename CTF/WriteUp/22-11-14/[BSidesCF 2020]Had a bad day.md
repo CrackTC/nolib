@@ -86,4 +86,4 @@ if(isset($file))
 ```
 终于做到水题啦QwQ
 
-#PHP #Web #伪协议 #绕过 #编码 #LFI 
+#PHP #Web #伪协议 #bypass #encoding #LFI 

@@ -74,4 +74,4 @@ def waf(str):
 
 ![[Pasted image 20221221194819.png]]
 
-#Web #python #flask #SSTI #函数 #代码审计 
+#Web #python #flask #SSTI #function #代码审计 

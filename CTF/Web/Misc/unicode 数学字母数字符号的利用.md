@@ -2,4 +2,4 @@
 
 这个东西有预感在很多地方有用QwQ
 
-#Web #字符 #编码 #unicode #数学字母 #数字符号
+#Web #字符 #encoding #unicode #数学字母 #数字符号

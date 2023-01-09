@@ -11,4 +11,4 @@
 ```
 如果`app.config`被覆写了的话就用这个
 
-#Web #flask #SSTI #urlfor #globals #绕过 #python 
+#Web #flask #SSTI #urlfor #globals #bypass #python 

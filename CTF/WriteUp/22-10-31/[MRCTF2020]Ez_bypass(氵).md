@@ -59,4 +59,4 @@ passwd=1234567abc
 ```
 ![[Pasted image 20221101081422.png]]
 
-#Web #PHP #绕过
+#Web #PHP #bypass

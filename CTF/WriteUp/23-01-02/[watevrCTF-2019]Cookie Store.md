@@ -17,4 +17,4 @@
 
 ![[Pasted image 20230106100436.png|1000]]
 
-#Web #HTTP #Header #Cookie #编码 
+#Web #HTTP #Header #Cookie #encoding 

@@ -42,4 +42,4 @@ AddType application/x-httpd-php .jpg
 
 学到的知识用上了，开心QwQ
 
-#Web #文件上传 #RCE #PHP #绕过 
+#Web #文件上传 #RCE #PHP #bypass 

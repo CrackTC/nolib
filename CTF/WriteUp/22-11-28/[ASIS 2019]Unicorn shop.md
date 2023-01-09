@@ -31,4 +31,4 @@ https://en.wikipedia.org/wiki/Numerals_in_Unicode
 
 ![[Pasted image 20221128104116.png]]
 
-#Web #python #tornado #字符 #编码 
+#Web #python #tornado #字符 #encoding 

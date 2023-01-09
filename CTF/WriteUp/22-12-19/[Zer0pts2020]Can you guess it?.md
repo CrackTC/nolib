@@ -94,4 +94,4 @@ if (preg_match('/config\.php\/*$/i', $_SERVER['PHP_SELF'])) {
 define('FLAG', 'flag{d26cb9ed-4893-418c-a451-e306c00ead33}');
 ```
 
-#Web #PHP #函数 #绕过 #Vulnerabilities #正则表达式
+#Web #PHP #function #bypass #Vulnerabilities #正则表达式

@@ -2,4 +2,4 @@
 chr(<ascii_of_character>);
 ```
 
-#Web #PHP #绕过 #函数
+#Web #PHP #bypass #function
