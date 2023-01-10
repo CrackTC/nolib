@@ -1,0 +1,4 @@
+- [[arcsine_function|反正弦函数]]
+- [[arccosine_function|反余弦函数]]
+- [[arctangent_function|反正切函数]]
+- [[arccotangent_function|反余切函数]]

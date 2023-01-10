@@ -1,0 +1,1 @@
+[[monotonic_function|单调函数]]必有[[inverse_function|反函数]]

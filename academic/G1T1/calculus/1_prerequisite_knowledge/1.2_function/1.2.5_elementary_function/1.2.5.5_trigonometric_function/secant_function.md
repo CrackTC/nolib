@@ -1,0 +1,1 @@
+称[[function|函数]]$y=sec\ x=\frac1{cos\ x}$为**正割函数**

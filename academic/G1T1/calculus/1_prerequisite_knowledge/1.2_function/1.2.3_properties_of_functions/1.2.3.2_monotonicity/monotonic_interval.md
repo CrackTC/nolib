@@ -1,0 +1,1 @@
+[[function|函数]][[monotonic_increasing&monotonic_decreasing|单调增加或单调减少]]的区间称为这个函数的**单调区间**

@@ -1,0 +1,3 @@
+- [[hyperbolic_sine_function|双曲正弦函数]]
+- [[hyperbolic_cosine_function|双曲余弦函数]]
+- [[hyperbolic_tangent_function|双曲正切函数]]

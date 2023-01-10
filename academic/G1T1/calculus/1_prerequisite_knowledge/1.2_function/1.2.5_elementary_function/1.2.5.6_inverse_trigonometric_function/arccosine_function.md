@@ -1,0 +1,3 @@
+称[[function|函数]]$y=arccos\ x$为**反余弦函数**，它的[[academic/G1T1/calculus/1_prerequisite_knowledge/1.2_function/1.2.2_map&function/1.2.2.2_definition_of_function/domain|定义域]]为$[-1,1]$，[[academic/G1T1/calculus/1_prerequisite_knowledge/1.2_function/1.2.2_map&function/1.2.2.2_definition_of_function/range|值域]]为$[0,\pi]$
+
+该函数[[bounded&unbounded|有界]]，是一个[[monotonic_increasing&monotonic_decreasing|单调减少]]函数，是[[cosine_function|余弦函数]]$y=cos\ x$在区间$[0,\pi]$上的[[inverse_function|反函数]]

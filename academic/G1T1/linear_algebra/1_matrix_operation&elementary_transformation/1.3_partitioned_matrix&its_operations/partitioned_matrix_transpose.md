@@ -1,0 +1,1 @@
+[[partitioned_matrix|分块矩阵]]的转置即为对分块矩阵自身以分块为元素进行[[matrix_transpose|矩阵转置]]，再对每一个分块单独进行转置

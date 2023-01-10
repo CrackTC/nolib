@@ -1,0 +1,1 @@
+[[basic_row_vector|基本行向量]]和[[basic_column_vector|基本列向量]]统称为**基本向量组**

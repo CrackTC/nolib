@@ -1,0 +1,1 @@
+[[inversion_number|逆序数]]为偶数的[[permutation|排列]]为**偶排列**
