@@ -1,7 +1,7 @@
-[[可逆矩阵]]的逆矩阵是唯一的
+[[invertible_matrix|可逆矩阵]]的逆矩阵是唯一的
 
 # 证明
-设$B$，$C$均为[[square_matrix]]$A$的逆，即有
+设$B$，$C$均为[[square_matrix|方阵]]$A$的逆，即有
 $$
 AB=BA=E,\quad AC=CA=E
 $$

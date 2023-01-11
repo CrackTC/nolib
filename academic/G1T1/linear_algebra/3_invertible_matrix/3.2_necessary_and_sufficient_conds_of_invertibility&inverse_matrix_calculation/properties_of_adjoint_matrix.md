@@ -1,9 +1,9 @@
-设$A$为$n$阶[[square_matrix]]，$A^*$是$A$的[[伴随矩阵]]，则
+设$A$为$n$阶[[square_matrix|方阵]]，$A^*$是$A$的[[adjoint_matrix|伴随矩阵]]，则
 $$
 AA^*=A^*A=|A|E
 $$
 # 证明
-根据[[theorem_of_determinant_expansion_by_row(column)]]以及[[important_inference]]可知
+根据[[theorem_of_determinant_expansion_by_row(column)|行列式按行（列）展开定理]]以及[[important_inference|重要推论]]可知
 $$
 AA^*=
 \begin{bmatrix}

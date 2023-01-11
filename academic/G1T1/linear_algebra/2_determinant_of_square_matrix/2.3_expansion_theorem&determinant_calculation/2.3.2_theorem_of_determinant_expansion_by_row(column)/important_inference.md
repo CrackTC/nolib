@@ -1,4 +1,4 @@
-对于$n$阶[[square_matrix|方阵]]$A$的[[determinant|行列式]]$|A|$，其任意一行（列）的所有元素与另一行（列）对应元素的[[2.3.1 行列式元素的余子式和代数余子式|代数余子式]]乘积之和等于零。即当$i\ne j$时，有
+对于$n$阶[[square_matrix|方阵]]$A$的[[determinant|行列式]]$|A|$，其任意一行（列）的所有元素与另一行（列）对应元素的[[2.3.1_minor&cofactor_of_determinant_element|代数余子式]]乘积之和等于零。即当$i\ne j$时，有
 $$
 \begin{align}
 a_{i1}A_{j1}+a_{i2}A_{j2}+\cdots+a_{in}A_{jn}=0\\

@@ -1,0 +1,1 @@
+[[invertible_matrix|不可逆方阵]]又称为**奇异矩阵**

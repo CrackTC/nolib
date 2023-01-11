@@ -1,4 +1,4 @@
-若$A$[[可逆矩阵|可逆]]，数$\lambda\ne0$，则$\lambda A$可逆，且$(\lambda A)^{-1}=\frac{1}{\lambda}A^{-1}$
+若$A$[[invertible_matrix|可逆]]，数$\lambda\ne0$，则$\lambda A$可逆，且$(\lambda A)^{-1}=\frac{1}{\lambda}A^{-1}$
 
 # 证明
 由$AA^{-1}=A^{-1}A=E$，便有
