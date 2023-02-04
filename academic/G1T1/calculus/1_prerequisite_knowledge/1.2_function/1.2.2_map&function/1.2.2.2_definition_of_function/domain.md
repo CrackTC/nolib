@@ -1,1 +1,0 @@
-对于[[function|函数]]$y=f(x)或y=y(x)\quad x\in D$，我们称$D$为函数的**定义域**

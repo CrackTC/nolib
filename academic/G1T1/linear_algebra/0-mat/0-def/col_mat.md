@@ -1,0 +1,1 @@
+当[[mat|矩阵]]的$n=1$时，即$B=\left(\begin{matrix}a_1\\a_2\\\vdots\\a_n\end{matrix}\right)$，称为**列矩阵**

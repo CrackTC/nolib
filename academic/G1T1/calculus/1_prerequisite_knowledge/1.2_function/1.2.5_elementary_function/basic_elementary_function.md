@@ -1,6 +1,0 @@
-- [[constant_function|常函数]]
-- [[power_function|幂函数]]
-- [[exponential_function|指数函数]]
-- [[logarithmic_function|对数函数]]
-- [[trigonometric_function|三角函数]]
-- [[inverse_trigonometric_function|反三角函数]]

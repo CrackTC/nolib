@@ -1,1 +1,0 @@
-任何非空有[[bounded_set|下界]]（或上界）的数集必有[[supremum&infimum|下确界]]（或上确界）

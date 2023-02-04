@@ -1,3 +1,0 @@
-称[[function|函数]]$y=cot\ x=\frac{cos\ x}{sin\ x}$为**余切函数**，它的[[academic/G1T1/calculus/1_prerequisite_knowledge/1.2_function/1.2.2_map&function/1.2.2.2_definition_of_function/domain|定义域]]为$x\ne k\pi(k=0,\pm1,\pm2,\cdots)$，[[academic/G1T1/calculus/1_prerequisite_knowledge/1.2_function/1.2.2_map&function/1.2.2.2_definition_of_function/range|值域]]为$(-\infty,+\infty)$
-
-该函数为[[odd_function|奇函数]]，是一个以$\pi$为[[period|周期]]的[[periodic_function|周期函数]]

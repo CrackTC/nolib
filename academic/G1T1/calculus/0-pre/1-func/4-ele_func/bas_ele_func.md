@@ -1,0 +1,6 @@
+- [[const_func|常函数]]
+- [[pow_func|幂函数]]
+- [[exp_func|指数函数]]
+- [[log_func|对数函数]]
+- [[tri_func|三角函数]]
+- [[inv_tri_func|反三角函数]]

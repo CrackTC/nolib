@@ -1,1 +1,0 @@
-有[[intuitive_definition_of_sequence_limit|极限]]的[[number_sequence|数列]]**收敛**

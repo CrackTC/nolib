@@ -1,0 +1,1 @@
+只有一列的[[mat|矩阵]]$B=\left(\begin{matrix}a_1\\a_2\\\vdots\\a_n\end{matrix}\right)$，称为**列向量**

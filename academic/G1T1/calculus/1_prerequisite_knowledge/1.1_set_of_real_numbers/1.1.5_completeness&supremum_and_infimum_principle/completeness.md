@@ -1,1 +1,0 @@
-[[set_of_real_numbers|实数集]]$\mathbb R$中的数就像数轴上的点一样，按照大小顺序排列，是连续不断的。[[real_number|实数]]的这个性质称为实数的**完备性**。任意两个[[set_of_rational_numbers|有理数]]之间都有[[irrational_number|无理数]]，任意两个无理数之间都有无理数，任意两个无理数之间都有有理数。
