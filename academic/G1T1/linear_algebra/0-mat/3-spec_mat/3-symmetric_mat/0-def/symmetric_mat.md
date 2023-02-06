@@ -1,4 +1,4 @@
-设$A$为$n$阶[[square_mat]]，如果$a_{ij}=a_{ji}\quad(i,j=1,2,\cdots,n)$
+设$A$为$n$阶[[square_mat|对称矩阵]]，如果$a_{ij}=a_{ji}\quad(i,j=1,2,\cdots,n)$
 
 则称$A$为**对称矩阵**
 
