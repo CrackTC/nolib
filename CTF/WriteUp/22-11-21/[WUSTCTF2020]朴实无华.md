@@ -133,4 +133,4 @@ print(t)
 ```
 ![[Pasted image 20221121224740.png]]
 
-#Web #PHP #字符 #encoding #目录爆破 #HTTP #Header #代码审计 #function #bypass #md5 #Misc #shell #RCE 
+#Web #PHP #字符 #encoding #目录扫描 #HTTP #Header #代码审计 #function #bypass #md5 #Misc #shell #RCE 

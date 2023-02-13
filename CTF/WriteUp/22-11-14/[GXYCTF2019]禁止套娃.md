@@ -185,4 +185,4 @@ $flag = "flag{b0706baf-2c5c-4499-8a5e-8961814c3bf6}";
 
 https://johnfrod.top/ctf/gxyctf-2019禁止套娃/
 
-#Web #PHP #git泄露 #目录爆破 #数组 #function #RCE #无参数
+#Web #PHP #git泄露 #目录扫描 #数组 #function #RCE #无参数

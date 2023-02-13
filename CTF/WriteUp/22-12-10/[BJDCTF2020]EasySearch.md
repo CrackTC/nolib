@@ -105,4 +105,4 @@ cat ../flag_990c66bf85a09c664f0b6741840499b2
 
 ![[Pasted image 20221217215409.png|700]]
 
-#Web #PHP #HTTP #Header #RCE #SHTML #HTML #目录爆破 #md5 
+#Web #PHP #HTTP #Header #RCE #SHTML #HTML #目录扫描 #md5 

@@ -41,4 +41,4 @@ emmm没有思路，看看版本号蛮可疑的
 ```
 ![[Pasted image 20221125222248.png]]
 
-#Web #PHP #目录爆破 #phpmyadmin #Vulnerabilities #信息检索
+#Web #PHP #目录扫描 #phpmyadmin #Vulnerabilities #信息检索
