@@ -1,0 +1,1 @@
+类似于[[ele_row_trans_composited]]，证明略
