@@ -15,7 +15,7 @@ $$x_{n}>\frac{a+b}{2}>y_{n}$$
 若$lim_{n\to\infty}x_{n}=a$，且$a>b$（或$a<b$），则存在正整数$N$，当$n>N$时，有$x_{n}>b$（或$x_{n}<b$）
 ## 再取$b=0$得
 若$\lim_{n\to\infty}x_{n}=a$，且$a>0$（或$a<0$），则存在正整数$N$，当$n>N$时，有$x_{n}>0$（或$x_{n}<0$）
-## 取逆否命题可得
+## 反证法可得
 设$\lim_{n\to\infty}x_{n}=a$，$\lim_{n\to\infty}y_{n}=b$，且存在正整数$N$，当$n>N$时，$x_{n}\ge y_{n}$（或$x_{n}\le y_{n}$），则有$a\ge b$（或$a\le b$）
 ## 以及
 若$\lim_{n\to\infty}x_{n}=a$，且存在正整数$N$，当$n>N$时$x_{n}\ge 0$（或$x_{n}\le 0$），则有$a\ge 0$（或$a\le 0$）
