@@ -1,31 +1,36 @@
-![[Pasted image 20221111120846.png]]
+![[Pasted image 20221111120846.png|800]]
 
 ```
 /
 ```
-![[Pasted image 20221111120901.png]]
+
+![[Pasted image 20221111120901.png|800]]
 
 ```
 /Download?filename=help.docx
 ```
-![[Pasted image 20221111120942.png]]
+
+![[Pasted image 20221111120942.png|500]]
 
 ```
 /Login
 ```
-![[Pasted image 20221111121009.png]]
+
+![[Pasted image 20221111121009.png|500]]
 
 `java`实现的`web`服务真没接触过，这题算是学习了
 查看大佬的wp发现这个`filename`参数实际上是要通过`POST`方法传递的（这也太离谱了）
 ```php
 filename=help.docx
 ```
-![[Pasted image 20221111202541.png]]
+
+![[Pasted image 20221111202541.png|500]]
 
 ```php
 /abc
 ```
-![[Pasted image 20221111204042.png]]
+
+![[Pasted image 20221111204042.png|800]]
 
 服务器是`tomcat`
 

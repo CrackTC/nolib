@@ -1,4 +1,4 @@
-![[Pasted image 20221113204640.png]]
+![[Pasted image 20221113204640.png|500]]
 
 ---
 每隔五秒`POST`一次，传递`func`和`p`参数

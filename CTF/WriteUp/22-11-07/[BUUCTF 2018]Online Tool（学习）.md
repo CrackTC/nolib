@@ -1,4 +1,4 @@
-![[Pasted image 20221113171258.png]]
+![[Pasted image 20221113171258.png|500]]
 ```php
 <?php
 
