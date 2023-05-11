@@ -1,15 +1,15 @@
-![[Pasted image 20221125210719.png]]
+![[Pasted image 20221125210719.png|800]]
 
 ---
 首页长这样
 
-![[Pasted image 20221125210651.png]]
+![[Pasted image 20221125210651.png|800]]
 
 `dirsearch`扫到了`robots.txt`
 
 ![[Pasted image 20221125220315.png]]
 
-![[Pasted image 20221125211153.png]]
+![[Pasted image 20221125211153.png|800]]
 
 访问`/phpinfo.php`
 

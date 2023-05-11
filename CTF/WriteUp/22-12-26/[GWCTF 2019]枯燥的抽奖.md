@@ -116,6 +116,6 @@ echo "<p id='p1'>".$str."</p>";
 WrOeQwr5bLvyHUVHCqet
 ```
 
-![[Pasted image 20221228131410.png]]
+![[Pasted image 20221228131410.png|800]]
 
 #Web #PHP #伪随机数 #Vulnerabilities #mt_rand
