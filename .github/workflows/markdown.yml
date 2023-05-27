@@ -1,0 +1,9 @@
+name: Markdown
+on: push
+jobs:
+  broken_link:
+    name: Broken Link Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Markdown Link Checker (mlc)
+        uses: becheran/mlc@v0.16.1
