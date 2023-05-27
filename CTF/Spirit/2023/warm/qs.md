@@ -39,7 +39,7 @@ require("express")()
 
 我们尝试阅读express关于url query的[文档](https://expressjs.com/en/4x/api.html#req.query)
 
-> The value of this property can be configured with the [query parser application setting](https://expressjs.com/en/4x/api.html#app.settings.table) to work how your application needs it. A very popular query string parser is the [`qs` module](https://www.npmjs.org/package/qs), and this is used by default.
+> The value of this property can be configured with the [query parser application setting](https://expressjs.com/en/4x/api.html#app.settings.table) to work how your application needs it. A very popular query string parser is the [`qs` module](https://www.npmjs.com/package/qs), and this is used by default.
 
 [ljharb/qs](https://github.com/ljharb/qs)
 

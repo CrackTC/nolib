@@ -4,7 +4,7 @@
 
 这架势不会真的要复盘罢qaq
 
-[抄作业](https://youtu.be/yfneS2R-Pn8)
+[抄作业](https://www.youtube.com/watch?v=yfneS2R-Pn8)
 
 具体原理就是新版本重写了鉴权，管理员的`api`鉴权代码只判断了用户提交的`token`是否存在在服务器的缓存中，然后就没有然后了，直接通过
 
