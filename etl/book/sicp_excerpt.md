@@ -13,3 +13,7 @@
 > - *means of abstraction*, by which compound elements can be named and manipulated as units.
 
 > The contrast between function and procedure is a reflection of the general distinction between describing properties of things and describing how to do things, or, as it is sometimes referred to, the distinction between declarative knowledge and imperative knowledge. In mathematics we are usually concerned with declarative (what is) descriptions, whereas in computer science we are usually concerned with imperative (how to) descriptions.
+
+> The importance of this decomposition strategy is not simply that one is dividing the program into parts. After all, one can also partition a program into ten or a hundred parts without organizing them as a hierarchy. The hierarchy plays an important role in controlling complexity: it imposes an organization on the program that makes it substantially easier for our minds to grasp.
+
+> So a procedure definition should be able to suppress detail. The users of the procedure may not have written the procedure themselves, but may have obtained it from another programmer as a *black box*. A user should not need to know how the procedure is implemented in order to use it.
