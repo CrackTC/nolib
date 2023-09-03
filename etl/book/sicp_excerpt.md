@@ -17,3 +17,5 @@
 > The importance of this decomposition strategy is not simply that one is dividing the program into parts. After all, one can also partition a program into ten or a hundred parts without organizing them as a hierarchy. The hierarchy plays an important role in controlling complexity: it imposes an organization on the program that makes it substantially easier for our minds to grasp.
 
 > So a procedure definition should be able to suppress detail. The users of the procedure may not have written the procedure themselves, but may have obtained it from another programmer as a *black box*. A user should not need to know how the procedure is implemented in order to use it.
+
+> The idea of block structure originated with the programming language Algol 60. It appears in most advanced programming languages and is an important tool for helping to organize the construction of large programs.
