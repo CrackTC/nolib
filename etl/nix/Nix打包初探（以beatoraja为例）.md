@@ -230,7 +230,7 @@ stdenv.mkDerivation rec {
 
 ### 5.1 无法自动获取`jdk-8u281-linux-x64.tar.gz`
 
-![cannot-download-oracle-jdk](img/cannot-download-oracle-jdk.png)
+![[cannot-download-oracle-jdk.png]]
 
 oracle官方的下载链接需要登录并同意一个EULA才能获取，这里手动下载了一个放在了自家服务器上，然后对原来的`oraclejre8`包进行一个`override`，替换掉`src`的内容
 
@@ -265,7 +265,7 @@ stdenv.mkDerivation {
 
 ### 5.2 处理依赖
 
-![cannot-locate-openal](img/cannot-locate-openal.png)
+![[cannot-locate-openal.png]]
 
 这回能见到配置窗口了，但还是启动不了游戏，原因是找不到`OpenAL`库，准确来说是`libopenal.so`。`OpenAL`可以直接从`nixpkgs`获取，这里直接通过`LD_LIBRARY_PATH`和`LD_PRELOAD`实现动态库的加载。
 
@@ -292,7 +292,7 @@ stdenv.mkDerivation {
 }
 ```
 
-![no-xrandr](img/no-xrandr.png)
+![[no-xrandr.png]]
 
 发现依然启动不了，搜索后找到[这篇回答](https://stackoverflow.com/questions/58939641/lwjgl-crashing-at-startup)。原来`LWJGL`的`getAvailableDisplayModes`函数硬编码了对`xrandr`的调用=_=
 
@@ -324,9 +324,9 @@ stdenv.mkDerivation {
 
 ## 6. 启动！
 
-![launch](img/launch.png)
+![[launch.png]]
 
-![launch-1.png](img/launch-1.png.png)
+![[launch-1.png]]
 
 # 改善音频延迟（`jportaudio`）
 
