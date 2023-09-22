@@ -2,7 +2,7 @@
 
 ~~类似这种↓~~
 
-![wordcloud-0](img/wordcloud-0.png)
+![[wordcloud-0.png]]
 
 过程很顺利，词云生成（[`word_cloud`](https://github.com/amueller/word_cloud)），中文分词（[`jieba`](https://github.com/fxsjy/jieba)），群消息上报和发送（[`go-cqhttp`](https://github.com/Mrs4s/go-cqhttp)）都有好用的轮子
 
