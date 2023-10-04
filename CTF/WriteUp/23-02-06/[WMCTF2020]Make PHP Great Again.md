@@ -9,7 +9,7 @@ if(isset($_GET['file'])) {
 }
 ```
 
-参考这篇博客 [Require_once Bypass](https://blog.rois.io/2020/require_once-bypass/)
+参考这篇博客 [Require_once Bypass](https://web.archive.org/web/20230603040425/https://blog.rois.io/2020/require_once-bypass/)
 
 ![[Pasted image 20230212095417.png|1000]]
 

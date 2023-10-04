@@ -1,4 +1,4 @@
-参见 [Minyami: AbemaTV 与 Fresh Live 下载](https://www.bilibili.com/read/cv937578)
+参见 [Minyami: AbemaTV 与 Fresh Live 下载](https://www.bilibili.com/read/cv937578/)
 
 有一个 chrome 扩展 Minyami 用于生成下载命令
 

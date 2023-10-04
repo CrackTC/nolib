@@ -10,7 +10,7 @@
 
 # 具体步骤
 
-以下步骤很大程度学习了这篇[大佬的文章](https://lantian.pub/article/modify-computer/nixos-packaging.lantian)，讲的超级好QwQ
+以下步骤很大程度学习了这篇[大佬的文章](https://lantian.pub/article/modify-computer/nixos-packaging.lantian/)，讲的超级好QwQ
 
 ## 0. 创建自己的包仓库
 
