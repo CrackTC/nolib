@@ -23,3 +23,5 @@
 ## 1.2 Procedures and the Processes They Generate
 
 > A procedure is a pattern for the *local evolution* of a computational process. It specifies how each stage of the process is built upon the previous stage. We would like to be able to make statements about the overall, or global, behavior of a process whose local evolution has been specified by a procedure. This is very difficult to do in general, but we can at least try to describe some typical patterns of process of process evolution.
+
+> In general, the technique of defining an *invariant quantity* that remains unchanged from step to step is a powerful way to think about the design of iterative algorithms.
