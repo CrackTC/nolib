@@ -69,3 +69,7 @@ int solve() {
 然后直接读取就好啦
 
 > Dionysus佬打出了个非预期解，快去摇他～
+
+> 另外还有个~~新生~~卡密想到了按修改时间排序的方法，着实给我打懵了QAQ
+>
+> ![[malicious_another_solution.png]]
