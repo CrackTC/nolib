@@ -5,7 +5,7 @@
 主要有wsl、vm、裸机安装三种方式，这里介绍门槛比较低的vm方式
 
 ## 1.下载安装virtualbox
-1. [下载地址](https://www.virtualbox.org/wiki/Downloads)
+1. [下载地址](https://download.virtualbox.org/virtualbox/)
 2. 安装virtualbox
 
 ## 2.下载ubuntu镜像
