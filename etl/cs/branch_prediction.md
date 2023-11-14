@@ -6,3 +6,13 @@
 - Dynamic prediction
 
   Based on the previous run-time behavior of the program.
+
+# Some sophisticated techniques
+
+## Branch Target Buffer (BTB)
+
+A cache that stores the target address of a branch instruction.
+
+## Return Stack Buffer (RSB)
+
+A cache that stores the return address of a call instruction. For better prediction on return instructions.
