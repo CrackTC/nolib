@@ -32,7 +32,7 @@ Part #2
 为了声明自己从哪个网址到这里来，浏览器发送`Referer`头
 
 `Referer`的一个常见的作用是防盗链。比如一些图片网站会验证`Referer`头，如果不是自己的网站，就直接403
-~~（一种可行的反制措施是进行图片反代，推销下最近写的[反代服务器](https://github.com/CrackTC/ImageProxy)）~~
+~~（一种可行的反制措施是进行图片反代，推销下最近写的[反代服务器（就当无事发生）](javascript:void(0);)）~~
 
 ```shell
 curl --user-agent Baiduspider --referer https://www.baidu.com http://<host>:<port>/verify
