@@ -87,7 +87,7 @@ module.exports = router;
 
 要想访问`/copy`路由，需要通过`/curl`进行SSRF
 
-参考 [NodeJS 中的 CRLF Injection](https://www.anquanke.com/post/id/240014#h2-11)
+参考 [NodeJS 中的 CRLF Injection](https://web.archive.org/web/20231216212929/https://www.anquanke.com/post/id/240014#h2-11)
 
 利用node.js的`http`模块对于Unicode字符截取低位字节的特性，可以绕过低版本node.js对CRLF的转义，实现HTTP的响应拆分，获得对`/copy`的访问能力
 

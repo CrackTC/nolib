@@ -392,7 +392,7 @@ class File {
 
 然后就是日常的学习时间QwQ
 
-[PHAR与反序列化](https://www.anquanke.com/post/id/245621)
+[PHAR与反序列化](https://web.archive.org/web/https://www.anquanke.com/post/id/245621)
 
 `/delete.php`并未过滤`phar`协议，可以利用这一点触发反序列化。
 
