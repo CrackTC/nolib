@@ -4,4 +4,6 @@ Twitter封堵免费API获取数据之后，RSSHub的twitter路由有一段时间
 
 于是试图使用代理池来获取token，并对RSSHub进行一些丑陋的修改，在twitter route失败时自动更新token。
 
-[仓库地址](https://github.com/CrackTC/xtoken)
+~~[仓库地址](https://github.com/CrackTC/xtoken)~~ (Archived)
+
+> guest account 已被封禁
