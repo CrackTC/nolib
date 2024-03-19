@@ -1,5 +1,5 @@
-- 相联度越高，[[冲突不命中|conflict_miss]]就越少
-- [[强制不命中|compulsory_miss]]和[[容量不命中|capacity_miss]]不受相联度的影响
+- 相联度越高，[[conflict_miss|冲突不命中]]就越少
+- [[compulsory_miss|强制不命中]]和[[capacity_miss|容量不命中]]不受相联度的影响
 - 强制不命中不受Cache容量的影响，但容量不命中随着容量的增加而减少
 
 # 增加Cache块大小
