@@ -91,8 +91,8 @@ HDLC uses **piggybacking** to send data and control information in the same fram
 
 ## Example
 
-![HDLC Poll](./img/hdlc_poll.png)
+![[hdlc_poll.png]]
 
-![HDLC Select](./img/hdlc_sel.png)
+![[hdlc_sel.png]]
 
-![HDLC Peer](./img/hdlc_peer.png)
+![[hdlc_peer.png]]

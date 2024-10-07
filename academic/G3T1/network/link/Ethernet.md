@@ -47,7 +47,7 @@ collision.
 | Length | 6 bytes         | 6 bytes    | 2 bytes | 46-1500 bytes | 4 bytes |
 
 - Type: 2 bytes, indicates the type of upper layer protocol
-  - > 0x0600: Ethernet II (DIX V2)
+  - \> 0x0600: Ethernet II (DIX V2)
   - <= 0x0600: IEEE 802.3, indicates the length of the data field
 - Data: 46-1500 bytes, padding is added if the data is less than 46 bytes
 - FCS (Frame Check Sequence): 4 bytes, CRC-32
