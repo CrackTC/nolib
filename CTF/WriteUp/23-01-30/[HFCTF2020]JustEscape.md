@@ -22,7 +22,7 @@ ReferenceError: phpinfo is not defined
 
 > vm2 is a sandbox that can run untrusted code with whitelisted Node's built-in modules. In versions prior to version 3.9.11, a threat actor can bypass the sandbox protections to gain remote code execution rights on the host running the sandbox. This vulnerability was patched in the release of version 3.9.11 of vm2. There are no known workarounds.
 
-参考 [Enter "Sandbreak" - Vulnerability In vm2 Sandbox Module Enables Remote Code Execution (CVE-2022-36067)](https://www.oxeye.io/resources/vm2-sandbreak-vulnerability-cve-2022-36067)
+参考 [Enter "Sandbreak" - Vulnerability In vm2 Sandbox Module Enables Remote Code Execution (CVE-2022-36067)](https://web.archive.org/web/20231001013710/https://www.oxeye.io/resources/vm2-sandbreak-vulnerability-cve-2022-36067)
 
 ```javascript
 globalThis.OldError = globalThis.Error;
