@@ -1,4 +1,5 @@
 ![[Pasted image 20241026210635.png]]
+
 过滤了`data`伪协议，用`php://input`或者`php://filter`构造内容绕过即可，注意php标签
 
 ```shell
