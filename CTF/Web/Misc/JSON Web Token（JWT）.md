@@ -1,4 +1,4 @@
-参见 [JSON Web Token](https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html)
+参见 [JSON Web Token](https://web.archive.org/web/20250126084935/https://www.ruanyifeng.com/blog/2018/07/json_web_token-tutorial.html)
 
 可以在 [jwt.io](https://jwt.io/)上验证签名，在线生成签名等
 
