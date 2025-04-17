@@ -1,17 +1,17 @@
-![[mygo_desc.png]]
+![](./img/mygo_desc.png)
 
 Hint
 ---
 
-![[mygo_hint_0.png]]
+![](./img/mygo_hint_0.png)
 
 这个是说`Dockerfile`没删
 
-![[mygo_hint_1.png]]
+![](./img/mygo_hint_1.png)
 
 这个是说有Go的源码
 
-![[mygo_hint_2.png]]
+![](./img/mygo_hint_2.png)
 
 这个是说可以任意文件读
 
@@ -120,4 +120,4 @@ set global general_log = 'ON';
 select "<?php file_put_contents('image.jpg', file_get_contents('/flag')); ?>"
 ```
 
-![[mygo_solution.png]]
+![](./img/mygo_solution.png)

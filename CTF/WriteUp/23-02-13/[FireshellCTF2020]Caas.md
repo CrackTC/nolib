@@ -1,12 +1,12 @@
-![[Pasted image 20230218212439.png|500]]
+![](<./img/Pasted image 20230218212439.png>)
 
-![[Pasted image 20230218212545.png|800]]
+![](<./img/Pasted image 20230218212545.png>)
 
 ```
 php wa saikou!
 ```
 
-![[Pasted image 20230218212622.png|1000]]
+![](<./img/Pasted image 20230218212622.png>)
 
 系C语言的编译器
 
@@ -16,6 +16,6 @@ php wa saikou!
 #include "/flag"
 ```
 
-![[Pasted image 20230218212838.png|1000]]
+![](<./img/Pasted image 20230218212838.png>)
 
 #Web #c

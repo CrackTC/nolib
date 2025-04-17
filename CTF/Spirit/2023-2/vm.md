@@ -14,42 +14,42 @@
 
 [镜像站](https://mirrors.jlu.edu.cn/)
 
-![[mirror-index.png]]
+![](./img/mirror-index.png)
 
-![[mirror-ubuntu.png]]
+![](./img/mirror-ubuntu.png)
 
-![[mirror-download.png]]
+![](./img/mirror-download.png)
 
 ~~**选择仅供参考**~~
 
 ## 3.创建虚拟机
 
-![[vm-0.png]]
+![](./img/vm-0.png)
 
-![[vm-1.png]]
+![](./img/vm-1.png)
 
 一路下一步
 
-![[vm-2.png]]
+![](./img/vm-2.png)
 
-![[vm-4.png]]
+![](./img/vm-4.png)
 
-![[vm-5.png]]
+![](./img/vm-5.png)
 
-![[vm-6.png]]
+![](./img/vm-6.png)
 
-![[vm-7.png]]
+![](./img/vm-7.png)
 
-![[image_2023-08-27-19-06-59.png]]
+![](./img/image_2023-08-27-19-06-59.png)
 
-![[vm-9.png]]
+![](./img/vm-9.png)
 
-![[vm-10.png]]
+![](./img/vm-10.png)
 
-![[vm-11.png]]
+![](./img/vm-11.png)
 
 喝杯咖啡
 
-![[vm-12.png]]
+![](./img/vm-12.png)
 
-![[vm-13.png]]
+![](./img/vm-13.png)

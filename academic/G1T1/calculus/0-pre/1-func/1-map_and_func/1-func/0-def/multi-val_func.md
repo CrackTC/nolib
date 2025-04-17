@@ -1,1 +1,0 @@
-若对于[[academic/G1T1/calculus/0-pre/1-func/1-map_and_func/1-func/0-def/domain|定义域]]$D$中每一个$x$，$y$有多个值与之对应，则称$y$是$x$的**多值函数**

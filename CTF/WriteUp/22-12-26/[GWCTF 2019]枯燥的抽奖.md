@@ -1,9 +1,9 @@
-![[Pasted image 20221228105111.png|500]]
+![](<./img/Pasted image 20221228105111.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221228105131.png]]
+![](<./img/Pasted image 20221228105131.png>)
 
 ```js
 $(document).ready(function(){
@@ -98,7 +98,7 @@ for i in range(len(s)):
 58 58 0 61 17 17 0 61 50 50 0 61 4 4 0 61 52 52 0 61 22 22 0 61 17 17 0 61 31 31 0 61 1 1 0 61 47 47 0 61 
 ```
 
-![[Pasted image 20221228131240.png|1200]]
+![](<./img/Pasted image 20221228131240.png>)
 
 ```php
 <?php
@@ -116,6 +116,6 @@ echo "<p id='p1'>".$str."</p>";
 WrOeQwr5bLvyHUVHCqet
 ```
 
-![[Pasted image 20221228131410.png|800]]
+![](<./img/Pasted image 20221228131410.png>)
 
 #Web #PHP #伪随机数 #Vulnerabilities #mt_rand

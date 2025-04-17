@@ -1,12 +1,12 @@
-![[Pasted image 20230223233434.png|500]]
+![](<./img/Pasted image 20230223233434.png>)
 
-![[Pasted image 20230223233443.png|800]]
+![](<./img/Pasted image 20230223233443.png>)
 
-![[Pasted image 20230223233702.png|800]]
+![](<./img/Pasted image 20230223233702.png>)
 
 去掉杂七杂八的东西后大概是这么个结构
 
-![[Pasted image 20230223235540.png|300]]
+![](<./img/Pasted image 20230223235540.png>)
 
 有用的貌似就一个`routes/index.js`
 
@@ -101,9 +101,9 @@ module.exports = router;
 
 然后就找到了[这篇文章](https://www.leavesongs.com/HTML/javascript-up-low-ercase-tip.html)
 
-![[Pasted image 20230224005515.png|800]]
+![](<./img/Pasted image 20230224005515.png>)
 
-![[Pasted image 20230224005810.png|300]]
+![](<./img/Pasted image 20230224005810.png>)
 
 在Unicode的小写字母分类中也找到了这个玩意，它的大写正好是拉丁大写字母`I`，通过这玩意就可以绕过注册时的正则判断啦
 
@@ -113,15 +113,15 @@ password:
 ```
 
 
-![[Pasted image 20230224010341.png|800]]
+![](<./img/Pasted image 20230224010341.png>)
 
 然后就可以构造原型链污染啦
 
-![[Pasted image 20230224010553.png|800]]
+![](<./img/Pasted image 20230224010553.png>)
 
 出题人大大贴心地设置了`/info`路由，把`outputFunctionName`写在了里面，明示`ejs`的漏洞
 
-![[Pasted image 20230224010824.png|400]]
+![](<./img/Pasted image 20230224010824.png>)
 
 `ejs`的版本也印证了这一点
 
@@ -133,12 +133,12 @@ password:
 }
 ```
 
-![[Pasted image 20230224014908.png|1300]]
+![](<./img/Pasted image 20230224014908.png>)
 
 再重新`GET`一次让payload编译进模板
 
-![[Pasted image 20230224015015.png|800]]
+![](<./img/Pasted image 20230224015015.png>)
 
-![[Pasted image 20230224014653.png|500]]
+![](<./img/Pasted image 20230224014653.png>)
 
 #Web #nodejs #ejs #unicode #js #bypass #RCE #reverse_shell

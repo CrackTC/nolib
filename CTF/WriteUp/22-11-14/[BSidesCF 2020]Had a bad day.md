@@ -1,9 +1,9 @@
-![[Pasted image 20221115084857.png]]
+![](<./img/Pasted image 20221115084857.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221115084917.png]]
+![](<./img/Pasted image 20221115084917.png>)
 
 按下`WOOFERS`后访问
 ```php
@@ -11,7 +11,7 @@
 ```
 并且随机显示一张小狗的图片
 
-![[Pasted image 20221115085147.png]]
+![](<./img/Pasted image 20221115085147.png>)
 
 按下`MEOWERS`后访问
 ```php
@@ -19,7 +19,7 @@
 ```
 并且随机显示一张小猫的图片
 
-![[Pasted image 20221115085322.png]]
+![](<./img/Pasted image 20221115085322.png>)
 
 ---
 尝试对`category`进行修改

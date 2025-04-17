@@ -1,11 +1,11 @@
-![[Pasted image 20230103082652.png|500]]
+![](<./img/Pasted image 20230103082652.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20230103082624.png|1000]]
+![](<./img/Pasted image 20230103082624.png>)
 
-![[Pasted image 20230103085349.png]]
+![](<./img/Pasted image 20230103085349.png>)
 
 提示传递`file`查询
 

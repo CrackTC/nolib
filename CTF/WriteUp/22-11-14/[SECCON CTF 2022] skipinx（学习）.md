@@ -1,9 +1,9 @@
-![[Pasted image 20221117144136.png|500]]
+![](<./img/Pasted image 20221117144136.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221117144322.png|800]]
+![](<./img/Pasted image 20221117144322.png>)
 
 `nginx`配置文件
 ```nginx
@@ -47,11 +47,11 @@ app.listen({ port: PORT, host: "0.0.0.0" }, () => {
 /?proxy=a&proxy=a&proxy=a...&proxy=a
 ```
 
-![[Pasted image 20221117152054.png|1200]]
+![](<./img/Pasted image 20221117152054.png>)
 
 ---
 **Edited** 受到了大佬的指点，这题当时其实没走偏，具体原理是`express`调用的`qs`处理参数个数上限为1000个，所以就被顶掉了QwQ，看来要素察觉能力有待加强
 
-![[Pasted image 20221118091053.png|800]]
+![](<./img/Pasted image 20221118091053.png>)
 
 #Web #nodejs #express #qs #URL #URI #HTTP #nginx 

@@ -1,6 +1,6 @@
 > 刚加入Vidar的兔兔还认不清协会成员诶，学长要求的答对100次问题可太难了，你能帮兔兔写个脚本答题吗？
 
-![[Pasted image 20230106141654.png|700]]
+![](<./img/Pasted image 20230106141654.png>)
 
 单击`Vidar-Team`跳转至以下地址
 
@@ -8,11 +8,11 @@
 https://vidar.club/member
 ```
 
-![[Pasted image 20230106141928.png|700]]
+![](<./img/Pasted image 20230106141928.png>)
 
 大概是要求寻找符合`Intro`的成员的名字填入输入框
 
-![[Pasted image 20230106142055.png|700]]
+![](<./img/Pasted image 20230106142055.png>)
 
 在`index.xxx.chunk.js`里找到原始数据
 
@@ -79,7 +79,7 @@ function action() {
 setTimeout(action, 100);
 ```
 
-![[Pasted image 20230106145712.png|700]]
+![](<./img/Pasted image 20230106145712.png>)
 
 感觉不如手动快QAQ
 

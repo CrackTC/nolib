@@ -1,6 +1,6 @@
-![[Pasted image 20230131091204.png|500]]
+![](<./img/Pasted image 20230131091204.png>)
 
-![[Pasted image 20230131091221.png|500]]
+![](<./img/Pasted image 20230131091221.png>)
 
 一开始没想到是改`UA`的我破大防（
 
@@ -53,6 +53,6 @@ Content-Length: 49
 {"username":"luckytoday", "password": "happy123"}
 ```
 
-![[Pasted image 20230131093901.png|700]]
+![](<./img/Pasted image 20230131093901.png>)
 
 #Web #HTTP #Header 

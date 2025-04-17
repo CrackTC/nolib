@@ -1,11 +1,11 @@
-![[Pasted image 20221113204640.png|500]]
+![](<./img/Pasted image 20221113204640.png>)
 
 ---
 每隔五秒`POST`一次，传递`func`和`p`参数
 
-![[Pasted image 20221113204657.png]]
+![](<./img/Pasted image 20221113204657.png>)
 
-![[Pasted image 20221113204833.png]]
+![](<./img/Pasted image 20221113204833.png>)
 ```php
 func=abc&p=123
 ```

@@ -1,14 +1,14 @@
-![[Pasted image 20230216190734.png|500]]
+![](<./img/Pasted image 20230216190734.png>)
 
 ```
 /
 ```
 
-![[Pasted image 20230216200123.png|500]]
+![](<./img/Pasted image 20230216200123.png>)
 
 啊，系二次元
 
-![[Pasted image 20230216200251.png|700]]
+![](<./img/Pasted image 20230216200251.png>)
 
 ```
 upload.php
@@ -67,8 +67,8 @@ redirect('/');
 
 如果上传的`png`图片不包含尺寸信息，也就是将`IHDR`之后留空便能绕过，同时也能被识别为`png`文件
 
-![[Pasted image 20230216204726.png|800]]
+![](<./img/Pasted image 20230216204726.png>)
 
-![[Pasted image 20230216204755.png|800]]
+![](<./img/Pasted image 20230216204755.png>)
 
 #Web #PHP #finfo #getimagesize #png #upload

@@ -1,16 +1,16 @@
-![[Pasted image 20230222093051.png|500]]
+![](<./img/Pasted image 20230222093051.png>)
 
 ```
 /
 ```
 
-![[Pasted image 20230222093257.png|500]]
+![](<./img/Pasted image 20230222093257.png>)
 
 ```
 /render
 ```
 
-![[Pasted image 20230222093428.png|300]]
+![](<./img/Pasted image 20230222093428.png>)
 
 可以将SVG转成PNG，存在XXE的可能性
 
@@ -25,6 +25,6 @@
 </svg>
 ```
 
-![[Pasted image 20230222100657.png|300]]
+![](<./img/Pasted image 20230222100657.png>)
 
 #Web #svg #XXE

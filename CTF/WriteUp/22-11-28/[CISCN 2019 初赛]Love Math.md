@@ -1,4 +1,4 @@
-![[Pasted image 20221202195606.png|500]]
+![](<./img/Pasted image 20221202195606.png>)
 
 ---
 首页长这样
@@ -63,7 +63,7 @@ abs=system&cos=<command>
 
 虽然但是，下划线和大写字母好难弄QAQ
 
-![[Pasted image 20221202214151.png]]
+![](<./img/Pasted image 20221202214151.png>)
 
 这个东西文档的解释完全没看懂哇wuwuwu
 
@@ -73,14 +73,14 @@ abs=system&cos=<command>
 
 `"hex2bin"`全是字母数字，可以直接`base_convert`QwQ
 
-![[Pasted image 20221202215159.png]]
+![](<./img/Pasted image 20221202215159.png>)
 
-![[Pasted image 20221202215606.png]]
+![](<./img/Pasted image 20221202215606.png>)
 
 所以就可以构造出最终`payload`啦
 ```php
 /?c=$pi=base_convert(37907361743,10,36)(dechex(1598506324));$$pi{abs}($$pi{cos})&abs=system&cos=cat /flag
 ```
-![[Pasted image 20221202220340.png]]
+![](<./img/Pasted image 20221202220340.png>)
 
 #Web #PHP #RCE #function #数学 #可变变量 #bypass

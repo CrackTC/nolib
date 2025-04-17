@@ -1,25 +1,25 @@
-![[Pasted image 20221230084855.png|500]]
+![](<./img/Pasted image 20221230084855.png>)
 
 ---
 ```php
 /login.php
 ```
 
-![[Pasted image 20221230084912.png]]
+![](<./img/Pasted image 20221230084912.png>)
 
 ```php
 /register.php
 ```
 
-![[Pasted image 20221230085417.png]]
+![](<./img/Pasted image 20221230085417.png>)
 
 尝试注册一个账号
 
-![[Pasted image 20221230090058.png]]
+![](<./img/Pasted image 20221230090058.png>)
 
 进入管理面板`/index.php`，可以进行文件上传
 
-![[Pasted image 20221230090437.png]]
+![](<./img/Pasted image 20221230090437.png>)
 
 文件的下载通过向`/download.php` `POST`文件名实现
 
@@ -437,6 +437,6 @@ $phar->stopBuffering();
 ```
 ~~然后折腾权限折腾半天，最后发现`systemd`里面有个`ProtectSystem=full`让`/usr`只读，刚好`web`根目录就在`/usr/share/nginx/html`~~
 
-![[Pasted image 20221230130817.png]]
+![](<./img/Pasted image 20221230130817.png>)
 
 #Web #PHP #源码泄漏 #代码审计 #反序列化 #phar

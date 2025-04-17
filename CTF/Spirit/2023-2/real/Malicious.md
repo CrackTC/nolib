@@ -1,4 +1,4 @@
-![[malicious_desc.png]]
+![](./img/malicious_desc.png)
 
 Solution
 ---
@@ -12,7 +12,7 @@ int solve() {
 }
 ```
 
-![[malicious_solution_0.png]]
+![](./img/malicious_solution_0.png)
 
 其次~~AC也不给你flag~~找到一个`/readflag.c`
 
@@ -37,7 +37,7 @@ int main() { print_flag("<audited>"); }
 
 想直接找flag也行，我也不知道是哪个诶嘿～
 
-![[malicious_solution_1.png]]
+![](./img/malicious_solution_1.png)
 
 这里`readflag`的嘲讽是多余的，咱制作一个假的`system`函数，使用`LD_PRELOAD`来进行动态库插桩
 
@@ -64,7 +64,7 @@ int solve() {
 }
 ```
 
-![[malicious_solution_2.png]]
+![](./img/malicious_solution_2.png)
 
 然后直接读取就好啦
 
@@ -72,4 +72,4 @@ int solve() {
 
 > 另外还有个~~新生~~卡密想到了按修改时间排序的方法，着实给我打懵了QAQ
 >
-> ![[malicious_another_solution.png]]
+> ![](./img/malicious_another_solution.png)

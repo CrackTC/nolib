@@ -1,17 +1,17 @@
-![[Pasted image 20230102083703.png|500]]
+![](<./img/Pasted image 20230102083703.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20230102083746.png]]
+![](<./img/Pasted image 20230102083746.png>)
 
 注册账户的时候卡了一下，看源码差点没晕掉，哪有`email`过滤`@`的QAQ
 
-![[Pasted image 20230102084658.png|1000]]
+![](<./img/Pasted image 20230102084658.png>)
 
 使用用户名`admin"`注册，登录并在`changepwd.php`修改密码后，会出现错误提示
 
-![[Pasted image 20230102094151.png|700]]
+![](<./img/Pasted image 20230102094151.png>)
 
 官方`wp`非常优雅地使用了代理转发来实现过程的自动化，赶紧学起来
 
@@ -55,7 +55,7 @@ def changepwd():
 app.run(port=80, debug=True)
 ```
 
-![[Pasted image 20230102095135.png|1000]]
+![](<./img/Pasted image 20230102095135.png>)
 
 由于存在错误回显，尝试报错注入（空格、`right`、`limit`这些被`ban`了）
 ```sql

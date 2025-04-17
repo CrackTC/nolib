@@ -1,15 +1,15 @@
-![[Pasted image 20221122163014.png]]
+![](<./img/Pasted image 20221122163014.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221122163031.png]]
+![](<./img/Pasted image 20221122163031.png>)
 
 炫酷.jpg
 
 既然想不到啥方法，那就扫目录看看八
 
-![[Pasted image 20221122163231.png]]
+![](<./img/Pasted image 20221122163231.png>)
 
 有`git`目录，有一个`flag.php`
 
@@ -18,7 +18,7 @@
 ---
 `flag.php`（`lolcat`真好玩QwQ）
 
-![[Pasted image 20221122164101.png]]
+![](<./img/Pasted image 20221122164101.png>)
 
 ---
 `index.php`
@@ -59,6 +59,6 @@ emmm，虽然但是，这个不是让`$_GET['yds']='flag'`就绕过了嘛，感�
 ```php
 ?yds=flag
 ```
-![[Pasted image 20221123004833.png]]
+![](<./img/Pasted image 20221123004833.png>)
 
 #Web #PHP #代码审计 #可变变量 #目录扫描 #git泄露 

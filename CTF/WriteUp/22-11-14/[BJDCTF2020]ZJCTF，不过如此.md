@@ -1,4 +1,4 @@
-![[Pasted image 20221115160913.png]]
+![](<./img/Pasted image 20221115160913.png>)
 ```php
 <?php
 error_reporting(0);
@@ -21,7 +21,7 @@ else{
 ```shell
 /?text=data://text/plain,I have a dream&file=next.php
 ```
-![[Pasted image 20221115161441.png]]
+![](<./img/Pasted image 20221115161441.png>)
 
 话说回来如果我这样写的话不是还不如直接访问`next.php`嘛QwQ
 ```shell

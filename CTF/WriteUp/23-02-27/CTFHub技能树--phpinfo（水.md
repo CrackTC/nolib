@@ -1,3 +1,3 @@
-![[Pasted image 20230303122633.png]]
+![](<./img/Pasted image 20230303122633.png>)
 
 #Web #PHP 

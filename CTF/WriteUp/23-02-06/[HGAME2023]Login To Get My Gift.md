@@ -1,4 +1,4 @@
-![[Pasted image 20230208181804.png|500]]
+![](<./img/Pasted image 20230208181804.png>)
 
 ```
 /login
@@ -9,13 +9,13 @@ Username: testuser
 Password: testpassword
 ```
 
-![[Pasted image 20230208182845.png|500]]
+![](<./img/Pasted image 20230208182845.png>)
 
 ```
 /index
 ```
 
-![[Pasted image 20230208183026.png|500]]
+![](<./img/Pasted image 20230208183026.png>)
 
 ```
 Username: 1'or/**/1#
@@ -142,6 +142,6 @@ Hello admin!
 /home
 ```
 
-![[Pasted image 20230208205128.png|500]]
+![](<./img/Pasted image 20230208205128.png>)
 
 #Web #SQL注入 #布尔盲注 #绕过 

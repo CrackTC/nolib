@@ -1,4 +1,4 @@
-![[Pasted image 20230219102937.png|500]]
+![](<./img/Pasted image 20230219102937.png>)
 
 ```
 /
@@ -13,9 +13,9 @@
 /?url=https://baidu.com/
 ```
 
-![[Pasted image 20230219103145.png|800]]
+![](<./img/Pasted image 20230219103145.png>)
 
-![[Pasted image 20230219103535.png|500]]
+![](<./img/Pasted image 20230219103535.png>)
 
 响应包的结尾出现了奇怪的东西
 
@@ -25,13 +25,13 @@
 X-Forwarded-For: php_wa_saikou!
 ```
 
-![[Pasted image 20230219103842.png|500]]
+![](<./img/Pasted image 20230219103842.png>)
 
 ```http
 X-Forwarded-For: aba
 ```
 
-![[Pasted image 20230219105717.png|500]]
+![](<./img/Pasted image 20230219105717.png>)
 
 这里看wp说是存在二次注入，后台维护一对`currentIp`和`lastIp`，每次访问`ip`和最近一次不同就往后推，并且插入数据库
 

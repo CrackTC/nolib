@@ -1,9 +1,9 @@
-![[Pasted image 20221229101512.png|500]]
+![](<./img/Pasted image 20221229101512.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221229101531.png|700]]
+![](<./img/Pasted image 20221229101531.png>)
 
 像啊，很像啊（
 
@@ -60,7 +60,7 @@ echo $result;
 ?>
 ```
 
-![[Pasted image 20221229112311.png|500]]
+![](<./img/Pasted image 20221229112311.png>)
 
 给点好东西啊=\_=
 
@@ -134,6 +134,6 @@ Connection: close
 
 ```
 
-![[Pasted image 20221229125554.png|1000]]
+![](<./img/Pasted image 20221229125554.png>)
 
 #Web #XXE #CSRF

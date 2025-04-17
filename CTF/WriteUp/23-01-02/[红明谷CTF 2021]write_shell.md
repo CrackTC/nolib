@@ -1,4 +1,4 @@
-![[Pasted image 20230105095843.png|500]]
+![](<./img/Pasted image 20230105095843.png>)
 
 ---
 ```php

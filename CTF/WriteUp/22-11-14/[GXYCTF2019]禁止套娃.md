@@ -1,9 +1,9 @@
-![[Pasted image 20221114101936.png]]
+![](<./img/Pasted image 20221114101936.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221114101945.png]]
+![](<./img/Pasted image 20221114101945.png>)
 
 然后好像就没有然后了QAQ
 

@@ -1,6 +1,6 @@
-![[Pasted image 20230128143611.png|500]]
+![](<./img/Pasted image 20230128143611.png>)
 
-![[Pasted image 20230128144500.png|500]]
+![](<./img/Pasted image 20230128144500.png>)
 
 ```php
 <?php
@@ -19,6 +19,6 @@ if (file_exists($action)) {
 /index.php?action=/flag
 ```
 
-![[Pasted image 20230128144442.png|300]]
+![](<./img/Pasted image 20230128144442.png>)
 
 #Web #PHP #文件包含 

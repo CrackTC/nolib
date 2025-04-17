@@ -1,1 +1,0 @@
-[[part_mat|分块矩阵]]的转置即为对分块矩阵自身以分块为元素进行[[academic/G1T1/linear_algebra/0-mat/1-op/3-transpose/transpose|矩阵转置]]，再对每一个分块单独进行转置

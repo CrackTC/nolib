@@ -1,6 +1,6 @@
-![[Pasted image 20230201093828.png|500]]
+![](<./img/Pasted image 20230201093828.png>)
 
-![[Pasted image 20230201094021.png|300]]
+![](<./img/Pasted image 20230201094021.png>)
 
 这里是弱密码爆破
 
@@ -13,7 +13,7 @@ Password: admin123
 /home
 ```
 
-![[Pasted image 20230201094125.png|300]]
+![](<./img/Pasted image 20230201094125.png>)
 
 ```
 1

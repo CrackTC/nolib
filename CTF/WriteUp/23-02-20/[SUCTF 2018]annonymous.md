@@ -1,4 +1,4 @@
-![[Pasted image 20230226131534.png|500]]
+![](<./img/Pasted image 20230226131534.png>)
 
 ```php
 <?php
@@ -31,6 +31,6 @@ for i in range(10000):
         break
 ```
 
-![[Pasted image 20230226134442.png|500]]
+![](<./img/Pasted image 20230226134442.png>)
 
 #Web #PHP #lambda

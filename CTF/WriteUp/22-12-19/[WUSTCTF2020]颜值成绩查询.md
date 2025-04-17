@@ -1,9 +1,9 @@
-![[Pasted image 20221223122239.png|500]]
+![](<./img/Pasted image 20221223122239.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221223122304.png|700]]
+![](<./img/Pasted image 20221223122304.png>)
 
 通过`stunum`传递查询
 ```php

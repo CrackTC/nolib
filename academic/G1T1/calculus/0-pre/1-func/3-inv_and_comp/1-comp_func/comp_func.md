@@ -1,3 +1,0 @@
-设[[func|函数]]$y=f(u)$的[[academic/G1T1/calculus/0-pre/1-func/1-map_and_func/1-func/0-def/domain|定义域]]为$D_1$，函数$u=\phi(x)$的定义域为$D_2$，[[academic/G1T1/calculus/0-pre/1-func/1-map_and_func/1-func/0-def/range|值域]]为$W$，当$D_1\cap W\ne \emptyset$时，对任意$x\in D(D=\{x\mid x\in D_2,u=\phi(x)\in D_1\})$，有$u=\phi(x)$与之对应，进而有$y=f(u)$与之对应，这样通过$u$得到了以$x$为[[indep_var|自变量]]，$y$为[[dep_var|因变量]]的函数，称为由$y=f(u)$与$u=\phi(x)$经复合运算而得到的**复合函数**，记为
-$$y=f(\phi(x))$$
-定义域为$D$，$u$称为**中间[[var|变量]]**

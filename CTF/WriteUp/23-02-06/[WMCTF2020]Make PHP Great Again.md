@@ -1,4 +1,4 @@
-![[Pasted image 20230212095241.png|500]]
+![](<./img/Pasted image 20230212095241.png>)
 
 ```php
 <?php
@@ -11,11 +11,11 @@ if(isset($_GET['file'])) {
 
 参考这篇博客 [Require_once Bypass](https://web.archive.org/web/20230603040425/https://blog.rois.io/2020/require_once-bypass/)
 
-![[Pasted image 20230212095417.png|1000]]
+![](<./img/Pasted image 20230212095417.png>)
 
 `/proc/self/root`是指向`/`的符号链接
 
-![[Pasted image 20230212095650.png|500]]
+![](<./img/Pasted image 20230212095650.png>)
 
 最多解析40层符号链接，`self`和`root`均为符号链接，因此复制粘贴二十次就到头了
 
@@ -29,6 +29,6 @@ if(isset($_GET['file'])) {
 PD9waHAKCiRmbGFnID0gJ2ZsYWd7YThjNTFkMzgtOGZhNi00ZjkyLWJiYTYtYTQ4N2I3YmY1ZDkzfSc7Cg==
 ```
 
-![[Pasted image 20230212101412.png|1000]]
+![](<./img/Pasted image 20230212101412.png>)
 
 #Web #PHP #LFI #linux #bypass #symlink

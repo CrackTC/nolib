@@ -1,24 +1,24 @@
-![[Pasted image 20230123100544.png|500]]
+![](<./img/Pasted image 20230123100544.png>)
 
 ```
 /login.php
 ```
 
-![[Pasted image 20230123100602.png|700]]
+![](<./img/Pasted image 20230123100602.png>)
 
 ```
 /register.php
 ```
 
-![[Pasted image 20230123101004.png|700]]
+![](<./img/Pasted image 20230123101004.png>)
 
 ```
 /index.php
 ```
 
-![[Pasted image 20230123101414.png|700]]
+![](<./img/Pasted image 20230123101414.png>)
 
-![[Pasted image 20230123105630.png|200]]
+![](<./img/Pasted image 20230123105630.png>)
 
 只有用户名存在回显
 
@@ -37,7 +37,7 @@ VALUES ('$username', '$password', '$email')
 username='+7*8+'
 ```
 
-![[Pasted image 20230123111509.png|200]]
+![](<./img/Pasted image 20230123111509.png>)
 
 验证了上面的猜测
 

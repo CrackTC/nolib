@@ -1,10 +1,10 @@
 这队名...船员跑来CTF暴打萌新了QwQ
 
-![[Pasted image 20230118105015.png|500]]
+![](<./img/Pasted image 20230118105015.png>)
 
 强迫症当场去世.jpg
 
-![[Pasted image 20230118105045.png|500]]
+![](<./img/Pasted image 20230118105045.png>)
 
 ---
 
@@ -12,13 +12,13 @@
 /#pages/about.html
 ```
 
-![[Pasted image 20230118105213.png|300]]
+![](<./img/Pasted image 20230118105213.png>)
 
 ```
 /#pages/lorem.html
 ```
 
-![[Pasted image 20230118105340.png|1000]]
+![](<./img/Pasted image 20230118105340.png>)
 
 ```
 /query.php?source
@@ -92,6 +92,6 @@ print(requests.post(url, data=data).content)
 }
 ```
 
-![[Pasted image 20230118113034.png|500]]
+![](<./img/Pasted image 20230118113034.png>)
 
 #Web #PHP #json #encoding #伪协议 

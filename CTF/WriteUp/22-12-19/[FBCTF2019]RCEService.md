@@ -1,9 +1,9 @@
-![[Pasted image 20221224090401.png|500]]
+![](<./img/Pasted image 20221224090401.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221224090929.png|400]]
+![](<./img/Pasted image 20221224090929.png>)
 
 要我们输入一个`json`字符串，通过`cmd`查询传递，因而推测键名也为`cmd`
 ```json
@@ -25,7 +25,7 @@ index.php
 
 然后发现原题离谱地提供了源码
 
-![[Pasted image 20221224093015.png]]
+![](<./img/Pasted image 20221224093015.png>)
 
 ```php
 <?php
@@ -66,7 +66,7 @@ if (isset($_REQUEST['cmd'])) {
 ```php
 putenv('PATH=/home/rceservice/jail');
 ```
-![[Pasted image 20221224094442.png|500]]
+![](<./img/Pasted image 20221224094442.png>)
 
 emmm，这波是`PATH`被挟持了，问题不大，用绝对路径应该就行
 

@@ -1,9 +1,9 @@
-![[Pasted image 20221218131056.png|500]]
+![](<./img/Pasted image 20221218131056.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221218140730.png|700]]
+![](<./img/Pasted image 20221218140730.png>)
 
 ```html
 <!DOCTYPE html>
@@ -57,7 +57,7 @@ def getUrl():
 url='http://𝓼𝓾𝓬𝓽𝓯.𝓬𝓬'
 ```
 
-![[Pasted image 20221218142130.png|700]]
+![](<./img/Pasted image 20221218142130.png>)
 
 标题和注释明示我们和`nginx`有关，尝试访问`/usr/local/nginx/conf/nginx.conf`
 ```python
@@ -87,6 +87,6 @@ server {
 url='file://𝓼𝓾𝓬𝓽𝓯.𝓬𝓬/usr/fffffflag'
 ```
 
-![[Pasted image 20221218144842.png]]
+![](<./img/Pasted image 20221218144842.png>)
 
 #Web #python #nginx #字符 

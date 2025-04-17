@@ -1,9 +1,9 @@
-![[Pasted image 20221118110609.png]]
+![](<./img/Pasted image 20221118110609.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221118110637.png]]
+![](<./img/Pasted image 20221118110637.png>)
 
 自动跳转到了这个url
 ```php
@@ -13,16 +13,16 @@
 ---
 `img`参数的值可能经过了`base64`编码
 
-![[Pasted image 20221118112321.png]]
+![](<./img/Pasted image 20221118112321.png>)
 
-![[Pasted image 20221118112331.png]]
+![](<./img/Pasted image 20221118112331.png>)
 
 似乎还是套娃编码
 
 ---
 首页提示`md5 is funny ~`，就这么被带偏了，以为最后这串是md5，结果想解密提示格式都不对，绕了好久才发现这原来是个简单的16进制编码
 
-![[Pasted image 20221118112610.png]]
+![](<./img/Pasted image 20221118112610.png>)
 
 ---
 搞懂了`img`参数的编码，尝试逆用这一点获取`index.php`的文件内容
@@ -30,7 +30,7 @@
 /index.php?img=TmprMlpUWTBOalUzT0RKbE56QTJPRGN3&cmd=
 ```
 
-![[Pasted image 20221118112846.png]]
+![](<./img/Pasted image 20221118112846.png>)
 ```php
 <?php
 error_reporting(E_ALL || ~ E_NOTICE);
@@ -66,10 +66,10 @@ if (preg_match("/ls|bash|tac|nl|more|less|head|wget|tail|vi|cat|od|grep|sed|bzmo
 ---
 ctf3.jpeg（~~充满恶意~~嘲讽拉满）
 
-![[Pasted image 20221118113435.png]]
+![](<./img/Pasted image 20221118113435.png>)
 
 ---
-![[Pasted image 20221118190742.png]]
+![](<./img/Pasted image 20221118190742.png>)
 
 如上，由于对`POST`参数进行了向`string`类型的强制类型转换，而`php`默认行为并非对数组及其各个元素进行向字符串的转换，而是直接返回`'Array'`，因此第一个比较的结果便为假，削减了利用数组绕过`md5`的可行性
 

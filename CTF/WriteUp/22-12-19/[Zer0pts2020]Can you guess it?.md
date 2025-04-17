@@ -1,9 +1,9 @@
-![[Pasted image 20221225090429.png|500]]
+![](<./img/Pasted image 20221225090429.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221225090448.png]]
+![](<./img/Pasted image 20221225090448.png>)
 
 ```php
 <?php
@@ -61,11 +61,11 @@ if (isset($_GET['source'])) {
 ```
 重点是这个此地无银三百两的`$_SERVER['PHP_SELF']`到底是干啥子的
 
-![[Pasted image 20221225095205.png|800]]
+![](<./img/Pasted image 20221225095205.png>)
 
 目的是让`basename($_SERVER['PHP_SELF'])`为`config.php`
 
-![[Pasted image 20221225095410.png|500]]
+![](<./img/Pasted image 20221225095410.png>)
 
 开头的过滤
 ```php
@@ -75,7 +75,7 @@ if (preg_match('/config\.php\/*$/i', $_SERVER['PHP_SELF'])) {
 ```
 匹配`config.php`和后面任意多个`/`到行尾
 
-![[Pasted image 20221225102919.png|800]]
+![](<./img/Pasted image 20221225102919.png>)
 
 [默认区域设置中，basename 会忽略开头的非ASCII字符](https://bugs.php.net/bug.php?id=62119)
 

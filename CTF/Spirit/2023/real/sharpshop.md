@@ -6,7 +6,7 @@
 /
 ```
 
-![[Pasted image 20230514190039.png|800]]
+![](<./img/Pasted image 20230514190039.png>)
 
 砍价是减去`(FlagPrice - Wallet) / 2`，砍不完的（pdd：？）
 

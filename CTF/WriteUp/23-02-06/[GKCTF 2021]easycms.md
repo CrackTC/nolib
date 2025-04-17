@@ -1,27 +1,27 @@
-![[Pasted image 20230210101327.png|500]]
+![](<./img/Pasted image 20230210101327.png>)
 
-![[Pasted image 20230210101401.png|400]]
+![](<./img/Pasted image 20230210101401.png>)
 
 ```
 /
 ```
 
-![[Pasted image 20230210101513.png|700]]
+![](<./img/Pasted image 20230210101513.png>)
 
 ```
 /admin.php
 ```
 
-![[Pasted image 20230210102927.png|500]]
+![](<./img/Pasted image 20230210102927.png>)
 
 ```
 username: admin
 password: 12345
 ```
 
-![[Pasted image 20230210103418.png|1000]]
+![](<./img/Pasted image 20230210103418.png>)
 
-![[Pasted image 20230210104206.png|1000]]
+![](<./img/Pasted image 20230210104206.png>)
 
 在主题页面下选择一个主题进行自定义，选择导出主题
 

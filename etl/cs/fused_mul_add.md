@@ -1,3 +1,0 @@
-[Multiply–accumulate operation](https://en.wikipedia.org/wiki/Multiply%E2%80%93accumulate_operation)
-
-> A **fused multiply–add** (**FMA** or **fmadd** or **积和熔加** in Chinese) is a floating-point multiply–add operation performed in one step (fused operation), with a single rounding. That is, where an unfused multiply–add would compute the product $b \times c$, round it to $N$ significant bits, add the result to $a$, and round back to $N$ significant bits, a fused multiply–add would compute the entire expression $a + (b \times c)$ to its full precision before rounding the final result down to $N$ significant bits.

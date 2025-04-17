@@ -1,4 +1,4 @@
-![[Pasted image 20230126100744.png|500]]
+![](<./img/Pasted image 20230126100744.png>)
 
 ```
 /
@@ -16,7 +16,7 @@ Welcome To Find Secret
 It is Android ctf
 ```
 
-![[Pasted image 20230126103511.png|500]]
+![](<./img/Pasted image 20230126103511.png>)
 
 ```
 /secret
@@ -46,7 +46,7 @@ a
 /secret?secret=hello
 ```
 
-![[Pasted image 20230126135545.png|700]]
+![](<./img/Pasted image 20230126135545.png>)
 
 ```python
 if (secret==None):
@@ -65,7 +65,7 @@ return a
 
 [RC4加密法](https://zh.wikipedia.org/zh-cn/RC4)
 
-![[Pasted image 20230126103403.png|1000]]
+![](<./img/Pasted image 20230126103403.png>)
 
 对称性好可爱～
 

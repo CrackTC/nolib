@@ -1,4 +1,4 @@
-![[Pasted image 20230116084846.png|500]]
+![](<./img/Pasted image 20230116084846.png>)
 
 ---
 
@@ -6,7 +6,7 @@
 /index.php
 ```
 
-![[Pasted image 20230116084900.png|1000]]
+![](<./img/Pasted image 20230116084900.png>)
 
 ---
 
@@ -14,9 +14,9 @@
 /file.php?file=
 ```
 
-![[Pasted image 20230116085154.png|1000]]
+![](<./img/Pasted image 20230116085154.png>)
 
-![[Pasted image 20230116085342.png|1000]]
+![](<./img/Pasted image 20230116085342.png>)
 
 ---
 
@@ -24,7 +24,7 @@
 /upload_file.php
 ```
 
-![[Pasted image 20230116085508.png|1000]]
+![](<./img/Pasted image 20230116085508.png>)
 
 # 获取源码
 
@@ -325,8 +325,8 @@ echo md5('phar.jpg' . '10.244.80.206') . '.jpg'
 /file.php?file=phar://upload/42574e9d70ad4a54c530fd9a294a46dc.jpg
 ```
 
-![[Pasted image 20230116105804.png|1000]]
+![](<./img/Pasted image 20230116105804.png>)
 
-![[Pasted image 20230116105849.png|1000]]
+![](<./img/Pasted image 20230116105849.png>)
 
 #Web #PHP #phar #反序列化 

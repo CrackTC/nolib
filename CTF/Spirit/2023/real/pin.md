@@ -8,7 +8,7 @@
 /?location=index.html
 ```
 
-![[Pasted image 20230514202231.png|200]]
+![](<./img/Pasted image 20230514202231.png>)
 
 任意文件读取就对了
 

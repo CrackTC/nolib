@@ -1,7 +1,7 @@
 # 解题步骤（WriteUp）
 
 
-![[Pasted image 20241029114729.png]]
+![](<./img/Pasted image 20241029114729.png>)
 
 输入任意用户名密码开一个新的list
 
@@ -24,4 +24,4 @@
 
 ```
 
-![[Pasted image 20241029114758.png]]
+![](<./img/Pasted image 20241029114758.png>)

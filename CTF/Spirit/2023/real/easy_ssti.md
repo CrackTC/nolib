@@ -4,7 +4,7 @@
 /
 ```
 
-![[Pasted image 20230514182339.png|500]]
+![](<./img/Pasted image 20230514182339.png>)
 
 随便点进去一个
 
@@ -46,7 +46,7 @@
 /challenges.php?name=data://text/plain,{$smarty.env.FLAG}
 ```
 
-![[Pasted image 20230514184325.png|800]]
+![](<./img/Pasted image 20230514184325.png>)
 
 ---
 

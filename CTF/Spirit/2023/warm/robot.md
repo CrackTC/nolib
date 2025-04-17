@@ -4,13 +4,13 @@
 /
 ```
 
-![[Pasted image 20230507233337.png|800]]
+![](<./img/Pasted image 20230507233337.png>)
 
 ---
 
 Part #1
 ===
-![[Pasted image 20230507233553.png|500]]
+![](<./img/Pasted image 20230507233553.png>)
 
 这里是对`User-Agent`请求头的修改，一般各大搜索引擎的蜘蛛都会带有特定的UA信息
 
@@ -18,7 +18,7 @@ Part #1
 
 [百度的说法](https://help.baidu.com/question?prod_id=99&class=0&id=3001)
 
-![[Pasted image 20230507234519.png|800]]
+![](<./img/Pasted image 20230507234519.png>)
 
 ```shell
 curl --user-agent Baiduspider http://<host>:<port>/verify
@@ -27,7 +27,7 @@ curl --user-agent Baiduspider http://<host>:<port>/verify
 Part #2
 ===
 
-![[Pasted image 20230507235025.png|800]]
+![](<./img/Pasted image 20230507235025.png>)
 
 为了声明自己从哪个网址到这里来，浏览器发送`Referer`头
 
@@ -41,7 +41,7 @@ curl --user-agent Baiduspider --referer https://www.baidu.com http://<host>:<por
 Part #3
 ===
 
-![[Pasted image 20230508003418.png|800]]
+![](<./img/Pasted image 20230508003418.png>)
 
 这里是改`Cookie`，参考Guidebook
 
@@ -51,4 +51,4 @@ Part #3
 curl --user-agent Baiduspider --referer https://www.baidu.com --cookie price= http://<host>:<port>/verify
 ```
 
-![[Pasted image 20230508004015.png|800]]
+![](<./img/Pasted image 20230508004015.png>)

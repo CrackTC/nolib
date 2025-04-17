@@ -1,6 +1,6 @@
-![[Pasted image 20230115083110.png|500]]
+![](<./img/Pasted image 20230115083110.png>)
 
-![[Pasted image 20230115083049.png|500]]
+![](<./img/Pasted image 20230115083049.png>)
 
 ---
 

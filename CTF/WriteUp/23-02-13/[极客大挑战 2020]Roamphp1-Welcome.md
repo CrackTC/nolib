@@ -1,14 +1,14 @@
-![[Pasted image 20230215112137.png|500]]
+![](<./img/Pasted image 20230215112137.png>)
 
 ```
 /
 ```
 
-![[Pasted image 20230215112320.png|400]]
+![](<./img/Pasted image 20230215112320.png>)
 
 嗯？
 
-![[Pasted image 20230215112339.png|500]]
+![](<./img/Pasted image 20230215112339.png>)
 
 尝试`POST`
 
@@ -35,6 +35,6 @@ exit();
 roam1[]=1&roam2[]=2
 ```
 
-![[Pasted image 20230215114149.png|700]]
+![](<./img/Pasted image 20230215114149.png>)
 
 #Web #PHP #HTTP #绕过

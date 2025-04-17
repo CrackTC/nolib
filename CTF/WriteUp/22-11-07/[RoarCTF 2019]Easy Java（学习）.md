@@ -1,22 +1,22 @@
-![[Pasted image 20221111120846.png|800]]
+![](<./img/Pasted image 20221111120846.png>)
 
 ```
 /
 ```
 
-![[Pasted image 20221111120901.png|800]]
+![](<./img/Pasted image 20221111120901.png>)
 
 ```
 /Download?filename=help.docx
 ```
 
-![[Pasted image 20221111120942.png|500]]
+![](<./img/Pasted image 20221111120942.png>)
 
 ```
 /Login
 ```
 
-![[Pasted image 20221111121009.png|500]]
+![](<./img/Pasted image 20221111121009.png>)
 
 `java`实现的`web`服务真没接触过，这题算是学习了
 查看大佬的wp发现这个`filename`参数实际上是要通过`POST`方法传递的（这也太离谱了）
@@ -24,13 +24,13 @@
 filename=help.docx
 ```
 
-![[Pasted image 20221111202541.png|500]]
+![](<./img/Pasted image 20221111202541.png>)
 
 ```php
 /abc
 ```
 
-![[Pasted image 20221111204042.png|800]]
+![](<./img/Pasted image 20221111204042.png>)
 
 服务器是`tomcat`
 
@@ -109,7 +109,7 @@ filename=WEB-INF/web.xml
 ```php
 filename=WEB-INF/classes/com/wm/ctf/FlagController.class
 ```
-![[Pasted image 20221113150438.png]]
+![](<./img/Pasted image 20221113150438.png>)
 ```php
 filename=WEB-INF/classes/com/wm/ctf/FlagController.java
 ```
@@ -118,10 +118,10 @@ filename=WEB-INF/classes/com/wm/ctf/FlagController.java
 
 回过头来看`FlagController.class`
 
-![[Pasted image 20221113151043.png]]
+![](<./img/Pasted image 20221113151043.png>)
 
 这里有串base64编码的东西，猜测就是`flag`
 
-![[Pasted image 20221113151157.png]]
+![](<./img/Pasted image 20221113151157.png>)
 
 #Web #tomcat #Java

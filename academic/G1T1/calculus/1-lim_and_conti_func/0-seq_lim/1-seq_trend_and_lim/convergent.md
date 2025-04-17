@@ -1,1 +1,0 @@
-有[[seq_lim_intuitive_def|极限]]的[[seq|数列]]**收敛**

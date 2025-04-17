@@ -1,6 +1,6 @@
-![[Pasted image 20221108085601.png|500]]
+![](<./img/Pasted image 20221108085601.png>)
 
-![[Pasted image 20221108085629.png]]
+![](<./img/Pasted image 20221108085629.png>)
 
 ```php
 id=1
@@ -67,6 +67,6 @@ for i in range(1, 100):
     print(chr(a-1),sep='',end='',flush=True)
 
 ```
-![[Pasted image 20221108173940.png]]
+![](<./img/Pasted image 20221108173940.png>)
 
 #Web #SQL注入 #布尔盲注

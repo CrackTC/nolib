@@ -1,6 +1,6 @@
-![[Pasted image 20221101080348.png]]
+![](<./img/Pasted image 20221101080348.png>)
 
-![[Pasted image 20221101080408.png]]
+![](<./img/Pasted image 20221101080408.png>)
 
 ```php
 I put something in F12 for you
@@ -51,12 +51,12 @@ else
 ```
 /?gg[]=1&id[]=2
 ```
-![[Pasted image 20221101081208.png]]
+![](<./img/Pasted image 20221101081208.png>)
 
 再用弱类型比较绕过
 ```
 passwd=1234567abc
 ```
-![[Pasted image 20221101081422.png]]
+![](<./img/Pasted image 20221101081422.png>)
 
 #Web #PHP #bypass

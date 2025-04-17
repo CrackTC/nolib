@@ -1,22 +1,22 @@
-![[Pasted image 20230215154426.png|500]]
+![](<./img/Pasted image 20230215154426.png>)
 
 ```
 /index.php
 ```
 
-![[Pasted image 20230215154507.png|500]]
+![](<./img/Pasted image 20230215154507.png>)
 
 ```
 /user.php
 ```
 
-![[Pasted image 20230215154544.png|500]]
+![](<./img/Pasted image 20230215154544.png>)
 
 ```
 /upload.php
 ```
 
-![[Pasted image 20230215154614.png|500]]
+![](<./img/Pasted image 20230215154614.png>)
 
 ```
 /sample.xml
@@ -46,7 +46,7 @@
 /about.php
 ```
 
-![[Pasted image 20230215154632.png|500]]
+![](<./img/Pasted image 20230215154632.png>)
 
 尝试进行XXE
 
@@ -66,13 +66,13 @@
 </users>
 ```
 
-![[Pasted image 20230215170047.png|500]]
+![](<./img/Pasted image 20230215170047.png>)
 
 遭到了WAF的拦截
 
 转换文件编码为`utf16`后成功绕过
 
-![[Pasted image 20230215171839.png|500]]
+![](<./img/Pasted image 20230215171839.png>)
 
 `group`属性貌似会被截断，干脆全改上
 
@@ -92,7 +92,7 @@
 </users>
 ```
 
-![[Pasted image 20230215172853.png|500]]
+![](<./img/Pasted image 20230215172853.png>)
 
 然鹅都被截断了qaq
 
@@ -115,6 +115,6 @@
 </users>
 ```
 
-![[Pasted image 20230215173018.png|500]]
+![](<./img/Pasted image 20230215173018.png>)
 
 #Web #XXE #encoding #bypass

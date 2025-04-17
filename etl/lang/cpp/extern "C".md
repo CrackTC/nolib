@@ -1,1 +1,0 @@
-这玩意叫`language linkage`，参考[这篇文档](https://en.cppreference.com/w/cpp/language/language_linkage)

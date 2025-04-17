@@ -1,4 +1,4 @@
-![[Pasted image 20230217114125.png|500]]
+![](<./img/Pasted image 20230217114125.png>)
 
 ```php
 <?php
@@ -91,7 +91,7 @@ $err = new Error($message);
 eval($err);
 ```
 
-![[Pasted image 20230217143303.png|800]]
+![](<./img/Pasted image 20230217143303.png>)
 
 最后序列化即可
 
@@ -114,6 +114,6 @@ $payload->lover = $err2;
 echo urlencode(serialize($payload));
 ```
 
-![[Pasted image 20230217150313.png|800]]
+![](<./img/Pasted image 20230217150313.png>)
 
 #Web #PHP #serialization #bypass #error

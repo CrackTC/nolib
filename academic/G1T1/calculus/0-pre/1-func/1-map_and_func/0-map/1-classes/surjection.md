@@ -1,1 +1,0 @@
-对于[[map|映射]]$f:A\to B$，若[[academic/G1T1/calculus/0-pre/1-func/1-map_and_func/0-map/0-def/range|值域]]$f(A) = B$，即$B$中每一个元素$y$都是映射$f$的[[img|像]]（在$A$中都存在[[element|元素]]$x$,使得$y=f(x)$），则称映射$f$是**满射**

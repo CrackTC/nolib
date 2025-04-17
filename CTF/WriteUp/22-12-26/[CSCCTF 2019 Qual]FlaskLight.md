@@ -1,11 +1,11 @@
-![[Pasted image 20221227093348.png|500]]
+![](<./img/Pasted image 20221227093348.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221227093716.png|700]]
+![](<./img/Pasted image 20221227093716.png>)
 
-![[Pasted image 20221227093744.png]]
+![](<./img/Pasted image 20221227093744.png>)
 
 尝试传一些奇怪的东西
 ```python

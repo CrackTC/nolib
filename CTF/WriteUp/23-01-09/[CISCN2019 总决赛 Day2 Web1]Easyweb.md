@@ -1,9 +1,9 @@
-![[Pasted image 20230109083406.png|500]]
+![](<./img/Pasted image 20230109083406.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20230109083519.png|500]]
+![](<./img/Pasted image 20230109083519.png>)
 
 ---
 发现`robots.txt`
@@ -77,7 +77,7 @@ NUL ==>  \x00
 /image.php?id=\0&path=or 1=1#
 ```
 
-![[Pasted image 20230109095330.png|700]]
+![](<./img/Pasted image 20230109095330.png>)
 
 尝试布尔盲注
 
@@ -157,7 +157,7 @@ fmt = 'or 0^(ord(substr((select(group_concat(password))from(ciscnfinal.users)),%
 
 使用账号密码成功登录
 
-![[Pasted image 20230109114933.png]]
+![](<./img/Pasted image 20230109114933.png>)
 
 尝试上传木马
 

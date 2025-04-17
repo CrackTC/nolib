@@ -1,4 +1,4 @@
-![[Pasted image 20230110085126.png|500]]
+![](<./img/Pasted image 20230110085126.png>)
 
 ---
 
@@ -27,7 +27,7 @@
 
 参考 [大佬的wp](https://f002.backblazeb2.com/file/sec-news-backup/files/writeup/ricterz.me/_posts_HITCON_202017_20SSRFme/index.html)
 
-![[Pasted image 20230110122535.png|300]]
+![](<./img/Pasted image 20230110122535.png>)
 
 `GET`是`perl`的一个命令，对于`file`协议的处理调用了`open`函数来实现，而`open`函数支持管道形式的文件句柄，因此可以将命令的结果作为文件处理。
 

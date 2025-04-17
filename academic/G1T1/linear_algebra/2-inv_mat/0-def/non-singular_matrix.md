@@ -1,1 +1,0 @@
-[[invertible_matrix|可逆矩阵]]又称为**非奇异矩阵**

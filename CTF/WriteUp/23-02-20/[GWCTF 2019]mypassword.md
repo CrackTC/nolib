@@ -1,16 +1,16 @@
-![[Pasted image 20230221173257.png|500]]
+![](<./img/Pasted image 20230221173257.png>)
 
 ```
 /login.php
 ```
 
-![[Pasted image 20230221173321.png|800]]
+![](<./img/Pasted image 20230221173321.png>)
 
 ```
 /register.php
 ```
 
-![[Pasted image 20230221173341.png|500]]
+![](<./img/Pasted image 20230221173341.png>)
 
 ```
 username: a
@@ -21,25 +21,25 @@ password: 1
 /index.php
 ```
 
-![[Pasted image 20230221173622.png|500]]
+![](<./img/Pasted image 20230221173622.png>)
 
 ```
 /feedback.php
 ```
 
-![[Pasted image 20230221174611.png|800]]
+![](<./img/Pasted image 20230221174611.png>)
 
 ```
 /list.php
 ```
 
-![[Pasted image 20230221174835.png|500]]
+![](<./img/Pasted image 20230221174835.png>)
 
 没有什么思路.jpg
 
 在`/feedback.php`下发现了奇怪的东西
 
-![[Pasted image 20230221175025.png|1000]]
+![](<./img/Pasted image 20230221175025.png>)
 
 像是`XSS`的样子，还自带了一个方便绕过的黑名单，感动
 
@@ -47,9 +47,9 @@ password: 1
 
 看了wp，发现居然漏掉了`login`页面的审计，大意了qaq
 
-![[Pasted image 20230221175521.png|500]]
+![](<./img/Pasted image 20230221175521.png>)
 
-![[Pasted image 20230221175558.png|500]]
+![](<./img/Pasted image 20230221175558.png>)
 
 通过`login.js`来实现自动填充密码的功能
 
@@ -66,6 +66,6 @@ password: 1
 </sciframeript>
 ```
 
-![[Pasted image 20230221183940.png|800]]
+![](<./img/Pasted image 20230221183940.png>)
 
 #Web #PHP #js #XSS #bypass

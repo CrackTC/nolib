@@ -1,4 +1,4 @@
-![[Pasted image 20250118114936.png]]
+![](<./img/Pasted image 20250118114936.png>)
 
 用户名这里SSTI
 黑名单东西不少，藏flag，删了cat这些，ls看还有个more能用

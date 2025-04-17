@@ -64,4 +64,4 @@ done
 curl 'http://<host>:<port>/'$query
 ```
 
-![[Pasted image 20230509204553.png|800]]
+![](<./img/Pasted image 20230509204553.png>)

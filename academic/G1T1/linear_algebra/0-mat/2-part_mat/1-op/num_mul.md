@@ -1,1 +1,0 @@
-[[part_mat|分块矩阵]]的数乘即为对矩阵的每一分块进行[[academic/G1T1/linear_algebra/0-mat/1-op/2-num_mul/num_mul|矩阵数乘]]

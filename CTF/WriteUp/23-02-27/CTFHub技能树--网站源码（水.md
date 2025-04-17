@@ -1,10 +1,10 @@
-![[Pasted image 20230303122943.png|500]]
+![](<./img/Pasted image 20230303122943.png>)
 
-![[Pasted image 20230303123047.png|800]]
+![](<./img/Pasted image 20230303123047.png>)
 
-![[Pasted image 20230303123208.png|500]]
+![](<./img/Pasted image 20230303123208.png>)
 
-![[Pasted image 20230303123512.png|800]]
+![](<./img/Pasted image 20230303123512.png>)
 
 被骗了.jpg
 
@@ -14,6 +14,6 @@
 
 答案是拿文件名访问
 
-![[Pasted image 20230303123908.png|800]]
+![](<./img/Pasted image 20230303123908.png>)
 
 #Web

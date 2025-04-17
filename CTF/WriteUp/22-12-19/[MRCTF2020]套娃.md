@@ -1,9 +1,9 @@
-![[Pasted image 20221222121822.png|500]]
+![](<./img/Pasted image 20221222121822.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221222121849.png|500]]
+![](<./img/Pasted image 20221222121849.png>)
 
 ```php
 //1st
@@ -42,7 +42,7 @@ Sorry,you don't have permission! Your ip is :sorry,this way is banned!
 
 直接粘贴到`console`里面就能运行啦
 
-![[Pasted image 20221222130012.png]]
+![](<./img/Pasted image 20221222130012.png>)
 
 那就`post`一个
 

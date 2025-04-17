@@ -1,25 +1,25 @@
-![[Pasted image 20221219085611.png|500]]
+![](<./img/Pasted image 20221219085611.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221219085636.png|200]]
+![](<./img/Pasted image 20221219085636.png>)
 
 试密码和`sql`注入没试出来，八成是要扫目录
 
-![[Pasted image 20221219105158.png|500]]
+![](<./img/Pasted image 20221219105158.png>)
 
 下载下来
 
-![[Pasted image 20221219113827.png|300]]
+![](<./img/Pasted image 20221219113827.png>)
 
 访问`/register.php`进行一个账号的注册
 
-![[Pasted image 20221219113932.png|200]]
+![](<./img/Pasted image 20221219113932.png>)
 
 来到`/profile.php`，然后又跳转到`/update.php`
 
-![[Pasted image 20221219114033.png|200]]
+![](<./img/Pasted image 20221219114033.png>)
 
 有一个`upload`文件夹，`update.php`可以上传图片
 
@@ -116,14 +116,14 @@ public function filter($string) {
 nickname[]=wherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewhere";}s:5:"photo";s:10:"config.php";}
 ```
 
-![[Pasted image 20221219184827.png|500]]
+![](<./img/Pasted image 20221219184827.png>)
 
-![[Pasted image 20221219184912.png|500]]
+![](<./img/Pasted image 20221219184912.png>)
 
-![[Pasted image 20221219184953.png|500]]
+![](<./img/Pasted image 20221219184953.png>)
 
-![[Pasted image 20221219185026.png|500]]
+![](<./img/Pasted image 20221219185026.png>)
 
-![[Pasted image 20221219185118.png|700]]
+![](<./img/Pasted image 20221219185118.png>)
 
 #Web #PHP #目录扫描 #代码审计 #反序列化 #字符串逃逸 #HTTP #encoding

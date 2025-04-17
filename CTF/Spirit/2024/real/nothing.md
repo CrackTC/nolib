@@ -55,4 +55,4 @@ curl 'http://localhost:8080/info' -X POST -H 'Content-Type: application/x-www-fo
 curl -s 'http://localhost:8080/flag' -H 'Cookie: <cookie>' | grep Spirit
 ```
 
-![[Pasted image 20241026212651.png]]
+![](<./img/Pasted image 20241026212651.png>)

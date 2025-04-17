@@ -52,6 +52,6 @@ www
 /?ww=phpinfo&www=$ww();
 ```
 
-![[Pasted image 20230507233051.png|1000]]
+![](<./img/Pasted image 20230507233051.png>)
 
 flag在环境变量里～

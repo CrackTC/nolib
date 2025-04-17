@@ -1,4 +1,4 @@
-![[Pasted image 20230121101659.png|300]]
+![](<./img/Pasted image 20230121101659.png>)
 
 ```
 /index.php
@@ -8,17 +8,17 @@
 username/password error
 ```
 
-![[Pasted image 20230121101833.png|500]]
+![](<./img/Pasted image 20230121101833.png>)
 
-![[Pasted image 20230121102812.png|700]]
+![](<./img/Pasted image 20230121102812.png>)
 
 ```
 /index.php?pass=fa25e54758d5d5c1927781a6ede89f8a
 ```
 
-![[Pasted image 20230121103010.png|500]]
+![](<./img/Pasted image 20230121103010.png>)
 
-![[Pasted image 20230121103329.png|700]]
+![](<./img/Pasted image 20230121103329.png>)
 
 ```
 /flflflflag.php
@@ -106,7 +106,7 @@ $secret='%^$&$#fffdflag_is_not_here_ha_ha';
 
 # php临时文件包含
 
-![[Pasted image 20230121111807.png|500]]
+![](<./img/Pasted image 20230121111807.png>)
 
 扫目录能扫到`dir.php`
 
@@ -122,7 +122,7 @@ var_dump(scandir('/tmp'));
 
 通过`dir.php`可以查看`/tmp`目录下的文件
 
-![[Pasted image 20230121113234.png]]
+![](<./img/Pasted image 20230121113234.png>)
 
 `php`在接收`POST`上传的文件之后会把文件先放在临时目录下面，之后再通过`move_uploaded_file`之类的操作移动到别的地方
 
@@ -161,6 +161,6 @@ array(3) {
 /flflflflag.php?file=/tmp/phpjyG5mT&cmd=phpinfo();
 ```
 
-![[Pasted image 20230121115152.png]]
+![](<./img/Pasted image 20230121115152.png>)
 
 #Web #PHP #目录扫描 #源码泄漏 #伪协议 #Vulnerabilities #文件上传

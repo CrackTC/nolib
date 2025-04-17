@@ -1,13 +1,13 @@
-![[Pasted image 20230111094342.png|500]]
+![](<./img/Pasted image 20230111094342.png>)
 
 ---
 ~~首页长这样~~
 
-![[Pasted image 20230111135924.png|700]]
+![](<./img/Pasted image 20230111135924.png>)
 
 害没加载完就die了
 
-![[Pasted image 20230111140035.png|700]]
+![](<./img/Pasted image 20230111140035.png>)
 
 ```js
 document.onkeydown = function(event) {
@@ -38,7 +38,7 @@ dietimer();
 /chase/
 ```
 
-![[Pasted image 20230111140643.png|700]]
+![](<./img/Pasted image 20230111140643.png>)
 
 ```html
 <button onclick="left()">Left</button>
@@ -82,7 +82,7 @@ dietimer();
 /leftt/
 ```
 
-![[Pasted image 20230111141253.png|700]]
+![](<./img/Pasted image 20230111141253.png>)
 
 ```html
 <button onClick="window.location='/die/'">Take the shot</button>
@@ -95,7 +95,7 @@ dietimer();
 /shoot/
 ```
 
-![[Pasted image 20230111141552.png|700]]
+![](<./img/Pasted image 20230111141552.png>)
 
 震惊，居然没出事
 
@@ -105,7 +105,7 @@ dietimer();
 /door/
 ```
 
-![[Pasted image 20230111141701.png|700]]
+![](<./img/Pasted image 20230111141701.png>)
 
 360度开放大门的敌人是吧
 
@@ -140,7 +140,7 @@ function check_door() {
 /open/
 ```
 
-![[Pasted image 20230111142521.png|700]]
+![](<./img/Pasted image 20230111142521.png>)
 
 ```html
 <script src="/static/js/open_sesame.js"></script>
@@ -172,7 +172,7 @@ function open(i) {
 /fight/
 ```
 
-![[Pasted image 20230111142909.png|700]]
+![](<./img/Pasted image 20230111142909.png>)
 
 ```html
 <script src="/static/js/fight.js"></script>

@@ -1,9 +1,9 @@
-![[Pasted image 20221217203306.png|500]]
+![](<./img/Pasted image 20221217203306.png>)
 
 ---
 首页长这样
 
-![[Pasted image 20221217203322.png|600]]
+![](<./img/Pasted image 20221217203322.png>)
 
 为什么两个框框的`placeholder`都是`username`啊喂==
 
@@ -12,7 +12,7 @@
 ---
 使用`dirsearch`扫目录
 
-![[Pasted image 20221217205515.png]]
+![](<./img/Pasted image 20221217205515.png>)
 ```php
 <?php
 	ob_start();
@@ -73,9 +73,9 @@ while True:
 
 `[!] Header error ...`暗示要去看响应头
 
-![[Pasted image 20221217213950.png]]
+![](<./img/Pasted image 20221217213950.png>)
 
-![[Pasted image 20221217214621.png|700]]
+![](<./img/Pasted image 20221217214621.png>)
 
 ---
 然后是`shtml`的[新知识](https://zh.wikipedia.org/zh-cn/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%86%85%E5%B5%8C)
@@ -91,18 +91,18 @@ while True:
 ls
 ```
 
-![[Pasted image 20221217215146.png|700]]
+![](<./img/Pasted image 20221217215146.png>)
 
 ```shell
 ls ..
 ```
 
-![[Pasted image 20221217215251.png|700]]
+![](<./img/Pasted image 20221217215251.png>)
 
 ```shell
 cat ../flag_990c66bf85a09c664f0b6741840499b2
 ```
 
-![[Pasted image 20221217215409.png|700]]
+![](<./img/Pasted image 20221217215409.png>)
 
 #Web #PHP #HTTP #Header #RCE #SHTML #HTML #目录扫描 #md5 

