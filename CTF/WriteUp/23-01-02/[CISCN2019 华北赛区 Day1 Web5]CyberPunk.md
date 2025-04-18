@@ -218,7 +218,7 @@ $db = new mysqli($DATABASE['host'],$DATABASE['username'],$DATABASE['password'],$
 
 `change.php`中使用`addslashes`对`address`进行转义，但`confirm.php`却并未对`address`进行处理，旧的`address`在`change.php`中直接作为字符串拼接进查询，从而给注入创造了可能
 
-这种攻击方式称为[二次注入](https://www.freebuf.com/articles/web/167089.html)
+这种攻击方式称为[二次注入](https://web.archive.org/web/20240720071037/https://www.freebuf.com/articles/web/167089.html)
 
 > 所谓二次注入是指已存储（数据库、文件）的用户输入被读取后再次进入到 SQL 查询语句中导致的注入。
 > 二次注入是 SQL 注入的一种，但是比普通 SQL 注入利用更加困难，利用门槛更高。普通注入数据直接进入到 SQL 查询中，而二次注入则是输入数据经处理后存储，取出后，再次进入到 SQL 查询。
