@@ -1,3 +1,4 @@
+# [HGAME2023]Guess Who I Am
 > 刚加入Vidar的兔兔还认不清协会成员诶，学长要求的答对100次问题可太难了，你能帮兔兔写个脚本答题吗？
 
 ![](<./img/Pasted image 20230106141654.png>)
@@ -82,5 +83,3 @@ setTimeout(action, 100);
 ![](<./img/Pasted image 20230106145712.png>)
 
 感觉不如手动快QAQ
-
-#Web #js #自动化

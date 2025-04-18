@@ -1,3 +1,4 @@
+# [CISCN2019 华北赛区 Day1 Web1]Dropbox
 ![](<./img/Pasted image 20221230084855.png>)
 
 ---
@@ -438,5 +439,3 @@ $phar->stopBuffering();
 ~~然后折腾权限折腾半天，最后发现`systemd`里面有个`ProtectSystem=full`让`/usr`只读，刚好`web`根目录就在`/usr/share/nginx/html`~~
 
 ![](<./img/Pasted image 20221230130817.png>)
-
-#Web #PHP #源码泄漏 #代码审计 #反序列化 #phar

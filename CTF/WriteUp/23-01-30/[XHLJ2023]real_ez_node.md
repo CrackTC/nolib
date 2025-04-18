@@ -1,3 +1,4 @@
+# [XHLJ2023]real_ez_node
 ![](<./img/Pasted image 20230202140119.png>)
 
 ```javascript

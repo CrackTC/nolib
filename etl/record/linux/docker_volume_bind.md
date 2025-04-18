@@ -1,3 +1,5 @@
+# docker 文件映射踩坑
+
 在写一个Clash的配置转换服务的时候添加了一个`FileWatch`的功能，实时检测配置文件的更改并重新加载配置文件
 
 在本机运行的时候好好的，封装成镜像之后在vps上通过`Docker Compose`挂载`config.yml`到容器内

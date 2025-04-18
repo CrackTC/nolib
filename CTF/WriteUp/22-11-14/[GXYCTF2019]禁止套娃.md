@@ -1,3 +1,4 @@
+# [GXYCTF2019]禁止套娃
 ![](<./img/Pasted image 20221114101936.png>)
 
 ---
@@ -184,5 +185,3 @@ $flag = "flag{b0706baf-2c5c-4499-8a5e-8961814c3bf6}";
 这篇大佬写的wp还介绍了更多无参数RCE的骚操作
 
 https://johnfrod.top/ctf/gxyctf-2019禁止套娃/
-
-#Web #PHP #git泄露 #目录扫描 #数组 #function #RCE #无参数

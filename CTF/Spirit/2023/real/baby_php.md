@@ -1,4 +1,4 @@
-#Web #PHP #伪协议 #LFI
+# Spirit CTF 2023 题解 - baby_php
 
 ```php
 <?php

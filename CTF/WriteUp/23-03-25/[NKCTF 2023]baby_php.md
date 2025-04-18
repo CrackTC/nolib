@@ -1,3 +1,4 @@
+# [NKCTF 2023]baby_php
 ```php
 <?php
     error_reporting(0);
@@ -79,5 +80,3 @@ $payload->arg = $hello;
 
 echo serialize($payload);
 ```
-
-#Web #PHP #serialization #shell #bypass

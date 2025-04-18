@@ -1,3 +1,4 @@
+# [HFCTF2020]EasyLogin
 ![](<./img/Pasted image 20230112122607.png>)
 
 ---
@@ -179,5 +180,3 @@ if(sid === undefined || sid === null || !(sid < global.secrets.length && sid >= 
 ```
 
 ![](<./img/Pasted image 20230112143941.png>)
-
-#Web #nodejs #koa #MVC #源码泄漏 #jwt

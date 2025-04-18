@@ -1,3 +1,4 @@
+# [网鼎杯 2018]Fakebook
 ![](<./img/Pasted image 20221110205018.png>)
 
 首页
@@ -179,5 +180,3 @@ blog=/view.php?no=3
 结果还真猜对了QwQ
 
 ![](<./img/Pasted image 20221111101944.png>)
-
-#Web #SQL注入 #反序列化 #RFI

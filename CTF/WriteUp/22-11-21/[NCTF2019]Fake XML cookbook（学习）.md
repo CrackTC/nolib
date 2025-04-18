@@ -1,3 +1,4 @@
+# [NCTF2019]Fake XML cookbook（学习）
 ![](<./img/Pasted image 20221126110208.png>)
 
 ---
@@ -29,5 +30,3 @@ https://xz.aliyun.com/t/6887
 ```
 
 ![](<./img/Pasted image 20221126115039.png>)
-
-#Web #XXE

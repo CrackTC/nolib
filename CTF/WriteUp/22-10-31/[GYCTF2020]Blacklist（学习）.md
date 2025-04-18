@@ -1,3 +1,4 @@
+# [GYCTF2020]Blacklist（学习）
 ![](<./img/Pasted image 20221104194310.png>)
 ```sql
 1' or 1=1 or '1

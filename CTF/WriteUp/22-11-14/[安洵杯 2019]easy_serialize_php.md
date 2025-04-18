@@ -1,3 +1,4 @@
+# [安洵杯 2019]easy_serialize_php
 ![](<./img/Pasted image 20221119110645.png>)
 
 ---
@@ -93,5 +94,3 @@ _SESSION[phpfl1g]=;s:3:"123";s:3:"img";s:20:"ZDBnM19mMWFnLnBocA==";}
 _SESSION[phpfl1g]=;s:3:"123";s:3:"img";s:20:"L2QwZzNfZmxsbGxsbGFn";}
 ```
 ![](<./img/Pasted image 20221119213746.png>)
-
-#Web #PHP #反序列化 #字符串逃逸

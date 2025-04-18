@@ -1,3 +1,4 @@
+# [SWPU2019]Web1（学习）
 ![](<./img/Pasted image 20221125153820.png>)
 
 ---
@@ -130,5 +131,3 @@
 ![](<./img/Pasted image 20221125173943.png>)
 
 学到了学到了QwQ
-
-#Web #HTTP #SQL注入 #bypass #联合注入

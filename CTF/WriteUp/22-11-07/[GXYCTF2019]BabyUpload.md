@@ -1,3 +1,4 @@
+# [GXYCTF2019]BabyUpload
 ![](<./img/Pasted image 20221107195420.png>)
 
 先随便传个png上去试试

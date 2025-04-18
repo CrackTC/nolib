@@ -1,18 +1,20 @@
-# Prolog
+# Nix打包初探（以beatoraja为例）
+
+## Prolog
 
 这两天从ArchLinux转到了NixOS，一开始只是简单的尝试，结果体验了一回Nix配置管理的强大之后就再也回不去，索性作为主力系统使用了。（Declarative大法好～）
 
 常见的软件都能在nixpkgs里找到，但是不幸常玩的beatoraja不在其列，咱又不能想玩的时候再切回Arch，于是参考了一些教程，自己动手尝试打包了一下。
 
-# 大致情况
+## 大致情况
 
 首先，beatoraja依赖于Java 8，有两种选择，一种是使用OpenJDK，额外需要编译一个OpenJFX，而这玩意在NixOS下的编译花了一天也没整明白，只得退而选择unfree但自带JFX的OracleJDK。
 
-# 具体步骤
+## 具体步骤
 
 以下步骤很大程度学习了这篇[大佬的文章](https://lantian.pub/article/modify-computer/nixos-packaging.lantian/)，讲的超级好QwQ
 
-## 0. 创建自己的包仓库
+### 0. 创建自己的包仓库
 
 这里直接使用了[NUR的模板](https://github.com/nix-community/nur-packages-template)进行创建，完了之后在`flake.nix`里添加下面内容
 
@@ -54,7 +56,7 @@
 }
 ```
 
-## 1. 创建包
+### 1. 创建包
 
 照着模板给的`example-package`，在`pkgs`目录下创建`beatoraja`目录，然后创建`default.nix`，内容如下
 
@@ -75,7 +77,7 @@ stdenv.mkDerivation rec {
 
 这里的输入参数会由`callPackage`根据`pkgs`自动填充
 
-## 2. 获取文件
+### 2. 获取文件
 
 beatoraja的zip文件可以通过`https://mocha-repository.info/download/<fullName>.zip`获取，其中`<fullName>`就是上面`default.nix`里的`fullName`格式，所以我们需要在`default.nix`里添加`src`属性，以及额外用到`fetchurl`进行下载
 
@@ -96,7 +98,7 @@ stdenv.mkDerivation rec {
 }
 ```
 
-## 3. 打包之Unpack Phase
+### 3. 打包之Unpack Phase
 
 这里需要用到`unzip`，在`buildInputs`里添加以获取对`unzip`包的引用，`unpackPhase`的内容是这一阶段执行的shell命令，在`nativeBuildInputs`中添加`unzip`后就能直接在`unpackPhase`中使用对应的命令。
 
@@ -117,11 +119,11 @@ stdenv.mkDerivation rec {
 }
 ```
 
-## 4. 打包之Install Phase
+### 4. 打包之Install Phase
 
 因为直接获取到了JAR包，所以这里直接跳过了`patchPhase`、`configurePhase`和`buildPhase`，当然也不会有`checkPhase`，咱只需要进行安装以及安装前的准备
 
-### 4.1 安装前准备
+#### 4.1 安装前准备
 
 这里主要对原有的启动脚本进行一些修改。一方面由于NixOS不遵循FHS，`java`这类命令自然不能直接用；另一方面，为了保证不变性，输出目录`/nix/store`是只读的，于是相关的数据文件和目录需要放到`$XDG_DATA_HOME`下边。
 
@@ -171,7 +173,7 @@ stdenv.mkDerivation rec {
 }
 ```
 
-### 4.2 安装
+#### 4.2 安装
 
 这里将`beatoraja.sh`移动到`$out/bin`下，其余文件移动到`$out/share/beatoraja`下，其中`$out`是`stdenv.mkDerivation`的输出目录，也就是`/nix/store`下的包目录，这样就能够在`$PATH`中找到启动脚本了。
 
@@ -226,9 +228,9 @@ stdenv.mkDerivation rec {
 }
 ```
 
-## 5. 遇到的问题及解决方案
+### 5. 遇到的问题及解决方案
 
-### 5.1 无法自动获取`jdk-8u281-linux-x64.tar.gz`
+#### 5.1 无法自动获取`jdk-8u281-linux-x64.tar.gz`
 
 ![](./img/cannot-download-oracle-jdk.png)
 
@@ -263,7 +265,7 @@ stdenv.mkDerivation {
 }
 ```
 
-### 5.2 处理依赖
+#### 5.2 处理依赖
 
 ![](./img/cannot-locate-openal.png)
 
@@ -322,13 +324,13 @@ stdenv.mkDerivation {
 
 `xrandr`的完整包名是`xorg.xrandr`，输入参数能直接填`xrandr`，可能`callPackage`的名称搜索是递归的（？
 
-## 6. 启动！
+### 6. 启动！
 
 ![](./img/launch.png)
 
 ![](./img/launch-1.png)
 
-# 改善音频延迟（`jportaudio`）
+## 改善音频延迟（`jportaudio`）
 
 默认使用的`OpenAL`在我的设备上音频延迟很不乐观，对于beatoraja这种key音音游来说相当致命，几乎是不可玩的状态。为了获得更低的音频延迟，beatoraja支持使用`jportaudio`输出，当然这里也是需要咱自己打包的。
 
@@ -429,7 +431,7 @@ rec {
 
 之后就可以开始愉快的玩耍啦～
 
-# 遗憾
+## 遗憾
 
 整个打包过程中，最遗憾的是`OpenJFX`的编译，也不知道是不是姿势不对，但我确实在Java项目的编译上没有任何经验，所以就没有继续尝试了。
 

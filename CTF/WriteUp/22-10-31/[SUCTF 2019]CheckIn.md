@@ -1,3 +1,4 @@
+# [SUCTF 2019]CheckIn
 ![](<./img/Pasted image 20221102090249.png>)
 
 ![](<./img/Pasted image 20221102090301.png>)
@@ -45,5 +46,3 @@
 ![](<./img/Pasted image 20221102095706.png>)
 
 ![](<./img/Pasted image 20221102095905.png>)
-
-#Web #PHP #文件上传 #LFI #RCE

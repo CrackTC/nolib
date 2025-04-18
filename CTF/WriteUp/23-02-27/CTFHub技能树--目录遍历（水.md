@@ -1,3 +1,4 @@
+# CTFHub技能树--目录遍历（水
 ![](<./img/Pasted image 20230301155958.png>)
 
 ```
@@ -5,5 +6,3 @@
 ```
 
 ![](<./img/Pasted image 20230301160153.png>)
-
-#Web

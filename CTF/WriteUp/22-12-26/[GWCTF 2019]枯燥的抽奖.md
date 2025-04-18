@@ -1,3 +1,4 @@
+# [GWCTF 2019]枯燥的抽奖
 ![](<./img/Pasted image 20221228105111.png>)
 
 ---
@@ -117,5 +118,3 @@ WrOeQwr5bLvyHUVHCqet
 ```
 
 ![](<./img/Pasted image 20221228131410.png>)
-
-#Web #PHP #伪随机数 #Vulnerabilities #mt_rand

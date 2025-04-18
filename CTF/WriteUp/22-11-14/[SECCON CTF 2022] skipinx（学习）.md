@@ -1,3 +1,4 @@
+# [SECCON CTF 2022] skipinx（学习）
 ![](<./img/Pasted image 20221117144136.png>)
 
 ---

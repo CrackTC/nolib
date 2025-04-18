@@ -1,3 +1,4 @@
+# [MRCTF2020]Ezaudit
 ![](<./img/Pasted image 20230213102900.png>)
 
 ```
@@ -150,5 +151,3 @@ login=1&username=111&password=' or 1=1#&Private_key=XuNhoueCDCGc
 ```
 
 ![](<./img/Pasted image 20230213114134.png>)
-
-#Web #PHP #源码泄漏 #目录扫描 #代码审计 #mt_rand

@@ -1,3 +1,4 @@
+# [SUCTF 2018]GetShell
 ![](<./img/Pasted image 20230220192219.png>)
 
 ```
@@ -158,5 +159,3 @@ export LANG='C'
 export PATH='/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
 export PWD='/var/www/html/upload'
 ```
-
-#Web #PHP #RCE #unicode

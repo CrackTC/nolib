@@ -1,3 +1,4 @@
+# EasyBypass
 ![](<./img/Pasted image 20230224233752.png>)
 
 ```php
@@ -29,5 +30,3 @@ system($cmd);
 ```
 
 ![](<./img/Pasted image 20230224235630.png>)
-
-#Web #PHP #bypass #RCE #shell

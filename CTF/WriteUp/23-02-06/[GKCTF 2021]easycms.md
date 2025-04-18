@@ -1,3 +1,4 @@
+# [GKCTF 2021]easycms
 ![](<./img/Pasted image 20230210101327.png>)
 
 ![](<./img/Pasted image 20230210101401.png>)
@@ -47,5 +48,3 @@ L2ZsYWc=
 $ cat Downloads/flag.zip
 flag{a8b78826-5f1e-4e1c-bc3e-879941863f8c}
 ```
-
-#Web #Vulnerabilities #目录扫描 #任意文件下载

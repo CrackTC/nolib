@@ -1,3 +1,4 @@
+# [0CTF 2016]piapiapia
 ![](<./img/Pasted image 20221219085611.png>)
 
 ---
@@ -125,5 +126,3 @@ nickname[]=wherewherewherewherewherewherewherewherewherewherewherewherewherewher
 ![](<./img/Pasted image 20221219185026.png>)
 
 ![](<./img/Pasted image 20221219185118.png>)
-
-#Web #PHP #目录扫描 #代码审计 #反序列化 #字符串逃逸 #HTTP #encoding

@@ -1,3 +1,4 @@
+# [NPUCTF2020]ReadlezPHP（学习）
 ![](<./img/Pasted image 20221201150134.png>)
 
 ---
@@ -68,5 +69,3 @@ if(isset($_GET['source']))
 ![](<./img/Pasted image 20221201165741.png>)
 
 ![](<./img/Pasted image 20221201165815.png>)
-
-#Web #PHP #反序列化 #bypass #assert #function #环境变量

@@ -1,3 +1,4 @@
+# [GYCTF2020]Ez_Express
 ![](<./img/Pasted image 20230223233434.png>)
 
 ![](<./img/Pasted image 20230223233443.png>)
@@ -140,5 +141,3 @@ password:
 ![](<./img/Pasted image 20230224015015.png>)
 
 ![](<./img/Pasted image 20230224014653.png>)
-
-#Web #nodejs #ejs #unicode #js #bypass #RCE #reverse_shell

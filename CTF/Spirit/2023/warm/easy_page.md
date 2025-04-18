@@ -1,4 +1,4 @@
-#Web #js
+# Spirit CTF 2023 热身赛题解 - easy_page
 
 ```
 /

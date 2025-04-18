@@ -1,4 +1,4 @@
-#Web #csharp #dotnet #reverse #竞态条件
+# Spirit CTF 2023 题解 - sharpshop
 
 记忆源点是封面欺诈，这题和Acreae真的没有关系（（（
 

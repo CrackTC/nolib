@@ -1,3 +1,4 @@
+# [MRCTF2020]Ez_bypass(氵)
 ![](<./img/Pasted image 20221101080348.png>)
 
 ![](<./img/Pasted image 20221101080408.png>)
@@ -58,5 +59,3 @@ else
 passwd=1234567abc
 ```
 ![](<./img/Pasted image 20221101081422.png>)
-
-#Web #PHP #bypass

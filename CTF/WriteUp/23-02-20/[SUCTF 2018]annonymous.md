@@ -1,3 +1,4 @@
+# [SUCTF 2018]annonymous
 ![](<./img/Pasted image 20230226131534.png>)
 
 ```php
@@ -32,5 +33,3 @@ for i in range(10000):
 ```
 
 ![](<./img/Pasted image 20230226134442.png>)
-
-#Web #PHP #lambda

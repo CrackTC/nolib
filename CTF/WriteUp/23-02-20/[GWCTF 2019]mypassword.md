@@ -1,3 +1,4 @@
+# [GWCTF 2019]mypassword
 ![](<./img/Pasted image 20230221173257.png>)
 
 ```
@@ -67,5 +68,3 @@ password: 1
 ```
 
 ![](<./img/Pasted image 20230221183940.png>)
-
-#Web #PHP #js #XSS #bypass

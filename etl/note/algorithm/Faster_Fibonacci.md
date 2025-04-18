@@ -1,3 +1,5 @@
+# Faster Fibonacci
+
 There is a clever algorithm for computing the Fibonacci numbers in a logarithmic number of steps. Recall the transformation matrix for the Fibonacci numbers:
 $$ \begin{bmatrix} 1 & 1 \\ 1 & 0 \end{bmatrix} $$
 

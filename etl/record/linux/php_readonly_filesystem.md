@@ -1,7 +1,9 @@
-# 原因
+# 解决php的readonly filesystem问题
+
+## 原因
 `php-fpm`的`systemd`服务默认开启了`ProtectSystem=full`选项，使得网站根目录所在的`/usr`对`php-fpm`只读
 
-# 解决方法
+## 解决方法
 假设网站根目录为`/usr/share/nginx/html/`
 
 ```sh
@@ -22,5 +24,3 @@ sudo systemctl restart php-fpm.service
 ```
 
 即可
-
-#php #workaround #systemd #linux #readonly

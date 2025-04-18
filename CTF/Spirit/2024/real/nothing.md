@@ -1,3 +1,4 @@
+# Spirit CTF 2024 题解 - nothing
 查看源码，`index.js`里头有明显的`merge`构造
 
 ```js

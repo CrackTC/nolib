@@ -1,3 +1,5 @@
+# 吉林大学虚拟实验逃课脚本
+
 ```python
 # -*- coding:utf-8 -*-
 import requests

@@ -1,3 +1,4 @@
+# [MRCTF2020]PYWebsite
 ![](<./img/Pasted image 20221204144037.png>)
 
 ---
@@ -44,5 +45,3 @@ emmm，好像没有新东西捏
 ![](<./img/Pasted image 20221204203142.png>)
 
 学过网安，但只学了半小时，这不就是我嘛（笑
-
-#Web #DS_Store泄漏 #HTTP #Header

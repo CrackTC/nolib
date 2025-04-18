@@ -1,3 +1,4 @@
+# [WMCTF2020]Make PHP Great Again
 ![](<./img/Pasted image 20230212095241.png>)
 
 ```php
@@ -30,5 +31,3 @@ PD9waHAKCiRmbGFnID0gJ2ZsYWd7YThjNTFkMzgtOGZhNi00ZjkyLWJiYTYtYTQ4N2I3YmY1ZDkzfSc7
 ```
 
 ![](<./img/Pasted image 20230212101412.png>)
-
-#Web #PHP #LFI #linux #bypass #symlink

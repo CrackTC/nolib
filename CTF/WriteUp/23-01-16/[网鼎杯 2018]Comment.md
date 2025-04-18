@@ -1,3 +1,4 @@
+# [网鼎杯 2018]Comment
 ![](<./img/Pasted image 20230119140827.png>)
 
 ![](<./img/Pasted image 20230119140851.png>)
@@ -207,5 +208,3 @@ for i in range(len(s) // 2):
 真正的`flag`在`/var/www/html/`下
 
 ![](<./img/Pasted image 20230119164540.png>)
-
-#Web #PHP #代码审计 #git泄露 #DS_Store泄露 #二次注入

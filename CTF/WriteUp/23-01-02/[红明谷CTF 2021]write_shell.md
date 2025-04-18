@@ -1,3 +1,4 @@
+# [红明谷CTF 2021]write_shell
 ![](<./img/Pasted image 20230105095843.png>)
 
 ---
@@ -77,5 +78,3 @@ bin boot dev etc flllllll1112222222lag home lib lib64 media mnt opt proc root ru
 ```
 flag{7fb04787-f42b-4b09-aceb-101738202f79} 
 ```
-
-#Web #PHP #shell #bypass #RCE

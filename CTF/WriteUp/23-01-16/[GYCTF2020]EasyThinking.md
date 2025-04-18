@@ -1,3 +1,4 @@
+# [GYCTF2020]EasyThinking
 ![](<./img/Pasted image 20230122094444.png>)
 
 ![](<./img/Pasted image 20230122094604.png>)

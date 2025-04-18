@@ -1,3 +1,4 @@
+# [NPUCTF2020]ezinclude（学习）
 ![](<./img/Pasted image 20230121101659.png>)
 
 ```
@@ -162,5 +163,3 @@ array(3) {
 ```
 
 ![](<./img/Pasted image 20230121115152.png>)
-
-#Web #PHP #目录扫描 #源码泄漏 #伪协议 #Vulnerabilities #文件上传

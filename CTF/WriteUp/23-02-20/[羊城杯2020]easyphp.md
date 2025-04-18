@@ -1,3 +1,4 @@
+# [羊城杯2020]easyphp
 ![](<./img/Pasted image 20230226142322.png>)
 
 ```php
@@ -91,5 +92,3 @@ url编码
 ```
 
 ![](<./img/Pasted image 20230226154124.png>)
-
-#Web #PHP #htaccess #RCE #reverse_shell

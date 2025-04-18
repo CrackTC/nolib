@@ -1,3 +1,4 @@
+# [WUSTCTF2020]朴实无华
 ![](<./img/Pasted image 20221121210931.png>)
 
 ---

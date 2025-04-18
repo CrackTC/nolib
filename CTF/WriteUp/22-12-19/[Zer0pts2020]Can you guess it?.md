@@ -1,3 +1,4 @@
+# [Zer0pts2020]Can you guess it?
 ![](<./img/Pasted image 20221225090429.png>)
 
 ---
@@ -93,5 +94,3 @@ if (preg_match('/config\.php\/*$/i', $_SERVER['PHP_SELF'])) {
 <?php
 define('FLAG', 'flag{d26cb9ed-4893-418c-a451-e306c00ead33}');
 ```
-
-#Web #PHP #function #bypass #Vulnerabilities #正则表达式

@@ -1,3 +1,4 @@
+# [De1CTF 2019]SSRF Me
 ![](<./img/Pasted image 20221214153844.png>)
 
 ---
@@ -136,5 +137,3 @@ if __name__ == '__main__':
 Cookie: action=readscan; sign=61dc9e0bbd275404f5bc301cf7b2ebde
 ```
 > {"code": 200, "data": "flag{6bbd3cad-1afd-4883-948c-70061755f1f3}\n"}
-
-#Web #python #bypass #SSRF #HTTP #function 

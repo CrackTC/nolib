@@ -1,3 +1,4 @@
+# [WUSTCTF2020]颜值成绩查询
 ![](<./img/Pasted image 20221223122239.png>)
 
 ---

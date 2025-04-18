@@ -1,3 +1,4 @@
+# Spirit CTF 2023 热身赛题解 - admin
 #Web #phpmyadmin #Vulnerabilities 
 
 ```

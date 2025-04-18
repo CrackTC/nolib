@@ -1,3 +1,4 @@
+# Spirit CTF 2023#2 题解 - Mihoyo
 ![](./img/mihoyo_desc.png)
 
 Hint

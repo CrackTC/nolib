@@ -1,3 +1,4 @@
+# [CISCN2019 华东南赛区]Double Secret
 ![](<./img/Pasted image 20230126100744.png>)
 
 ```
@@ -98,5 +99,3 @@ print(quote(k))
 ```
 'read' is not allowed. Secret is flag{bff8e2e3-a9e1-4574-bb7a-abab391e8b66} 
 ```
-
-#Web #python #flask #SSTI #rc4

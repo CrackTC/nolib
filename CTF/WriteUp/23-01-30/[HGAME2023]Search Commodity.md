@@ -1,3 +1,4 @@
+# [HGAME2023]Search Commodity
 ![](<./img/Pasted image 20230201093828.png>)
 
 ![](<./img/Pasted image 20230201094021.png>)
@@ -112,5 +113,3 @@ f14gggg1shere 3
 ```
 hgame{4_M4n_WH0_Kn0ws_We4k-P4ssW0rd_And_SQL!} 3
 ```
-
-#Web #SQL注入 #绕过 #联合注入

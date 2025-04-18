@@ -1,3 +1,4 @@
+# CTFHub技能树--网站源码（水
 ![](<./img/Pasted image 20230303122943.png>)
 
 ![](<./img/Pasted image 20230303123047.png>)
@@ -15,5 +16,3 @@
 答案是拿文件名访问
 
 ![](<./img/Pasted image 20230303123908.png>)
-
-#Web

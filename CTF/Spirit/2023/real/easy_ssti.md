@@ -1,4 +1,4 @@
-#Web #PHP #smarty #SSTI 
+# Spirit CTF 2023 题解 - easy_ssti
 
 ```
 /

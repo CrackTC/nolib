@@ -1,3 +1,4 @@
+# [网鼎杯 2020 青龙组]AreUSerialz
 ![](<./img/Pasted image 20221104081222.png>)
 
 好一个一语双关
@@ -150,5 +151,3 @@ public function process()
 ![](<./img/Pasted image 20221104092901.png>)
 
 ![](<./img/Pasted image 20221104093055.png>)
-
-#Web #反序列化 #PHP #bypass #LFI

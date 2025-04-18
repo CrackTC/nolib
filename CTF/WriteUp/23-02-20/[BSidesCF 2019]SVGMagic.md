@@ -1,3 +1,4 @@
+# [BSidesCF 2019]SVGMagic
 ![](<./img/Pasted image 20230222093051.png>)
 
 ```
@@ -26,5 +27,3 @@
 ```
 
 ![](<./img/Pasted image 20230222100657.png>)
-
-#Web #svg #XXE

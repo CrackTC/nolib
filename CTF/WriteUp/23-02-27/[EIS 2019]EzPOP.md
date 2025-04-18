@@ -1,3 +1,4 @@
+# [EIS 2019]EzPOP
 ![](<./img/Pasted image 20230227192525.png>)
 好长的hint.jpg
 
@@ -284,5 +285,3 @@ O%3A1%3A%22A%22%3A5%3A%7Bs%3A8%3A%22%00%2A%00store%22%3BO%3A1%3A%22B%22%3A1%3A%7
 ```
 
 ![](<./img/Pasted image 20230227230646.png>)
-
-#Web #PHP #serialization #base64 #伪协议 #可变变量

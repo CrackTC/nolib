@@ -1,3 +1,4 @@
+# [SUCTF 2019]EasyWeb
 ![](<./img/Pasted image 20230124085428.png>)
 
 ```php
@@ -90,5 +91,3 @@ php test.php _GET
 ```
 
 ![](<./img/Pasted image 20230124103517.png>)
-
-#Web #PHP #RCE

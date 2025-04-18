@@ -1,4 +1,4 @@
-#Web #python #procfs #werkzeug #flask
+# Spirit CTF 2023 题解 - pin
 
 ~~这题被用procfs非预期了，好不甘心qaq~~
 

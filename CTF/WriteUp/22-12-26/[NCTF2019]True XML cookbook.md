@@ -1,3 +1,4 @@
+# [NCTF2019]True XML cookbook
 ![](<./img/Pasted image 20221229101512.png>)
 
 ---
@@ -135,5 +136,3 @@ Connection: close
 ```
 
 ![](<./img/Pasted image 20221229125554.png>)
-
-#Web #XXE #CSRF

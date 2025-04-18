@@ -1,3 +1,4 @@
+# [FireshellCTF2020]Caas
 ![](<./img/Pasted image 20230218212439.png>)
 
 ![](<./img/Pasted image 20230218212545.png>)
@@ -17,5 +18,3 @@ php wa saikou!
 ```
 
 ![](<./img/Pasted image 20230218212838.png>)
-
-#Web #c

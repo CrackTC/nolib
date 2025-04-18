@@ -1,3 +1,4 @@
+# [HarekazeCTF2019]Avatar Uploader 1
 ![](<./img/Pasted image 20230216190734.png>)
 
 ```
@@ -70,5 +71,3 @@ redirect('/');
 ![](<./img/Pasted image 20230216204726.png>)
 
 ![](<./img/Pasted image 20230216204755.png>)
-
-#Web #PHP #finfo #getimagesize #png #upload

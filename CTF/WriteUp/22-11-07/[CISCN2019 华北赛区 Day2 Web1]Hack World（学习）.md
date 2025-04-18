@@ -1,3 +1,4 @@
+# [CISCN2019 华北赛区 Day2 Web1]Hack World（学习）
 ![](<./img/Pasted image 20221108085601.png>)
 
 ![](<./img/Pasted image 20221108085629.png>)
@@ -68,5 +69,3 @@ for i in range(1, 100):
 
 ```
 ![](<./img/Pasted image 20221108173940.png>)
-
-#Web #SQL注入 #布尔盲注

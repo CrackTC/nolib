@@ -1,3 +1,4 @@
+# [NCTF2019]SQLi
 ![](<./img/Pasted image 20230120113124.png>)
 
 ![](<./img/Pasted image 20230120113103.png>)
@@ -112,5 +113,3 @@ YOU_WILL_NEVER_KNOW7788990
 转为小写之后拿去登录就拿到了`flag`
 
 ![](<./img/Pasted image 20230120162247.png>)
-
-#Web #SQL注入 #布尔盲注 #绕过

@@ -1,3 +1,5 @@
+# LD_PRELOAD导致的mpv崩溃
+
 前些天写了一个[脚本](https://github.com/CrackTC/bmpv)，用`mpv`播放bilibili的视频，该脚本在Firefox下工作良好，但是在vivaldi下却啥反应也没有
 
 最开始怀疑是`xwayland`下启动`mpv`的问题，但是通过设置`GDK_BACKEND=x11`等等一堆环境变量依然无法解决

