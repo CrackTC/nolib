@@ -8,7 +8,9 @@
 
 ## 大致情况
 
-首先，beatoraja依赖于Java 8，有两种选择，一种是使用OpenJDK，额外需要编译一个OpenJFX，而这玩意在NixOS下的编译花了一天也没整明白，只得退而选择unfree但自带JFX的OracleJDK。
+~~首先，beatoraja依赖于Java 8，有两种选择，一种是使用OpenJDK，额外需要编译一个OpenJFX，而这玩意在NixOS下的编译花了一天也没整明白，只得退而选择unfree但自带JFX的OracleJDK。~~
+
+2026-01-01 更新：整明白了，用 OpenJDK override 一下 `enableJavaFX = true` 就行
 
 ## 具体步骤
 
@@ -66,7 +68,7 @@
 
 let
   pname = "beatoraja-modernchic";
-  version = "0.8.5";
+  version = "0.8.8";
   fullName = "beatoraja${version}-modernchic";
 in
 stdenv.mkDerivation rec {
@@ -98,7 +100,28 @@ stdenv.mkDerivation rec {
 }
 ```
 
-### 3. 打包之Unpack Phase
+---
+
+2026-01-01 更新：也可以直接用 `fetchzip` 来获取zip并解压
+
+```nix
+{ stdenv
+, fetchurl
+}:
+
+let
+  # ...
+in
+stdenv.mkDerivation rec {
+  # ...
+  src = fetchurl {
+    url = "https://mocha-repository.info/download/${fullName}.zip";
+    hash = "..."; # 可以先不填，后面根据报错给的实际值填上
+  };
+}
+```
+
+### ~~3. 打包之Unpack Phase~~（2026-01-01更新：如果使用 `fetchzip` 就不需要这一步）
 
 这里需要用到`unzip`，在`buildInputs`里添加以获取对`unzip`包的引用，`unpackPhase`的内容是这一阶段执行的shell命令，在`nativeBuildInputs`中添加`unzip`后就能直接在`unpackPhase`中使用对应的命令。
 
@@ -127,49 +150,30 @@ stdenv.mkDerivation rec {
 
 这里主要对原有的启动脚本进行一些修改。一方面由于NixOS不遵循FHS，`java`这类命令自然不能直接用；另一方面，为了保证不变性，输出目录`/nix/store`是只读的，于是相关的数据文件和目录需要放到`$XDG_DATA_HOME`下边。
 
-在这一步需要知道`java`在哪，引入`oraclejre8`依赖以获取输出路径
+在这一步需要知道`java`在哪，引入`jdk`依赖以获取输出路径
 
 ```nix
 { stdenv
 # ...
-, oraclejre8}:
+, jdk}:
 
 let
   # ...
+  startupScript = writeShellScript "beatoraja.sh" ''
+    export _JAVA_OPTIONS='-Dsun.java2d.opengl=true -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+    dataDir="''${XDG_DATA_HOME:-$HOME/.local/share}/beatoraja"
+    if [ ! -d "$dataDir" ]; then
+      mkdir -p "$dataDir"
+      cp -r $out/opt/beatoraja/* "$dataDir"
+      find "$dataDir" -type f -exec chmod 644 {} \;
+      find "$dataDir" -type d -exec chmod 755 {} \;
+    fi
+    cd "''${XDG_DATA_HOME:-$HOME/.local/share}/beatoraja"
+    exec ${jdk.override { enableJavaFX = true; }}/bin/java -Xms1g -Xmx4g -jar $out/opt/beatoraja/beatoraja.jar $@
+  '';
 in
 stdenv.mkDerivation rec {
   # ...
-
-  preInstall = ''
-    rm ${fullName}/beatoraja-config.* # 删除原有的启动脚本
-    echo "#!/bin/sh" > ${fullName}/beatoraja.sh # 重新创建启动脚本
-
-    echo 'if [ ! -d "''${XDG_DATA_HOME:-$HOME/.local/share}/beatoraja" ]; then' >> ${fullName}/beatoraja.sh # 如果不存在beatoraja的数据目录
-
-    echo 'mkdir -p "''${XDG_DATA_HOME:-$HOME/.local/share}/beatoraja"'          >> ${fullName}/beatoraja.sh # 创建数据目录
-    echo 'cd "''${XDG_DATA_HOME:-$HOME/.local/share}/beatoraja"'                >> ${fullName}/beatoraja.sh # 进入数据目录
-
-    # 复制相关文件
-    echo "cp -r $out/share/beatoraja/bgm ./"          >> ${fullName}/beatoraja.sh
-    echo "cp -r $out/share/beatoraja/defaultsound ./" >> ${fullName}/beatoraja.sh
-    echo "cp -r $out/share/beatoraja/folder ./"       >> ${fullName}/beatoraja.sh
-    echo "cp -r $out/share/beatoraja/ir ./"           >> ${fullName}/beatoraja.sh
-    echo "cp -r $out/share/beatoraja/skin ./"         >> ${fullName}/beatoraja.sh
-    echo "cp -r $out/share/beatoraja/sound ./"        >> ${fullName}/beatoraja.sh
-    echo "cp -r $out/share/beatoraja/table ./"        >> ${fullName}/beatoraja.sh
-
-    # 修改权限
-    echo "find . -type d -exec chmod 755 {} \;"       >> ${fullName}/beatoraja.sh
-    echo "find . -type f -exec chmod 644 {} \;"       >> ${fullName}/beatoraja.sh
-
-    echo "fi" >> ${fullName}/beatoraja.sh
-
-    echo 'cd "''${XDG_DATA_HOME:-$HOME/.local/share}/beatoraja"' >> ${fullName}/beatoraja.sh # 确保每次执行的工作目录
-
-    # 这里通过内联oraclejre8能够直接获取到其在/nix/store中的路径
-    echo "exec ${oraclejre8}/bin/java -Xms1g -Xmx4g -jar '$out/share/beatoraja/beatoraja.jar'" >> ${fullName}/beatoraja.sh
-    chmod +x ${fullName}/beatoraja.sh # 赋予执行权限
-  ''
 }
 ```
 
@@ -193,17 +197,23 @@ stdenv.mkDerivation rec {
 
   nativeBuildInputs = [ ... makeWrapper ];
 
+  preInstall = ''
+    rm beatoraja-config.bat
+    rm beatoraja-config.command
+    rm jportaudio_x64.dll
+    rm portaudio_x64.dll
+  '';
+
   installPhase = ''
     runHook preInstall
 
-    mkdir -p $out/share/beatoraja
+    mkdir -p $out/opt/beatoraja
     mkdir -p $out/bin
-    mv ${fullName}/beatoraja.sh $out/bin/beatoraja
-    mv ${fullName}/* $out/share/beatoraja
+    ln -s ${startupScript} $out/bin/beatoraja
+    mv * $out/opt/beatoraja/
 
-    # prefix: 在原有的环境变量前添加
     wrapProgram $out/bin/beatoraja \
-      --prefix _JAVA_OPTIONS : "-Dsun.java2d.opengl=true -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel"
+      --set out $out
 
     runHook postInstall
   '';
@@ -230,7 +240,7 @@ stdenv.mkDerivation rec {
 
 ### 5. 遇到的问题及解决方案
 
-#### 5.1 无法自动获取`jdk-8u281-linux-x64.tar.gz`
+#### ~~5.1 无法自动获取`jdk-8u281-linux-x64.tar.gz`~~（2026-01-01更新：已解决，见上文）
 
 ![](./img/cannot-download-oracle-jdk.png)
 
@@ -285,9 +295,9 @@ stdenv.mkDerivation {
     # ...
 
     wrapProgram $out/bin/beatoraja \
+      --set out $out \
       --prefix LD_LIBRARY_PATH : "${openal}/lib" \
-      --prefix LD_PRELOAD : "${openal}/lib/libopenal.so" \
-      # ...
+      --prefix LD_PRELOAD : "${openal}/lib/libopenal.so"
 
     # ...
   '';
@@ -315,7 +325,9 @@ stdenv.mkDerivation {
 
     wrapProgram $out/bin/beatoraja \
       --prefix PATH : "${xrandr}/bin" \
-      # ...
+      --set out $out \
+      --prefix LD_LIBRARY_PATH : "${openal}/lib" \
+      --prefix LD_PRELOAD : "${openal}/lib/libopenal.so"
 
     # ...
   '';
@@ -341,7 +353,7 @@ stdenv.mkDerivation {
 ```nix
 { stdenv
 , fetchFromGitHub
-, oraclejdk8 # 废话
+, jdk
 , cmake      # 使用cmake进行构建
 , portaudio  # 依赖libportaudio.so
 }:
@@ -349,12 +361,6 @@ stdenv.mkDerivation {
 let
   version = "0.1.0";
   pname = "libjportaudio";
-  jdk = oraclejdk8.overrideAttrs {
-    src = fetchTarball {
-      url = "https://static.sora.zip/nix/jdk-8u281-linux-x64.tar.gz";
-      sha256 = "0f9fb37p75cf7qfm67yc8ariqksnw8641kh2zcwvlrr4r8lgj70v";
-    };
-  };
 in
 stdenv.mkDerivation rec {
   inherit version pname;
@@ -362,8 +368,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub ({
     owner = "philburk";
     repo = "portaudio-java";
-    rev = "2ec5cc47d6f8abe85ddb09c34e69342bfe72c60b";
-    sha256 = "t+Pqtgstd1uJjvD4GKomZHMeSECNLeQJOrz97o+lV2Q=";
+    rev = "ed2d3bc78b42f9c877863618b0ec4dac216102cc";
+    sha256 = "sha256-tpJ4JqNFcuDmW70fLa0mW4fytjlU7h77IgMwS3msUX8=";
   });
 
   nativeBuildInputs = [ cmake portaudio ];
@@ -399,15 +405,16 @@ in
 stdenv.mkDerivation rec {
   # ...
 
-  nativeBuildInputs = [ ... libjportaudio ];
-
   installPhase = ''
     # ...
 
     wrapProgram $out/bin/beatoraja \
+      --prefix PATH : "${xrandr}/bin" \
+      --set out $out \
+      --prefix LD_LIBRARY_PATH : "${openal}/lib" \
       --prefix LD_LIBRARY_PATH : "${libjportaudio}/lib" \
-      --prefix LD_PRELOAD : "${libjportaudio}/lib/libjportaudio.so" \
-      # ...
+      --prefix LD_PRELOAD : "${openal}/lib/libopenal.so" \
+      --prefix LD_PRELOAD : "${libjportaudio}/lib/libjportaudio.so"
 
     # ...
   '';
@@ -433,6 +440,10 @@ rec {
 
 ## 遗憾
 
-整个打包过程中，最遗憾的是`OpenJFX`的编译，也不知道是不是姿势不对，但我确实在Java项目的编译上没有任何经验，所以就没有继续尝试了。
+~~整个打包过程中，最遗憾的是`OpenJFX`的编译，也不知道是不是姿势不对，但我确实在Java项目的编译上没有任何经验，所以就没有继续尝试了。~~
 
 另一个遗憾是没有将`jportaudio`作为可选依赖，作为个人仓库就想着咋快咋来了，可能还要再研究一下更加优雅的写法。
+
+## エピローグ
+
+完整代码可以看[这里](https://github.com/CrackTC/nur-packages/blob/main/pkgs/beatoraja/default.nix)，距离这篇文章的第一版已经过去了很久很久，自己可能偷偷做了比较大的重构之类的，也是经过热心网友提醒才发觉文中的实践存在的不少问题，总之以实际仓库为准~
