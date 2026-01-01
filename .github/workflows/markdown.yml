@@ -9,10 +9,10 @@ jobs:
       - name: Markdown Link Checker (mlc)
         uses: becheran/mlc@v0.16.1
         with:
-          args: --ignore-links "http*://johnfrod.top*"
+          args: --ignore-links "http*://johnfrod.top*,http*://www.npmjs.com*"
   notify:
     name: Notify blog update
     runs-on: ubuntu-latest
     steps:
       - name: Webhook GET request
-        run: curl -sSL 'https://sora.zip/api/pull?api_key=${{ secrets.API_KEY }}'
+        run: curl -sSL 'https://sora.zip/api/update?api_key=${{ secrets.API_KEY }}'
